@@ -112,13 +112,21 @@
               "type": "outline",
               "state": {}
             }
+          },
+          {
+            "id": "26b91a6e395d4183",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "db39910bffc6bce5",
   "lastOpenFiles": [
