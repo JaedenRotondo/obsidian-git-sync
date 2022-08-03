@@ -1,1 +1,1 @@
-This is a test for sync. 
+This is a test for sync
