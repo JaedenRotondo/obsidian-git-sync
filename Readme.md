@@ -1,3 +1,1 @@
-This is a test for sync
-
-Here is an update from mac 
+This is a test for sync.
