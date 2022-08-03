@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "6cf2488bb06dc3f3",
+        "id": "98a3abe96b9641b0",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -126,10 +126,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "db39910bffc6bce5",
+  "active": "98a3abe96b9641b0",
   "lastOpenFiles": [
+    "Untitled.md",
     "Readme.md",
     "COMP 335/Pasted image 20220730164647.png",
     "COMP 335/Automata - The Methods and the Madness.md",
