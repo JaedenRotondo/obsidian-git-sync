@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "98a3abe96b9641b0",
+        "id": "6cf2488bb06dc3f3",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Cybersecurity/So, you want to get into CyberSecurity.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Cybersecurity/So, you want to get into CyberSecurity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Cybersecurity/So, you want to get into CyberSecurity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,31 +116,21 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "26b91a6e395d4183",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
+              "state": {
+                "file": "Cybersecurity/So, you want to get into CyberSecurity.md"
+              }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "98a3abe96b9641b0",
+  "active": "6cf2488bb06dc3f3",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Readme.md",
-    "COMP 335/Pasted image 20220730164647.png",
-    "COMP 335/Automata - The Methods and the Madness.md",
-    "Postmodernism and Marxism.md"
+    "Cybersecurity/Untitled/Untitled.md",
+    "Readme.md"
   ]
 }
