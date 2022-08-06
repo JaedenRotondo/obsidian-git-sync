@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "6cf2488bb06dc3f3",
+        "id": "98a3abe96b9641b0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cybersecurity/So, you want to get into CyberSecurity.md",
+            "file": "Fightback/Aggregate Branch Meeting Notes.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity/So, you want to get into CyberSecurity.md",
+                "file": "Fightback/Aggregate Branch Meeting Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity/So, you want to get into CyberSecurity.md",
+                "file": "Fightback/Aggregate Branch Meeting Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,20 +117,34 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity/So, you want to get into CyberSecurity.md"
+                "file": "Fightback/Aggregate Branch Meeting Notes.md"
               }
             }
+          },
+          {
+            "id": "26b91a6e395d4183",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "6cf2488bb06dc3f3",
+  "active": "98a3abe96b9641b0",
   "lastOpenFiles": [
-    "Cybersecurity/Untitled/Untitled.md",
-    "Readme.md"
+    "Fightback/Postmodernism and Marxism.md",
+    "COMP 335/Finite Automata.md",
+    "COMP 335/Automata - The Methods and the Madness.md",
+    "Cybersecurity/So, you want to get into CyberSecurity.md",
+    "Untitled.md",
+    "Readme.md",
+    "COMP 335/Pasted image 20220730164647.png"
   ]
 }
