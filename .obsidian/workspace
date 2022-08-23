@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Fightback/Aggregate Branch Meeting Notes.md",
+            "file": "Fightback/Fehr on the Palestinian Struggle.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fightback/Aggregate Branch Meeting Notes.md",
+                "file": "Fightback/Fehr on the Palestinian Struggle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fightback/Aggregate Branch Meeting Notes.md",
+                "file": "Fightback/Fehr on the Palestinian Struggle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fightback/Aggregate Branch Meeting Notes.md"
+                "file": "Fightback/Fehr on the Palestinian Struggle.md"
               }
             }
           },
@@ -140,11 +140,12 @@
   "active": "98a3abe96b9641b0",
   "lastOpenFiles": [
     "Fightback/Postmodernism and Marxism.md",
+    "Readme.md",
     "COMP 335/Finite Automata.md",
+    "Fightback/Aggregate Branch Meeting Notes.md",
     "COMP 335/Automata - The Methods and the Madness.md",
     "Cybersecurity/So, you want to get into CyberSecurity.md",
-    "Untitled.md",
-    "Readme.md",
+    "Fightback/Fehr on the Palestinian Struggle.md",
     "COMP 335/Pasted image 20220730164647.png"
   ]
 }
