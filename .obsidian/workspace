@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Fightback/Fehr on the Palestinian Struggle.md",
+            "file": "COMP 348/Section 1 Topics.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fightback/Fehr on the Palestinian Struggle.md",
+                "file": "COMP 348/Section 1 Topics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fightback/Fehr on the Palestinian Struggle.md",
+                "file": "COMP 348/Section 1 Topics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fightback/Fehr on the Palestinian Struggle.md"
+                "file": "COMP 348/Section 1 Topics.md"
               }
             }
           },
@@ -137,15 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "98a3abe96b9641b0",
+  "active": "db39910bffc6bce5",
   "lastOpenFiles": [
-    "Fightback/Postmodernism and Marxism.md",
     "Readme.md",
-    "COMP 335/Finite Automata.md",
-    "Fightback/Aggregate Branch Meeting Notes.md",
+    "COMP 335/Lecture 1.md",
     "COMP 335/Automata - The Methods and the Madness.md",
-    "Cybersecurity/So, you want to get into CyberSecurity.md",
+    "COMP 335/Finite Automata.md",
+    "Fightback/Article Presentation on Unionization attempts at APPLE.md",
+    "Fightback/Marxism and Post-Colonialism.md",
+    "Fightback/Postmodernism and Marxism.md",
     "Fightback/Fehr on the Palestinian Struggle.md",
-    "COMP 335/Pasted image 20220730164647.png"
+    "Fightback/Aggregate Branch Meeting Notes.md",
+    "Cybersecurity/So, you want to get into CyberSecurity.md"
   ]
 }
