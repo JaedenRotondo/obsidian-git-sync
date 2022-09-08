@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PHIL 260/Introduction to the Pre-Socratics.md",
+            "file": "COMP 335/Finite Automata.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PHIL 260/Introduction to the Pre-Socratics.md",
+                "file": "COMP 335/Finite Automata.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PHIL 260/Introduction to the Pre-Socratics.md",
+                "file": "COMP 335/Finite Automata.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PHIL 260/Introduction to the Pre-Socratics.md"
+                "file": "COMP 335/Finite Automata.md"
               }
             }
           },
@@ -139,15 +139,15 @@
   },
   "active": "98a3abe96b9641b0",
   "lastOpenFiles": [
+    "COMP 335/Lecture 1.md",
+    "COMP 335/Finite Automata.md",
+    "COMP 335/Automata - The Methods and the Madness.md",
+    "PHIL 260/Introduction to the Pre-Socratics.md",
     "COMP 348/Section 1 Topics.md",
     "Readme.md",
-    "COMP 335/Lecture 1.md",
-    "COMP 335/Automata - The Methods and the Madness.md",
-    "COMP 335/Finite Automata.md",
     "Fightback/Article Presentation on Unionization attempts at APPLE.md",
     "Fightback/Marxism and Post-Colonialism.md",
     "Fightback/Postmodernism and Marxism.md",
-    "Fightback/Fehr on the Palestinian Struggle.md",
-    "Fightback/Aggregate Branch Meeting Notes.md"
+    "Fightback/Fehr on the Palestinian Struggle.md"
   ]
 }
