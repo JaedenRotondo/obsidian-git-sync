@@ -1,4 +1,4 @@
-### Alphabets and Languages 
+# Alphabets and Languages 
 ##### **_Alphabet:_ Z- a finite set of characters/symbols**
 - Example: Z = {a,b,c,...,z} - English Alphabet
 ##### **_String or Sentence:_ w - A finite sequence of characters from Z** 
@@ -27,6 +27,23 @@ Length |w| = n
 
 > Note that the length of a concantenated string is the sum of the lengths of each element
 
+#### The empty String ($\lambda$)
+- An empty string is denoted by $\lambda$
+	- |$\lambda$| = 0 
+	- $\lambda v$ = $v \lambda$ = $v$ for all strings in $v$
+	- $\lambda$$\lambda$ = $\lambda$
+	- N.B. $\lambda abba$ = $abba \lambda$ = $abba$
 
+### Substrings 
+_Definition_: A substring of a string w is a subsewuence of consecutive characters in w 
+- The difference between a subset and a subsequence is that a subsequence will remain its order and repition 
+- $\lambda$ is always a substring of any string, even of itself
 
+#### Prefix and Suffix 
+Let $w = uv$
+Let $w = abbabbaa$
+if $u = abbab$ and $v - baa$
+Then, $u$ would be a **a possible** prefix of $w$ and $v$ would be a suffix of $w$ 
+- N.B. the smallest prefix and suffix would be $\lambda$
+- 
 
