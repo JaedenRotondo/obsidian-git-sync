@@ -1,7 +1,7 @@
 ####### Jaeden Rotondo, PHIL 260, September 8th 2022
 
 # Introduction t Pre-Socratic Philosophy
-### Thales of Miletus  
+### Thales of Miletus  ("Founder of Philosophy")
 
 - Main argument: 
 	- Water was the first principle (_arche_ / the begginning), that everything was made out of water
@@ -22,6 +22,7 @@
 		- The example of the proof of the soul 
 			- Why did magnets force themselves to either attach or repel from each other 
 			- Argument: "if it moves it has a soul, because the sould gives movement". This extends to all moving things like plants as well 
+			- This is believed my many socieities (anamilsitic souls etc, rivers having souls)
 
 
 
