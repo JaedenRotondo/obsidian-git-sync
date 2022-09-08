@@ -1,6 +1,6 @@
-####### Jaeden Rotondo, PHIL 260, September 8th 2022
+###### Jaeden Rotondo, PHIL 260, September 8th 2022
 
-# Introduction t Pre-Socratic Philosophy
+# Introduction to Pre-Socratic Philosophy
 ### Thales of Miletus  ("Founder of Philosophy")
 
 - Main argument: 
