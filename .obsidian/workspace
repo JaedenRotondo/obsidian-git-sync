@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "COMP 348/Section 1 Topics.md",
+            "file": "PHIL 260/Introduction to the Pre-Socratics.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 348/Section 1 Topics.md",
+                "file": "PHIL 260/Introduction to the Pre-Socratics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 348/Section 1 Topics.md",
+                "file": "PHIL 260/Introduction to the Pre-Socratics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 348/Section 1 Topics.md"
+                "file": "PHIL 260/Introduction to the Pre-Socratics.md"
               }
             }
           },
@@ -137,8 +137,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "db39910bffc6bce5",
+  "active": "98a3abe96b9641b0",
   "lastOpenFiles": [
+    "COMP 348/Section 1 Topics.md",
     "Readme.md",
     "COMP 335/Lecture 1.md",
     "COMP 335/Automata - The Methods and the Madness.md",
@@ -147,7 +148,6 @@
     "Fightback/Marxism and Post-Colonialism.md",
     "Fightback/Postmodernism and Marxism.md",
     "Fightback/Fehr on the Palestinian Struggle.md",
-    "Fightback/Aggregate Branch Meeting Notes.md",
-    "Cybersecurity/So, you want to get into CyberSecurity.md"
+    "Fightback/Aggregate Branch Meeting Notes.md"
   ]
 }
