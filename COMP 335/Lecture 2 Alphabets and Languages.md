@@ -94,8 +94,8 @@ $w^0  = \lambda$ (by definition)
 	- The compliemnt is laways in respect to the universe  $Z^*$ 
 
 #### Reverse operations on Languages 
-- $L^R = {w^R : w \in L$
+- $L^R = {w^R : w \in L}$ 
 - {ab, aa}^R = {aa, ab}}
 ### Concatenation in Lanagues 
-- $L_1 \ L_2 = {xy \ : \ x \in L_1 , y \in L_2$
+- $L_R \cdot L_R= {xy : x \in L_1, y \in L_2}$ 
 ![[Screen Shot 2022-09-08 at 2.28.36 PM.png]]
