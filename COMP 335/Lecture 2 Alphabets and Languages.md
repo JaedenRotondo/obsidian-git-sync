@@ -99,3 +99,34 @@ $w^0  = \lambda$ (by definition)
 ### Concatenation in Lanagues 
 - $L_R \cdot L_R= {xy : x \in L_1, y \in L_2}$ 
 ![[Screen Shot 2022-09-08 at 2.28.36 PM.png]]
+
+- Note: 
+	- $L_1 <= Z^*$ 
+	- $L_2 <= Z^*$ 
+	- $L_1 L_2 = \{w_1 w_2 : w_1 \in L_1 w_2 \in L_2\}$
+- empty set to the power of zero (research)
+	- Is equal to $\lambda$
+- lambda concatenated to any language does not change the language 
+- 
+
+---
+
+### Star Closure (Kleene Star)
+- For language L we define 
+	- $L^* = L^0 \bigcup L^1 \bigcup L^2 \bigcup L^3 \bigcup ...$
+	- $L^* = \{w_1 w_2 ... w_k : \forall k >= 0\}$
+
+##### Example: 
+$L = \{a,bb\}$
+$L^*=\{ \lambda ,$
+= a, bb
+aa, abb, bba, bbbb
+aaa, aabb, abba, abbbb, ....}
+
+----
+### Positive Closure 
+- $L^+ = L^0 \bigcup L^1 \bigcup L^2 \bigcup L^3 \bigcup ...$
+
+- Is it possible for $\lambda$ belong to $L^+$
+	- This is possible if and only if $\lambda$  was already in the language 
+	- Example: L = {$\lambda$} is an example where $\lambda$  would be in $L^+$

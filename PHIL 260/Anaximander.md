@@ -20,7 +20,7 @@
 
 - *Aperion* = (originating stuff) of the cosmos. Something indefinite. It later came to mean "infinite"
 > The apeiron gives rise to something productive of hot and cold, but Anaximander does not say what this “something productive of hot and cold” is. The hot takes the form of fire, the origin of the sun and the other heavenly bodies; while the cold is a dark mist that can be transformed into air and earth. Both air and earth are originally moist, but become drier because of the fire.  
-- In this way, Anaximander disagreed with Thales about 
+- In this way, Anaximander disagreed with Thales about arche being water 
 - Hiedegger, Hegel, and Nietzhche use Anazmanders definition 
 	- Neitzche calls Anaximander a pessimist since Anaximander thinks that there is a phenomenon that cannnot be known 
 	- According to Hegel 
