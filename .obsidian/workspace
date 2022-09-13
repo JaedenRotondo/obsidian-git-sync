@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "COMP 335/2.1 DETERMINISTIC FINITE ACCEPERS.md",
+            "file": "PHIL 260/Anaximander.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 335/2.1 DETERMINISTIC FINITE ACCEPERS.md",
+                "file": "PHIL 260/Anaximander.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 335/2.1 DETERMINISTIC FINITE ACCEPERS.md",
+                "file": "PHIL 260/Anaximander.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 335/2.1 DETERMINISTIC FINITE ACCEPERS.md"
+                "file": "PHIL 260/Anaximander.md"
               }
             }
           },
@@ -139,15 +139,15 @@
   },
   "active": "98a3abe96b9641b0",
   "lastOpenFiles": [
+    "PHIL 260/Introduction to the Pre-Socratics.md",
+    "PHIL 260/Anaximander.md",
+    "COMP 335/2.1 DETERMINISTIC FINITE ACCEPERS.md",
     "COMP 335/Automata - The Methods and the Madness.md",
     "COMP 335/Lecture 2 Alphabets and Languages.md",
-    "PHIL 260/Introduction to the Pre-Socratics.md",
     "COMP 335/Pasted image 20220730164647.png",
     "COMP 335/Screen Shot 2022-09-08 at 2.28.36 PM.png",
     "COMP 335/Lecture 1 Introduction.md",
     "COMP 348/Section 1 Topics.md",
-    "Readme.md",
-    "Fightback/Article Presentation on Unionization attempts at APPLE.md",
-    "Fightback/Marxism and Post-Colonialism.md"
+    "Readme.md"
   ]
 }

@@ -26,3 +26,6 @@
 
 
 
+#### Further Readings
+- Hegel’s History of Philosophy: Greek Philosophy: The Ionic Philosophy.
+	- https://www.marxists.org/reference/archive/hegel/works/hp/hpionic.htm
