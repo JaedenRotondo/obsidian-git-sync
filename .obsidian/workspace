@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "COMP 335/Textbook Notes/2.1 DETERMINISTIC FINITE ACCEPERS.md",
+            "file": "COMP 335/Lecture Notes/Lecture 2 Alphabets and Languages.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 335/Textbook Notes/2.1 DETERMINISTIC FINITE ACCEPERS.md",
+                "file": "COMP 335/Lecture Notes/Lecture 2 Alphabets and Languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 335/Textbook Notes/2.1 DETERMINISTIC FINITE ACCEPERS.md",
+                "file": "COMP 335/Lecture Notes/Lecture 2 Alphabets and Languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 335/Textbook Notes/2.1 DETERMINISTIC FINITE ACCEPERS.md"
+                "file": "COMP 335/Lecture Notes/Lecture 2 Alphabets and Languages.md"
               }
             }
           },
@@ -136,17 +136,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "db39910bffc6bce5",
+  "active": "70f73745c9eb19dc",
   "lastOpenFiles": [
-    "COMP 335/Lecture Notes/Lecture 3 Deterministic Finite Automata (DFA).md",
+    "COMP 335/Lecture Notes/Lecture 1 Introduction.md",
     "COMP 335/Textbook Notes/2.1 DETERMINISTIC FINITE ACCEPERS.md",
+    "COMP 335/Lecture Notes/Lecture 3 Deterministic Finite Automata (DFA).md",
     "COMP 335/Lecture Notes/Lecture 2 Alphabets and Languages.md",
     "PHIL 260/Anaximander.md",
     "Readme.md",
     "PHIL 260/Introduction to the Pre-Socratics.md",
     "COMP 335/Textbook Notes/Automata - The Methods and the Madness.md",
     "COMP 335/Images/Pasted image 20220730164647.png",
-    "COMP 335/Images/Screen Shot 2022-09-08 at 2.28.36 PM.png",
-    "COMP 335/Lecture Notes/Lecture 1 Introduction.md"
+    "COMP 335/Images/Screen Shot 2022-09-08 at 2.28.36 PM.png"
   ]
 }
