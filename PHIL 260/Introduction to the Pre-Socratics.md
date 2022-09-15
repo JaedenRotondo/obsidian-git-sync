@@ -24,6 +24,8 @@
 			- Argument: "if it moves it has a soul, because the sould gives movement". This extends to all moving things like plants as well 
 			- This is believed my many socieities (anamilsitic souls etc, rivers having souls)
 
+- Tales argued that earthquakes happens fudnementally because of water 
+
 
 
 #### Further Readings
