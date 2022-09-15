@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "COMP 348/Section 2 Topics.md",
+            "file": "COMP 348/Section 1 Topics.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 348/Section 2 Topics.md",
+                "file": "COMP 348/Section 1 Topics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 348/Section 2 Topics.md",
+                "file": "COMP 348/Section 1 Topics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 348/Section 2 Topics.md"
+                "file": "COMP 348/Section 1 Topics.md"
               }
             }
           },
@@ -138,6 +138,7 @@
   },
   "active": "70f73745c9eb19dc",
   "lastOpenFiles": [
+    "COMP 348/Section 2 Topics.md",
     "COMP 348/Section 1 Topics.md",
     "PHIL 260/Introduction to the Pre-Socratics.md",
     "PHIL 260/Anaximander.md",
@@ -146,7 +147,6 @@
     "COMP 335/Textbook Notes/2.1 DETERMINISTIC FINITE ACCEPERS.md",
     "COMP 335/Lecture Notes/Lecture 3 Deterministic Finite Automata (DFA).md",
     "Readme.md",
-    "COMP 335/Textbook Notes/Automata - The Methods and the Madness.md",
-    "COMP 335/Images/Pasted image 20220730164647.png"
+    "COMP 335/Textbook Notes/Automata - The Methods and the Madness.md"
   ]
 }
