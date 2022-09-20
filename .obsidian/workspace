@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "COMP 335/Textbook Notes/Automata - The Methods and the Madness.md",
+            "file": "PHIL 260/Anaximenes.md",
             "mode": "preview",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 335/Textbook Notes/Automata - The Methods and the Madness.md",
+                "file": "PHIL 260/Anaximenes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 335/Textbook Notes/Automata - The Methods and the Madness.md",
+                "file": "PHIL 260/Anaximenes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 335/Textbook Notes/Automata - The Methods and the Madness.md"
+                "file": "PHIL 260/Anaximenes.md"
               }
             }
           },
@@ -141,12 +141,12 @@
     "COMP 335/Textbook Notes/2.1 DETERMINISTIC FINITE ACCEPERS.md",
     "COMP 335/Lecture Notes/Lecture 2 Alphabets and Languages.md",
     "COMP 335/Lecture Notes/Lecture 1 Introduction.md",
+    "COMP 335/Textbook Notes/Automata - The Methods and the Madness.md",
     "COMP 335/Lecture Notes/Lecture 4.md",
     "COMP 335/Lecture Notes/Lecture 3 Deterministic Finite Automata (DFA).md",
     "PHIL 260/Anaximenes.md",
     "PHIL 260/Introduction to the Pre-Socratics.md",
     "COMP 348/Section 1 Topics.md",
-    "COMP 348/Section 2 Topics.md",
-    "PHIL 260/Anaximander.md"
+    "COMP 348/Section 2 Topics.md"
   ]
 }
