@@ -82,5 +82,46 @@ s1 = “bigdog”
 s2 = s1[:2] + “G” + s1[3:]
 ```
 ## Lists and Composite Data Types
+- Internally, lists are not likely to be implemneted as actual linked lists
+- Performance on linked list can be quite poor, particularly for indexing operations 
+- In CPython, the list is built using a dynamically resized arrat
+	- Here, each cell in the array holds a pointer to the object that is associated with that index
+- List can hold anything, it is possible to mix types within a list
+- You can also nest lists as follows 
+```
+list3 = ["foo", "boo"]
+list4 = [1, 2, 8, list3, [12, 9]]
+```
+- Unlike strings, Python lists are mutable,
+	- you can change the contents of a list without creating a new list
+```
+list3 = [“foo”, “boo”]
+list4 = [1, 2, 8, list3, [12, 9]]
+list4[4] = 16
+print list4 # replaced [12, 9]
+>>> [1, 2, 8, [“foo”, “boo”], 16]
 
+list4[1:3] = [“do”, “not”]
+print list4 # replaced [2, 8]
+>>> [1, “do”, “not”, [“foo”, “boo”], 16]
+```
+---
+#### List Methods
+-    Lists also support a group of methods that provide advanced functionality.
+-   These methods are invoked using the standard OOP-style “.” notation.
+- List methods include (where “list” is the name of the list variable):
+	- list.append(x): add x to the end of the list  
+	- list.extend(L): append list L to current list
+	- list.insert(i, x): insert item x at position i 
+	- list.remove(x): remove first occurrence of x
+	- list.pop(): remove and return the last element 
+	- list.pop(i): pop element at position i  
+	- list.index(x): return first index position of x
+	- list.count(x): number of instances of x – list.reverse(): reverse the order of elements
 
+– list.sort(): sort elements “in place” (optional args are possible with the sort method in order to provide customized sorting)
+
+---
+### Computational Complexity 
+- It is often useful to be aware of the underlying cost of various operations
+- 
