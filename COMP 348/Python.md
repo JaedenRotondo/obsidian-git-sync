@@ -30,6 +30,7 @@
 	- Internally, this will be stored as an array of digits
 	- Procssing of Python long integers is slowers becasue it is using software libraries instead of hardware
 - Dynamic ! 
+---
 ### Strings
 - Strings inpython are enclosed either in single quotes or double quotes
 - Escape characters can be placed in strings
@@ -54,5 +55,32 @@ s2 = "big" + s1 #bigbigdog
 s3 = 3*s2 #bigbigbig 
 ```
 - You can index from the back of the string with a negative array index
-## Lists
+- The indexing concept is extended to support the notion of string slices 
+```
+s1 = “bigdog”
+s1[2:4] # gd
+s1[2:] # gdog
+s1[:4] # bigd
+s1[-2:] # og
+s1[2:-2] # gd
+s1[2:2] #
+s1[2:44] # gdog note that this works
+```
+- IMPORTANT: Slices used inclusive/exclusive format
+	- In other words, the start index is inclusive, while the end index is exclusive
+
+#### String Immutability 
+- As is the case with Java, Python strings are immutable.
+- So this does NOT work
+```
+s1 = “bigdog”
+s1[2] = “G”  
+```
+Instead, you can make a new string like this: 
+```
+s1 = “bigdog”
+s2 = s1[:2] + “G” + s1[3:]
+```
+## Lists and Composite Data Types
+
 
