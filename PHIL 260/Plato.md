@@ -16,4 +16,4 @@
 
 ### Essay Topic: Plato's views on the state 
 - Most of the theories regarding different forms of government, according to Bertrand Russel are in chapter 8 to 10
-- 
+- https://ecommons.luc.edu/cgi/viewcontent.cgi?article=1689&context=luc_theses
