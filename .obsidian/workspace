@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "COMP 348/Python.md",
+            "file": "PHIL 260/Plato.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 348/Python.md",
+                "file": "PHIL 260/Plato.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 348/Python.md",
+                "file": "PHIL 260/Plato.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 348/Python.md"
+                "file": "PHIL 260/Plato.md"
               }
             }
           },
@@ -136,8 +136,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "53129927127b2eac",
+  "active": "70f73745c9eb19dc",
   "lastOpenFiles": [
+    "COMP 348/Python.md",
     "Cybersecurity/So, you want to get into CyberSecurity.md",
     "Fightback/Marxism and Religion Leadoff.md",
     "Fightback/Postmodernism and Marxism.md",
@@ -145,7 +146,6 @@
     "Fightback/Fehr on the Palestinian Struggle.md",
     "Fightback/Article Presentation on Unionization attempts at APPLE.md",
     "Fightback/Marxism and Post-Colonialism.md",
-    "COMP 348/Python.md",
     "COMP 348/Section 2 Topics.md",
     "COMP 348/Section 1 Topics.md"
   ]
