@@ -241,3 +241,20 @@ ValueError: too many values to unpack
 		- Union
 		- Intersection 
 		- Difference 
+
+## Statements 
+- While statements
+	- 
+### For Statements
+---
+### If Statements 
+
+## Functions 
+- Funcitons are introduced with the `def` keyword
+- paramters require no type
+- Return types are not explictly specified
+- We use `:` and whitespace to define a function block 
+- Functions return `NONE` by default 
+- Python arguments are "pass-by-value"
+- Functions can be assigned to variables
+	- if we have a function called boo, we can say boo2= boo would make an alies for the same function 
