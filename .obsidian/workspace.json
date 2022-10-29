@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "3790ccb5e10560e7",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc42db14c7398241",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70f73745c9eb19dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP 348/Python.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a88787f88ed6529d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2d9caad7203283d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "c933762f39dd7051",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db39910bffc6bce5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          },
+          {
+            "id": "139c096d9763a6b7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b37b27a8e2218e45",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2cab98a410ff8cbf",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f53ba039892995c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a35e4ffdc4ea709",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "COMP 348/Python.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0d07aff3cbb21d09",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "COMP 348/Python.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "adc8842638887424",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "53129927127b2eac",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "COMP 348/Python.md"
+              }
+            }
+          },
+          {
+            "id": "26b91a6e395d4183",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "a88787f88ed6529d",
+  "lastOpenFiles": [
+    "PHIL 260/Plato.md",
+    "COMP 348/Python.md",
+    "Cybersecurity/So, you want to get into CyberSecurity.md",
+    "Fightback/Marxism and Religion Leadoff.md",
+    "Fightback/Postmodernism and Marxism.md",
+    "Fightback/Aggregate Branch Meeting Notes.md",
+    "Fightback/Fehr on the Palestinian Struggle.md",
+    "Fightback/Article Presentation on Unionization attempts at APPLE.md",
+    "Fightback/Marxism and Post-Colonialism.md",
+    "COMP 348/Section 2 Topics.md"
+  ]
+}
