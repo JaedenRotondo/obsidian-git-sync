@@ -9,6 +9,7 @@ return_type name(parameter_list){
 	function_body
 }
 ```
+---
 ## Multi-File C
 - All files in C are compiled seperately into one executable 
 	- Since files are ndependent from each other, there might be tens of thousands of files which requires a very complex makefile environment 
@@ -65,6 +66,7 @@ int do_something(int x);
 
 #endif
 ```
+---
 ## Compiler Warnings
 - gcc will oftentimes compile your code even if there are problems as long as they are not fatal
 	- This is why its a good idea to include the `-Wall` flag when compiling to print all warnings
@@ -72,10 +74,28 @@ int do_something(int x);
 - A compiler warning to understand before the exam: 
 	- `implicit declaration of function ‘do_something’`
 		- This tells us that gcc could not find info about this function so it will just use defaults to produce the object code
+---
 ## Function Visibility 
 - Since C is not an OO language, it does not have funtion visibility in the same way that Java does
 - By default, all functions are _externally visible_
 	- Meaning that they are globally visible to all other files in the application 
 	- Using the default visibility for all functions isnt a good idea, it would be equivalent to setting all functions in a Java application to public
+---
 ### Static Functions 
-- 
+- There are a few ways to change the visibility of a function in C, the simplest is using the keyword `static`
+- When using the `static` keyword you tell the compiler that the funciton cna only be referenced or invoked by the source file which it is written in
+	- In essense, this is similar to the `private` keyword in Java 
+- For example, lets say our function `do_something()` is using a private `helper()` function 
+```c
+static int helper(){
+	return 10; 
+}
+
+int do_something(int x){
+  int value = helper();
+  return value * 2;
+}
+```
+- In this example, `do_something` is visible to the outside world but the helper is not
+---
+### Function Location 

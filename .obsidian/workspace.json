@@ -13,19 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 348/Python.md",
+                "file": "COMP 348/C Functions.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "a88787f88ed6529d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.3"
               }
             }
           },
@@ -40,21 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0fd116eb5a71bc44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 348/C Functions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#include",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,12 +77,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 236.5
   },
   "right": {
     "id": "2cab98a410ff8cbf",
@@ -178,9 +154,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "139c096d9763a6b7",
+  "active": "70f73745c9eb19dc",
   "lastOpenFiles": [
     "COMP 348/Python.md",
     "COMP 348/Intro to C.md",
