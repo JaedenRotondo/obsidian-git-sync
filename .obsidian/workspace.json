@@ -20,6 +20,30 @@
             }
           },
           {
+            "id": "39a21f1efdc71d56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP 348/C Data Types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b49cae4dd2c7b999",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP 348/Python.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "116c38660dd0c895",
             "type": "leaf",
             "state": {
@@ -31,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 348/C Functions.md",
+                "file": "COMP 348/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 348/C Functions.md",
+                "file": "COMP 348/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 348/C Functions.md"
+                "file": "COMP 348/Python.md"
               }
             }
           },
@@ -157,17 +182,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "70f73745c9eb19dc",
+  "active": "b49cae4dd2c7b999",
   "lastOpenFiles": [
+    "COMP 348/C Debugging and Profiling.md",
+    "COMP 348/C Data Types.md",
+    "COMP 348/C Functions.md",
     "COMP 348/Python.md",
     "COMP 348/Intro to C.md",
-    "COMP 348/C Functions.md",
     "PHIL 260/Plato.md",
     "Cybersecurity/So, you want to get into CyberSecurity.md",
     "Fightback/Marxism and Religion Leadoff.md",
     "Fightback/Postmodernism and Marxism.md",
-    "Fightback/Aggregate Branch Meeting Notes.md",
-    "Fightback/Fehr on the Palestinian Struggle.md",
-    "Fightback/Article Presentation on Unionization attempts at APPLE.md"
+    "Fightback/Aggregate Branch Meeting Notes.md"
   ]
 }

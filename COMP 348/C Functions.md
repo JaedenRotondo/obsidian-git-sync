@@ -100,4 +100,8 @@ int do_something(int x){
 - In this example, `do_something` is visible to the outside world but the helper is not
 ---
 ### Function Location 
-- You are free to place functions anywhere in your source file 
+- You are free to place functions anywhere in your source file, including the main function (although the main function is usually placed at the beggining or the end of the function declerations)
+- The only thing to keep in mind is that you cannot invoke a function if the compiler has not seen its prototype, even if it is in the same source file (_you will get a warning about implicit decleration_)
+> NOTE: static functions should NOT be included in the header file since these functions are not part of the API.
+> NOTE: when you add a prototype for a static function in the current source file, both the prototype and the full function definition should include the static specifier.
+---
