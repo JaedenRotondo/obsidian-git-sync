@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 348/C Functions.md",
+                "file": "COMP 348/C Data Types.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 348/Python.md",
+                "file": "COMP 348/C Data Types.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 348/Python.md",
+                "file": "COMP 348/C Data Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 348/Python.md",
+                "file": "COMP 348/C Data Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 348/Python.md"
+                "file": "COMP 348/C Data Types.md"
               }
             }
           },
@@ -182,11 +181,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b49cae4dd2c7b999",
+  "active": "70f73745c9eb19dc",
   "lastOpenFiles": [
-    "COMP 348/C Debugging and Profiling.md",
-    "COMP 348/C Data Types.md",
     "COMP 348/C Functions.md",
+    "COMP 348/C Data Types.md",
+    "COMP 348/C Debugging and Profiling.md",
     "COMP 348/Python.md",
     "COMP 348/Intro to C.md",
     "PHIL 260/Plato.md",
