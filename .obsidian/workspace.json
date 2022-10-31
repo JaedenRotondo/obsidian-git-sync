@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#include",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +100,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,7 +180,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "0fd116eb5a71bc44",
+  "active": "139c096d9763a6b7",
   "lastOpenFiles": [
     "COMP 348/Python.md",
     "COMP 348/Intro to C.md",

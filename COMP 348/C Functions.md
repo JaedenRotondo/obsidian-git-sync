@@ -30,6 +30,52 @@ void my_method(){
 
 }
 ```
+- Manual inclusion is usually placed after the "#include" declearations or at the top of the file 
+- Manual inclusion works but it is oftentimes not a good idea for the following reasons: 
+1. You need to add a lot of lines to your code manually if you use a lot of functions 
+2. Since functions will need to be used in several source files, this manual addition will have to be repeated for every file they are used in 
+3. If the API changes (the name of the function or irts signature changes) you would need to make these alterations one by one 
+---
 ## User-Defined Header Files
+A ".h" file might look like this: 
+```c
+/* file1.h */
+
+int do_something(int x);
+```
+While the C file would look like 
+```c
+#include <stdio.h>
+#include “file1.h”
+
+void my_method(){
+
+  int y = do_something(4);
+}
+```
+- Here we assume that all files are in the same folder as the source file. If not, additional path info would need to be added with the `#include` directive
+	- `“#include ../module/file1.h”``
+### Header Guards 
+- In reality your header fies should be written with conditionals called header guards
+	- This makes sure that you only include a header file once. If there are more than one copy of a header file it can often cause compilation issues
+``` c
+#ifndef file1_H_ #define file1_H_
+
+int do_something(int x);
+
+#endif
+```
 ## Compiler Warnings
+- gcc will oftentimes compile your code even if there are problems as long as they are not fatal
+	- This is why its a good idea to include the `-Wall` flag when compiling to print all warnings
+	- `-   gcc –Wall file1.c file2.c myApp.c`
+- A compiler warning to understand before the exam: 
+	- `implicit declaration of function ‘do_something’`
+		- This tells us that gcc could not find info about this function so it will just use defaults to produce the object code
 ## Function Visibility 
+- Since C is not an OO language, it does not have funtion visibility in the same way that Java does
+- By default, all functions are _externally visible_
+	- Meaning that they are globally visible to all other files in the application 
+	- Using the default visibility for all functions isnt a good idea, it would be equivalent to setting all functions in a Java application to public
+### Static Functions 
+- 
