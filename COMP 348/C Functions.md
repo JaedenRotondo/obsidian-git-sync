@@ -56,6 +56,7 @@ void my_method(){
 ```
 - Here we assume that all files are in the same folder as the source file. If not, additional path info would need to be added with the `#include` directive
 	- `“#include ../module/file1.h”``
+---
 ### Header Guards 
 - In reality your header fies should be written with conditionals called header guards
 	- This makes sure that you only include a header file once. If there are more than one copy of a header file it can often cause compilation issues
@@ -99,3 +100,4 @@ int do_something(int x){
 - In this example, `do_something` is visible to the outside world but the helper is not
 ---
 ### Function Location 
+- You are free to place functions anywhere in your source file 
