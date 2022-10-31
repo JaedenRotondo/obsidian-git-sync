@@ -40,9 +40,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0fd116eb5a71bc44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP 348/C Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -108,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 348/Intro to C.md",
+                "file": "COMP 348/C Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 348/Intro to C.md",
+                "file": "COMP 348/C Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 348/Intro to C.md"
+                "file": "COMP 348/C Functions.md"
               }
             }
           },
@@ -167,17 +179,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "116c38660dd0c895",
+  "active": "0fd116eb5a71bc44",
   "lastOpenFiles": [
-    "PHIL 260/Plato.md",
     "COMP 348/Python.md",
+    "COMP 348/Intro to C.md",
+    "COMP 348/C Functions.md",
+    "PHIL 260/Plato.md",
     "Cybersecurity/So, you want to get into CyberSecurity.md",
     "Fightback/Marxism and Religion Leadoff.md",
     "Fightback/Postmodernism and Marxism.md",
     "Fightback/Aggregate Branch Meeting Notes.md",
     "Fightback/Fehr on the Palestinian Struggle.md",
-    "Fightback/Article Presentation on Unionization attempts at APPLE.md",
-    "Fightback/Marxism and Post-Colonialism.md",
-    "COMP 348/Section 2 Topics.md"
+    "Fightback/Article Presentation on Unionization attempts at APPLE.md"
   ]
 }

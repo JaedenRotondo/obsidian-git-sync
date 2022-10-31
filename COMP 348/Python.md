@@ -40,7 +40,7 @@
 		- This will concatenate all lines into a single string
 		- The interpreter will automatically add the new line characters
 			- To prevent this, you can add a “\” at the end of eachline
-```
+```python
 myNote = “””
    Roses are red
    Violets are blue
@@ -49,14 +49,14 @@ myNote = “””
 “””
 ```
 - Strings can be concatenated with the "+" operator
-```
+```python
 s1 = "big" + "dog" #bigdog
 s2 = "big" + s1 #bigbigdog
 s3 = 3*s2 #bigbigbig 
 ```
 - You can index from the back of the string with a negative array index
 - The indexing concept is extended to support the notion of string slices 
-```
+```python
 s1 = “bigdog”
 s1[2:4] # gd
 s1[2:] # gdog
@@ -72,12 +72,12 @@ s1[2:44] # gdog note that this works
 #### String Immutability 
 - As is the case with Java, Python strings are immutable.
 - So this does NOT work
-```
+```python
 s1 = “bigdog”
 s1[2] = “G”  
 ```
 Instead, you can make a new string like this: 
-```
+```python
 s1 = “bigdog”
 s2 = s1[:2] + “G” + s1[3:]
 ```
@@ -88,13 +88,13 @@ s2 = s1[:2] + “G” + s1[3:]
 	- Here, each cell in the array holds a pointer to the object that is associated with that index
 - List can hold anything, it is possible to mix types within a list
 - You can also nest lists as follows 
-```
+```python
 list3 = ["foo", "boo"]
 list4 = [1, 2, 8, list3, [12, 9]]
 ```
 - Unlike strings, Python lists are mutable,
 	- you can change the contents of a list without creating a new list
-```
+```python
 list3 = [“foo”, “boo”]
 list4 = [1, 2, 8, list3, [12, 9]]
 list4[4] = 16
@@ -130,7 +130,7 @@ print list4 # replaced [2, 8]
 #### Stacks
 - a "last in first out" (LIFO) structure
 	- The append() and pop() methods can be used to add and remoce elements from the end of the queue
-```
+```python
 list1 = [“foo”, “boo”]
 list1.append(“bat”)
 list1.append(“bar”)
@@ -142,7 +142,7 @@ top = list1.pop() # do not specify index
 ---
 #### Queues 
 - First in first out (FIFO) 
-```
+```python
 l2 = [“foo”, “boo”]
 l2.append(“bat”)
 l2.append(“bar”)
@@ -156,7 +156,7 @@ first = l2.pop(0) # need index
 - Popping the first element in the array is very expensive in large lists because EVERYTHING must be shifted by one.
 - implemented using a doubly linked list 
 - In practice, you will want to use a data structure provided for just this purpose.
-```
+```python
 from collections import deque # more on this later
 q1 = deque([“foo”, “boo”])
 q1.append(“bat”)
@@ -178,7 +178,7 @@ first = q1.popleft()
 	- Keys can be any immutable type • e.g., strings or ints  
 	    • But NOT lists
 - There is no fixed order for the key/value pairs
-```
+``` python
 location = {“joe” : “Montreal”, “Sue” : “Toronto”} # init
 >>> location[“Sue”]
 >>> ‘Toronto’
@@ -220,14 +220,12 @@ Dictionaries provide a number of additional methods.
 - Lists are often used for homogeneous dats
 	- A little like a java vector
 - *Sequence unpacking*: If we have a touple that represents a customer with a name age and address, we can extract all 3 elements at once with a single operating into seperate variables as so: 
-```
+``` python
 t1 = “Joe”, 43, “Montreal” # a tuple
 a, b, c = t1
 >>>b
 43
-
 m, n = t1
-
 ValueError: too many values to unpack
 ```
 ---
@@ -258,7 +256,6 @@ ValueError: too many values to unpack
 - Python arguments are "pass-by-value"
 - Functions can be assigned to variables
 	- if we have a function called boo, we can say boo2= boo would make an alies for the same function 
-
 
 
 multiple choice:

@@ -1,6 +1,6 @@
 ## Basic Structure of  a C Program 
 - Hello World
-```
+```c
 int main(int argc, char* argv[]){
 	printf(“Hello World\n”);
 return 0; 
@@ -49,6 +49,19 @@ return 0;
 	- string.h: character string processing
 	- math.h: common math functions
 	- time.h: basic time/data utilities
-- 
+- C uses header files because it processes files line by line and must know of function declearation prior to their usage
+- This is important because files in C are compiled independently from each other 
+- If you do not include a header file for a function that you are using (for example, employing printf() without including stdio.h) you will run into the following error `Symbol could not be resolved`
+- printf() protoype looks like 
+	- `extern int printf (const char *__restrict __format, ...);`
+	- Output specifiers are 
+		- d or i: decimal integer 
+		- f: floating point value  
+		- s: character string 
+		- c: individual character  
+		- p: pointer address value
+- stderr is unbuffered so the message goes to the OS as 
+
+soon as fprintf is called
 ## File Inclusion 
 ## The standard libraries 
