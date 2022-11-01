@@ -131,8 +131,3 @@ ValueError: too many values to unpack
 - Functions can be assigned to variables
 	- if we have a function called boo, we can say boo2= boo would make an alies for the same function 
 
-
-multiple choice:
-- all 25 questions come from the slides
-- look through the slides as see 1 or 2 most important things about a given slide
-- 
