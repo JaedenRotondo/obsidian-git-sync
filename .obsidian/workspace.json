@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 348/C Data Types.md",
+                "file": "COMP 348/C/C Data Types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "94eb62147aca74b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP 348/C/C Data Types.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 348/C Data Types.md",
+                "file": "COMP 348/C/C Data Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 348/C Data Types.md",
+                "file": "COMP 348/C/C Data Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 348/C Data Types.md"
+                "file": "COMP 348/C/C Data Types.md"
               }
             }
           },
@@ -145,17 +158,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "70f73745c9eb19dc",
+  "active": "94eb62147aca74b4",
   "lastOpenFiles": [
-    "COMP 348/C Functions.md",
-    "COMP 348/C Data Types.md",
-    "COMP 348/C Debugging and Profiling.md",
-    "COMP 348/Python.md",
-    "COMP 348/Intro to C.md",
     "PHIL 260/Plato.md",
-    "Cybersecurity/So, you want to get into CyberSecurity.md",
-    "Fightback/Marxism and Religion Leadoff.md",
-    "Fightback/Postmodernism and Marxism.md",
-    "Fightback/Aggregate Branch Meeting Notes.md"
+    "COMP 348/C/C Data Types.md",
+    "COMP 348/C/C Debugging and Profiling.md",
+    "COMP 348/C/C Functions.md",
+    "COMP 335/Lecture Notes/Lecture 4.md",
+    "COMP 335/Lecture Notes/Lecture 3 Deterministic Finite Automata (DFA).md",
+    "COMP 335/Images/Pasted image 20220730164647.png",
+    "COMP 335/Images/Screen Shot 2022-09-08 at 2.28.36 PM.png",
+    "Readme.md",
+    "COMP 348/Language Evolution/Language Evolution.md"
   ]
 }

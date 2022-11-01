@@ -9,6 +9,8 @@
 	- Cephalus argues that justice is speaking the truth and paying ones debts 
 - Thraymachus is irritated by the examination of Sorates and asks him to forward his own definition of justice, instead of simply referring to other peoples
 	- Thraysmchus argues that justice is the advantage of the stronger. 
+### Lecture Notes 
+- Cephalus was not an athenian citizen, he was an arms manufacturer living in the port of Pireaus. 
 ## Notes from Republic Books 4-6
 ## Notes from Republic Books 7-8
 ## Notes from Republic Books 9-10

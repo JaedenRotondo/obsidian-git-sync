@@ -67,9 +67,38 @@ int structMember = bar.x; // elements of a struct can be accessed using dot nota
 - We do not set aside memory for these variables at compile time because it would 
 	- mean potentially allocating ALL variables to location in memory which is neither required nor effecient. This would occure even if only 1 or 2 functions would be running at a given time. 
 	- Recursion would not be possible since each recursive call needs its own version of the function’s variables
-- 
+- Memory is allocated as required on the process stack (where each function is given its own stack frame)
+	- each frame in the stack is dedicated to a function 
+	- the base frame of a stack is the main() function 
 #### 3. Dynamic 
-- 
- 
+- Dynamic memory is allocated at runtime and is decided purely by the programmer 
+- The memory is taken from the **heap** which grows as required (like the stack)
+- You must tell the program how much memory you need, the low level assignment will be done for you 
+---
+#### The Malloc Family 
+- malloc() is a function in the <stdlib.h> library allocates unitialized memory in the order of n bytes 
+	- The function returns a pointer to the memory location of the new memory
+- calloc() initializes the data to 0 (this is a lot more time consuming)
+- realloc() re-allocate a previous memory block to a new size 
+	- typically used for resizing arrays 
+	- it will maintian the current contents of the data you are resizing if you are making it bigger 
+	- Note that realloc will create a completely new memory area, copy the contents of old into new, and then delete the old space
+```c
+void *malloc(size_t size)
+```
+- The following function creates an array to hold 10 integers
+	- `buffer[2]` will access the third integer in the buffer
+```c
+int *buffer = (int *)malloc( 10 * sizeof (int) );
+```
+- `malloc()` will return a `NULL` pointer if the system is not able to allocate the memory for you 
+---
+#### Pointers and the Heap  
+- Note that the pointers to memory which are returned by malloc() are _logical adresses_ not _physical addresses_
+	- _logical addresses_ refer to memory location in relation to the program storage space which starts from 0, not the physical space on hardware 
+- The compiler has no way of knowing where the memory will actually be stored at runtime, this is something that the computer will handle 
+- Note: when you try to access an invalid memory location, the OS will abort your application and print a segmentation fault error.
+---
+#### Cleaing Memory 
 ## Creating Data elements dynamically
 ## Use of Pointers 
