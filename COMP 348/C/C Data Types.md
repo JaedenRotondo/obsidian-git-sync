@@ -99,6 +99,12 @@ int *buffer = (int *)malloc( 10 * sizeof (int) );
 - The compiler has no way of knowing where the memory will actually be stored at runtime, this is something that the computer will handle 
 - Note: when you try to access an invalid memory location, the OS will abort your application and print a segmentation fault error.
 ---
-#### Cleaing Memory 
-## Creating Data elements dynamically
-## Use of Pointers 
+#### Cleaing Memory and the Address Operator 
+- Dynamically allocated memory should be returned to the heap when it is finished being used
+	- If this is not done, there will be "memory leaks" in the program
+		- These are heap areas that never get reclaimed
+- To free memory, stdlib provides the `free()` function which takes a void pointer
+- the `&` symbol is used on primitive types to find their location in memory, an obvious example of this is used when `scanf()` is invoked
+---
+#### Character strings and String Basics
+# stopped at 5-34

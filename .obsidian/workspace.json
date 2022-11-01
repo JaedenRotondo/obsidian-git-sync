@@ -25,14 +25,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 348/C/C Data Types.md",
+                "file": "COMP 348/Python/Python Intro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "86779cf2c645267f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP 348/Python/Python -  More Data Structures.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70b22292d32d50b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP 348/Python/Python Programming.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b5c5193261cdef14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP 348/Python/Python Intro.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -98,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 348/C/C Data Types.md",
+                "file": "COMP 348/Python/Python Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 348/C/C Data Types.md",
+                "file": "COMP 348/Python/Python Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 348/C/C Data Types.md"
+                "file": "COMP 348/Python/Python Intro.md"
               }
             }
           },
@@ -158,17 +194,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "94eb62147aca74b4",
+  "active": "b5c5193261cdef14",
   "lastOpenFiles": [
-    "PHIL 260/Plato.md",
+    "COMP 348/Python/Python Modules.md",
+    "COMP 348/Python/Python Programming.md",
+    "COMP 348/Python/Python -  More Data Structures.md",
+    "COMP 348/Python/Python Intro.md",
     "COMP 348/C/C Data Types.md",
-    "COMP 348/C/C Debugging and Profiling.md",
     "COMP 348/C/C Functions.md",
-    "COMP 335/Lecture Notes/Lecture 4.md",
-    "COMP 335/Lecture Notes/Lecture 3 Deterministic Finite Automata (DFA).md",
-    "COMP 335/Images/Pasted image 20220730164647.png",
-    "COMP 335/Images/Screen Shot 2022-09-08 at 2.28.36 PM.png",
-    "Readme.md",
-    "COMP 348/Language Evolution/Language Evolution.md"
+    "COMP 348/C/Intro to C.md",
+    "COMP 348/C/C Debugging and Profiling.md",
+    "PHIL 260/Plato.md",
+    "COMP 335/Lecture Notes/Lecture 4.md"
   ]
 }
