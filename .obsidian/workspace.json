@@ -18,42 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "39a21f1efdc71d56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 348/C Data Types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b49cae4dd2c7b999",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 348/C Data Types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "116c38660dd0c895",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 348/Intro to C.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
