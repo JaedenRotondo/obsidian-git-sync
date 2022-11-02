@@ -8,7 +8,8 @@ Things to do
 2. Make notes for Python 
 	1. Python intro _done_
 	2. Python more data structures _done_
-	3. Python Programminng _not started_
+	3. Python Programminng _done_
+	4. Python Modules 
 3. Makes Notes on Language Evolution 
 	1. One slides 
 4. Make Notes on Langauge Design 
