@@ -10,9 +10,9 @@ Things to do
 	2. Python more data structures _done_
 	3. Python Programminng _not started_
 3. Makes Notes on Language Evolution 
-	1. One slides
+	1. One slides 
 4. Make Notes on Langauge Design 
-	1. Two slides
+	1. Two slides (done quiz 3 times)
 
 
 multiple choice:
