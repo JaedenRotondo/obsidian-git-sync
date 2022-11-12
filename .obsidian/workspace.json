@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 348/Python/Python Modules.md",
+                "file": "COMP 348/C/C Debugging and Profiling.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 348/Python/Python Modules.md",
+                "file": "COMP 348/C/C Debugging and Profiling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 348/Python/Python Modules.md",
+                "file": "COMP 348/C/C Debugging and Profiling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 348/Python/Python Modules.md"
+                "file": "COMP 348/C/C Debugging and Profiling.md"
               }
             }
           },
@@ -162,15 +162,15 @@
   },
   "active": "bec4945b9eeb9faf",
   "lastOpenFiles": [
+    "COMP 348/Python/Python -  More Data Structures.md",
+    "COMP 348/Python/Python Programming.md",
+    "COMP 348/C/C Data Types.md",
+    "COMP 348/C/C Functions.md",
+    "COMP 348/Python/Python Modules.md",
     "COMP 348/Python/Python Intro.md",
     "Images/Screen Shot 2022-11-02 at 12.45.36 PM.png",
-    "COMP 348/Python/Python Modules.md",
     "COMP 348/Exam Prep.md",
-    "COMP 348/Python/Python Programming.md",
-    "COMP 348/Python/Python -  More Data Structures.md",
     "COMP 348/C/C Debugging and Profiling.md",
-    "COMP 348/C/C Functions.md",
-    "COMP 348/Language Evolution/Language Evolution.md",
-    "COMP 348/C/C Data Types.md"
+    "COMP 348/Language Evolution/Language Evolution.md"
   ]
 }
