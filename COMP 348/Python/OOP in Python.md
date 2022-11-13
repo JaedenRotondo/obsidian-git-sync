@@ -84,3 +84,6 @@ class Foo(Baz):
 	- however its not a good idea because things get confusing quickly 
 ---
 ## Visibility 
+- There are no visibility keywords in python, such as `public` or `private` or `protected`
+	- Everything is public, if one has reference to an object it can be modified
+- There are privacy _conventions_ in python, such as using the underscore for any variables (e.g. `_amt` or `_total`)
