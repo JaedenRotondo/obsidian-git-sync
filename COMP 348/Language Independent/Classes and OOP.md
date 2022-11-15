@@ -19,20 +19,31 @@ struct foo {
   type member2;
 } 
 ```
+---
+## Method implementation 
 - In practice, class methods are just plain old functions, just as we saw in C.
 	- Note that methods of a class are just chunks of code that are stored in memory a-contiguously 
 - With this information it makes sense to construct a class that holds the variables and pointers to the methods of that class
 	- This is a waste of space. Imagine if we have tens of thousands of objects, it would mean we need to have the same copies of the pointers in each object
 	- Because of this, classes and objects represent descrete structures
-		- A class structure
-		- An object structure 
-- 
----
-## Method implementation 
 ---
 ## Class and object structres
+
+- A class structure
+	- The class object will store the pointers to all methods that the Instance object will be able to access
+	- And possibly any shared "class variables"
+- An object structure 
+	- Will only include instance variables of objects 
 ---
 ## Efficient implementations
+- There is a problem with the above implementation
+	- When a function is invoked, how does the function know which object invoked it? 
+	- For example, if there is a object function for printing the name of a dog. How would the function know if "Max" or "Molly" invoked the function 
+	- There is no information about this on the stack 
 ---
-## Linking methods and data 
+### Linking methods and data 
+- In practise we solve this by extending the method signature to include a reference/pointer to the object upon which the function should operate
+	- This is usually the first parameter of the function call
+	- This is the reason why Python needs the "self" argument in the first position of the param list 
+		- In Java and C++ they use the argument `this`
 ---

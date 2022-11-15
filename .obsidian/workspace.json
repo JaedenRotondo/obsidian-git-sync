@@ -63,7 +63,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 348/Language Independent/Classes and OOP.md",
+                "file": "COMP 348/Language Independent/Garbage Collection.md",
                 "mode": "source",
                 "source": false
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 348/Language Independent/Classes and OOP.md",
+                "file": "COMP 348/Language Independent/Garbage Collection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 348/Language Independent/Classes and OOP.md",
+                "file": "COMP 348/Language Independent/Garbage Collection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 348/Language Independent/Classes and OOP.md"
+                "file": "COMP 348/Language Independent/Garbage Collection.md"
               }
             }
           },
@@ -198,8 +198,8 @@
   },
   "active": "c2ed2621581b1dfa",
   "lastOpenFiles": [
-    "COMP 348/Language Independent/Garbage Collection.md",
     "COMP 348/Language Independent/Classes and OOP.md",
+    "COMP 348/Language Independent/Garbage Collection.md",
     "COMP 348/Python/OOP in Python.md",
     "COMP 348/Python/Python Modules.md",
     "COMP 348/Python/Python Programming.md",
