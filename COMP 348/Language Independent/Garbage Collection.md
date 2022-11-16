@@ -35,9 +35,42 @@
 			- This object is then reclaimed for future use
 ---
 ### Running the GC 
-- 
+- In practice, the GC can be invoked in various different ways 
+	1. Only when it is determined that memory is low 
+		- The memory allocator keeps use of how much memory is used and when the next request for a new object is made, the GC can be invoked if necessary 
+	2. On a pre-defined schedule 
+		- The point here is that because the GC steals processing cycles from your application, it does not run continuously
+---
+### Downsides of Mark and Sweep 
+- Mark and Sweep works well in terms of memory management 
+- But they can be costly for large applications 
+	- Its an "all or nothing process" that must always commit a full cycle 
+- In practice, various optimizations can be done 
+	- For example the *tri-colour* approach is used in which candidates for reclamation are iteratively moved between three sets until it is determined that certain elements are definetely not required anymore. 
+		- The benefit of this approach is that the work can be performed in smaller stages
+	- It is also possible to use a *generational technique* where the age of the objects impacts the frequency of testing
+		- older objects are determined to be more likely to require long term storage and are therefore checked less often 
 ---
 ## Argumenting non-GC langauges
+- For languages like C which do not have a native garbage collector, it is necessary to use functions like free()
+- It is also possible to create an external collector that they compiler does not need to support directly
+	- One example of the this is the Boehm garbage collector 
 ---
 ### The Boehm GC 
+- The three main properties of the BGC are
+	1. Uses Mark and Sweep Algorithm 
+	2. Black Box: it is not integrated into the compiler 
+	3. Conservative: it will do its best  "guess" which objects can be reclaimed
+		- It may have false negatives
+		- It will never have false positives
+- BGC replaces the standard malloc calls with its own functions that act similarily but keep track of stored memory 
+ ![[Screen Shot 2022-11-16 at 11.22.45 AM.png]]
+- If the GC finds no possible address that could point to the foo memory, it will safely release foo
+- For boo, it can not be sure, so it will NOT release boo’s memory
+- We might be wrong about boo, if we are then it would be considered a *transient memory leak*
+	- However, it is transient (temporary) in that once this function completes, its stack frame will be cleared and the false positive disappears.
 ---
+## Final thoughts
+- Although garbage collection is very useful, it is not used in fast systems (like operating systems, database management systems for example) because they are time intensive compared to manual memory allocation 
+- For this reason C does not usually use collectors like BGC
+- Python uses a different type of garbage collection that is non-traceable as opposed to Mark and Sweep 
