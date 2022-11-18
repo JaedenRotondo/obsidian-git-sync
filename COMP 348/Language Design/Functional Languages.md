@@ -42,8 +42,18 @@ baz = baz * 2;
 ...
 int result = calc(10);
 ```
-- In the above code, the value of `baz` cannot be used anywhere else in the code as its value might be changed at anytime by the function 
+1. In the above code, the value of `baz` cannot be used anywhere else in the code as its value might be changed at anytime by the function 
 	- "magic" changes to values is often very bad
+2. A second issue with side effects is that two invocations of `calc` can produce different results when invoked with the same argument 
+	- This is because the function relies on global varibale information and not just function logic 
+- We refer to this consistency of functions as *referential integrity*
+3. A third issue with imperaitve programming is that the order of functions can matter 
+	-  Consider a method that uses the `baz` variable and executes either before or after the `calc` call 
+	- On the other hand, if side effects are not possible, then the order of evaluation generally does not matter
+		- This gives the compiler a lot more freedom when it comes to compiling/running the code
+---
+## Motivation 
+- 
 ---
 ## Higher Order functions 
 ---
