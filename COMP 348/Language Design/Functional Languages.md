@@ -31,14 +31,10 @@ int foo(int y){
 ```c
 int baz = 4;
 int calc(int foo){
-
 baz = baz * 2;
-
    return foo * baz;
 }
-
 // note this line
-
 ...
 int result = calc(10);
 ```
@@ -53,9 +49,25 @@ int result = calc(10);
 		- This gives the compiler a lot more freedom when it comes to compiling/running the code
 ---
 ## Motivation 
-- 
+- Most of the motivation for functional languages comes from the research environment 
+	- This is because functional programming languages can be evalutated on *correctness* a lot better (and hence reliability)
+	- By using "true" functions its a lot easier to determine whether or not a function will always work as intended
+- The correctness of functional languages also plays a role in *concurency*
+	- If we know that no function can alter the value of the global state variables, it is possible to run several functions at once without any unintended consequences
 ---
 ## Higher Order functions 
+- A higher order function, or a functional form, is a function that either takes as argument another function or returns a function 
+	- Porgramming languages often use the term "first class functions" to imply that functions can be used like variables (passed and returned through other functions)
+- C does NOT support first class functions
+- Python DOES support first class functions
+### Function composition 
+- Composition is a functional form that takes two functions as paramters and then applies the first function to the application of the section function 
+	- Note that this is not the same as taking an argument of a function as the function of another argument with an input like `foo( boo(2), 4)`
 ---
 ## Recursion, mutability, and purity
+- Functional langauges rely heavily on recursion as opposed to looping structures in imperitive programming languages 
+- Most functional languages provide a list of data structures like lists, dictionaries, etc
+	- In general, these data structures are not mutable (so that the global state is not altered)
+- Pure functional languages are just collections of functions and provide no imperatives or constructs
+	- With Haskell as a notable exception, most functional programming langauges are hyprids (Clojure is an example of this class)
 ----
