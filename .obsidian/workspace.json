@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 348/Python/Python Programming.md",
+                "file": "COMP 348/CLojure/Clojure Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 348/Python/Python Programming.md",
+                "file": "COMP 348/CLojure/Clojure Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 348/Python/Python Programming.md",
+                "file": "COMP 348/CLojure/Clojure Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 348/Python/Python Programming.md"
+                "file": "COMP 348/CLojure/Clojure Introduction.md"
               }
             }
           },
@@ -148,6 +148,7 @@
   "active": "c321fe04068e53c0",
   "lastOpenFiles": [
     "COMP 348/Language Design/Functional Languages.md",
+    "COMP 348/Python/Python Programming.md",
     "COMP 348/CLojure/Clojure Introduction.md",
     "COMP 348/Language Independent/Garbage Collection.md",
     "COMP 348/Language Independent/Classes and OOP.md",
@@ -155,7 +156,6 @@
     "COMP 348/Python/Python Modules.md",
     "COMP 348/Exam Prep.md",
     "COMP 348/CLojure/Clojure Data Structures.md",
-    "COMP 348/Python/Python Programming.md",
     "COMP 348/Python/Python -  More Data Structures.md"
   ]
 }
