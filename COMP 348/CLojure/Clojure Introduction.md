@@ -22,15 +22,68 @@
 ---
 ## The REPL
 - REPL is like a command line interface (similar to what Python has)
-- 
+	- READ-EVAL-PRINT-LOOP
+- you can execute expressions one by one
 ---
 ## Clojure return values
 - All expressions in Clojure return a value 
-- 
+```clojure 
+; simple Math
+
+(+ 1 1)
+(- 2 1)
+(* 1 2)
+(/ 2 1)
+
+; Equality testing
+
+(= 1 1) ; => true
+(= 2 1) ; => false
+
+; negation
+
+(not true) ; => false
+```
+- You can also print statements in Clojure
+```clojure 
+(print “woo”)
+
+; => “woo”
+```
+- Note that the print statement returns `nil`
 ---
-## Function defintions
+## Basic Clojure types
+- Clojure provides some primitive data types that you would expect 
+	- Integer
+		- corresponds to `long int` in Java
+	- Float
+		- corresponds to `double`
+	- String
+		- Always inclosed in ""
+	- Boolean
+		- True or False
+	- `nil` is used as a null value 
+- Note that types are not explicilty defined, Clojure will interpret and assign types to values 
 ---
-## Control flow
+## Binding names to values
+- As previously noted, functional languages do not generally manage a global state
+	- Still, it can be useful to associate values with labels so that they can be referenced later
+		- `(def name value)`
+---
+## Functions 
+### Trivial Functions
+- All functions follow the following syntax
+```clojure 
+x( fn [parm list] body)
+```
+- A hello world function would look like `( fn [] "hello world"`
+- Clojure does not have any return statements 
+	- In the case of a function, the return value is always the last expression within the function
+	- In this case, our function returns a string "hello world"
+- Note that to invoke an anonymous function like above, you must wrap it in parenthesis 
+---
+### Function names
+- We can name functions using the `def` keyword
 ---
 ## Truthy and Falsey values
 ---
