@@ -109,7 +109,19 @@ x( fn [parm list] body)
        “negative”))
 ```
 - The return value in this case is the last expresion in the compound funcitno
-	- If we re
+	- If we reverse the expressions the output will be nil because print function outputs nill 
+#### WHEN 
+- Clojure also provides a `when` form which is a combination of if and do 
+```clojure
+( when (> 5 0)  
+	(println “looks good”)
+	“positive”)
+```
+- The `when` form executes the expression block when it's true and always returns `nil` if its false 
 ---
 ## Truthy and Falsey values
+- Some return values of functions are not "true" or "false" in the conventional sense in Clojure, this is where truthiness and falsiness come into play 
+- First, recall that `nil` has no value 
+	- `(nil? nil) ; => true`
+- Second, nil and false are always false (or falsey)
 ---
