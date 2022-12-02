@@ -84,6 +84,32 @@ x( fn [parm list] body)
 ---
 ### Function names
 - We can name functions using the `def` keyword
+- here is a definition of a hello world function 
+```clojure
+( defn hello [] “hello world” )
+```
+---
+## Control flow
+#### If Form 
+```
+( if boolean-form 
+	then-form
+    optional-else-form)
+```
+- The else form is optional, and can be removed. 
+#### Do Form
+- Clojure provides a Do form in order to a permit a sequence of expressions to be defined.
+```clojure 
+( if (> 5 0) 
+	(do
+       (println “looks good”)
+       “positive”)
+    (do
+       (println “looks bad”)
+       “negative”))
+```
+- The return value in this case is the last expresion in the compound funcitno
+	- If we re
 ---
 ## Truthy and Falsey values
 ---
