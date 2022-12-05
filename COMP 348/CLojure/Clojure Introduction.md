@@ -125,3 +125,4 @@ x( fn [parm list] body)
 	- `(nil? nil) ; => true`
 - Second, nil and false are always false (or falsey)
 ---
+![[Screen Shot 2022-12-05 at 1.50.46 PM.png]]
