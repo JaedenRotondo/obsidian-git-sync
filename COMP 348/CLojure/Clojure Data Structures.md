@@ -112,6 +112,23 @@
 ---
 ### Lists
 - Lists in Clojure are delimited by parenthesis `()`
+	- To create a list with parenthesis though, you must prefix it with a single quotation character `'` to differentiate it from a function 
+```clojure 
+(1 2 3) ;=>error:1isnotafunction 
+‘(1 2 3) ; => valid list  
+(+ 2 2) ; => function call  
+‘(+ 2 2) ; => valid list
+```
+- Note that, like vectors, it is also possible to define a list using the (list list_content) form.
+	- For example, you can include list list_content as well as different datatypes
+```clojure
+(def foo ‘(2 {:a “eh”, :b “bee”} 3))
+```
+- Lists have no indexing 
+	- Therefore there is no `get` function for lists 
+	- Instead we use the `nth` function 
+		- out-of-bounds error generated for invalid indexes
+	- list `nth` is slower than `get` on a vector
 ### Sets
 ##  Creation and access methods
 ### Immutibility 
