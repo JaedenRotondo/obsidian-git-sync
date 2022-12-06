@@ -91,8 +91,27 @@
 ```
 ---
 ### Vectors
-- 
+- A vector is essentially an array delimited by square `[]` brackets
+- There are two techniques for creating vectors in Clojure
+```clojure
+(def myVec [1 2 3])
+(def myVec (vector 1 2 3))
+```
+- We can use the `get` function to return values, if you are trying to return a value at an index thats out-of-bounds - `nil` is returned
+- Note that we can put anything in a vector, including functions
+```clojure
+(def things [
+ “dog”
+ 2
+ (fn [] “do something”)
+])
+(get things 0) ; => “dog”
+(get things 1) : => 2
+(get things 10) : => nil
+```
+---
 ### Lists
+- Lists in Clojure are delimited by parenthesis `()`
 ### Sets
 ##  Creation and access methods
 ### Immutibility 
