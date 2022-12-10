@@ -19,12 +19,8 @@
         "id": "e3beb6dca67bc943",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "conflict-files-obsidian-git.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -89,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,9 +122,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "conflict-files-obsidian-git.md"
-              }
+              "state": {}
             }
           },
           {
@@ -151,9 +143,9 @@
   },
   "active": "e3beb6dca67bc943",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "COMP 335/Lecture Notes/Lecture 1 Introduction.md",
     "Readme.md",
-    "conflict-files-obsidian-git.md",
     "Cybersecurity/So, you want to get into CyberSecurity.md",
     "Cybersecurity/Untitled/Untitled.md"
   ]
