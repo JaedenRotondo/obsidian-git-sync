@@ -11,5 +11,5 @@ Question:
 - The relationship between democracy and centralism
 	- Nat: 
 	- "reaching a balance between democracy and centralism"
-	-  
+-  
 1. Student work - Connor
