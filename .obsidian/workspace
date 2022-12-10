@@ -9,18 +9,10 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "COMP 335/Lecture Notes/Lecture 1 Introduction.md",
+            "file": "COMP 348/Clojure/Clojure Data Structures.md",
             "mode": "source",
             "source": false
           }
-        }
-      },
-      {
-        "id": "e3beb6dca67bc943",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
         }
       }
     ],
@@ -85,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "COMP 348/Clojure/Clojure Data Structures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "COMP 348/Clojure/Clojure Data Structures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "COMP 348/Clojure/Clojure Data Structures.md"
+              }
             }
           },
           {
@@ -141,10 +137,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e3beb6dca67bc943",
+  "active": "4ff7f184c709136d",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "COMP 348/Clojure/Clojure Data Structures.md",
     "COMP 335/Lecture Notes/Lecture 1 Introduction.md",
+    "conflict-files-obsidian-git.md",
     "Readme.md",
     "Cybersecurity/So, you want to get into CyberSecurity.md",
     "Cybersecurity/Untitled/Untitled.md"

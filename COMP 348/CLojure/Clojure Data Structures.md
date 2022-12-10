@@ -132,3 +132,15 @@
 ### Sets
 ##  Creation and access methods
 ### Immutibility 
+- Clojure data structures are immutable
+	- One never changes the calues of a data strucute. If changes need to be made, a new data structure is created
+- Clojure provides a function called `conj` (conjoin) to add a value to lists and vectors
+	- In practice, `conj` adds a vale to the _beginning_ of a list and the _end_ of a vector... Why? 
+#### Effeciency
+- Although Clojure makes copies of data structures (generally a very slow process if it needs to be done thousands of times)
+	- To do this, we will create a new data structure that simply consists of a new path for the updated element
+	- We will then connect the remaining paths to the original index
+	- To find the updated element, we will use the new index (see path in blue)
+- ![[Pasted image 20221210170936.png]]
+- Now, we have two distinct data structures, with the second allowing access to the updated elements.
+	- Access time is log(x) which is very good. Of course not as fast as the original O(1) of the vector though
