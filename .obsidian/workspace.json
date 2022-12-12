@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ae1f8328d38d5639",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP 348/Erlang/Introduction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 348/CLojure/Clojure Introduction.md",
+                "file": "COMP 348/Erlang/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 348/CLojure/Clojure Introduction.md",
+                "file": "COMP 348/Erlang/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 348/CLojure/Clojure Introduction.md"
+                "file": "COMP 348/Erlang/Introduction.md"
               }
             }
           },
@@ -145,10 +158,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c321fe04068e53c0",
+  "active": "ae1f8328d38d5639",
   "lastOpenFiles": [
-    "COMP 348/CLojure/Clojure Data Structures.md",
     "COMP 348/CLojure/Clojure Introduction.md",
+    "COMP 348/CLojure/Clojure Data Structures.md",
     "COMP 348/Language Design/Functional Languages.md",
     "COMP 348/Python/Python Programming.md",
     "COMP 348/Language Independent/Garbage Collection.md",
