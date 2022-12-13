@@ -32,7 +32,6 @@
 ### Whitespaces 
 ---
 ## Data structures
-- 
 ### Tuples 
 ```erlang
 0.  P = {person, “John Smith”, 43}.
