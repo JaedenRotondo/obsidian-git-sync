@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "COMP 348/Clojure/Clojure Functions.md",
+            "file": "COMP 348/Clojure/Clojure Programs.md",
             "mode": "source",
             "source": false
           }
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 259.5
   },
   "right": {
     "id": "2cab98a410ff8cbf",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 348/Clojure/Clojure Functions.md",
+                "file": "COMP 348/Clojure/Clojure Programs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 348/Clojure/Clojure Functions.md",
+                "file": "COMP 348/Clojure/Clojure Programs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 348/Clojure/Clojure Functions.md"
+                "file": "COMP 348/Clojure/Clojure Programs.md"
               }
             }
           },
@@ -140,14 +140,14 @@
   "active": "4ff7f184c709136d",
   "lastOpenFiles": [
     "COMP 348/C/C Data Types.md",
+    "COMP 348/Clojure/Clojure Programs.md",
+    "COMP 348/Clojure/Clojure Functions.md",
     "COMP 348/Erlang/Introduction to Erlang.md",
     "COMP 348/Erlang/Erlang Programs.md",
-    "COMP 348/Clojure/Clojure Functions.md",
     "COMP 348/Clojure/Clojure Introduction.md",
     "COMP 348/Clojure/Clojure Data Structures.md",
     "COMP 335/Lecture Notes/Lecture 1 Introduction.md",
     "conflict-files-obsidian-git.md",
-    "Readme.md",
-    "Cybersecurity/So, you want to get into CyberSecurity.md"
+    "Readme.md"
   ]
 }
