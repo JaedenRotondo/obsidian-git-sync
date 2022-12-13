@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "COMP 348/Erlang/Erlang Programs.md",
+            "file": "COMP 348/Erlang/Concurrency and Erlang.md",
             "mode": "source",
             "source": false
           }
@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 259.5,
+    "collapsed": true
   },
   "right": {
     "id": "2cab98a410ff8cbf",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 348/Erlang/Erlang Programs.md",
+                "file": "COMP 348/Erlang/Concurrency and Erlang.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 348/Erlang/Erlang Programs.md",
+                "file": "COMP 348/Erlang/Concurrency and Erlang.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 348/Erlang/Erlang Programs.md"
+                "file": "COMP 348/Erlang/Concurrency and Erlang.md"
               }
             }
           },
@@ -139,8 +140,8 @@
   },
   "active": "02af83de8cb9ab43",
   "lastOpenFiles": [
-    "COMP 348/Erlang/Introduction to Erlang.md",
     "COMP 348/Erlang/Erlang Programs.md",
+    "COMP 348/Erlang/Introduction to Erlang.md",
     "COMP 348/Clojure/Clojure Programs.md",
     "COMP 348/C/C Data Types.md",
     "COMP 348/Clojure/Clojure Functions.md",
