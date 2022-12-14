@@ -30,7 +30,7 @@
 ### Passing and returning functions
 - Because functions are first class entities in clojure, they can be passed as argumnents without any special syntax
 - Example: 
-```cljure 
+```clojure 
 ; passing functions 
 (defn outer 
 	[inner data] ; parm1 = func, parm2 = data 
