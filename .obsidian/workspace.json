@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 348/Python/Python Intro.md",
+                "file": "Fightback/Marxism and Religion Leadoff.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 348/Python/Python Intro.md",
+                "file": "Fightback/Marxism and Religion Leadoff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 348/Python/Python Intro.md",
+                "file": "Fightback/Marxism and Religion Leadoff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 348/Python/Python Intro.md"
+                "file": "Fightback/Marxism and Religion Leadoff.md"
               }
             }
           },
@@ -172,6 +172,7 @@
   },
   "active": "0dfe468ee70c667a",
   "lastOpenFiles": [
+    "COMP 348/Python/Python Intro.md",
     "COMP 348/Python/OOP in Python.md",
     "COMP 348/Erlang/Erlang Programs.md",
     "COMP 348/Erlang/Introduction to Erlang.md",
@@ -180,7 +181,6 @@
     "COMP 348/CLojure/Clojure Data Structures.md",
     "COMP 348/CLojure/Clojure Introduction.md",
     "COMP 348/Python/Python Modules.md",
-    "COMP 348/Language Design/Functional Languages.md",
-    "COMP 348/Python/Python Programming.md"
+    "COMP 348/Language Design/Functional Languages.md"
   ]
 }
