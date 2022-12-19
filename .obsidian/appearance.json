@@ -1,5 +1,6 @@
 {
-  "baseFontSize": 25,
+  "baseFontSize": 17,
   "cssTheme": "Wasp",
-  "accentColor": ""
+  "accentColor": "#c66bef",
+  "translucency": true
 }

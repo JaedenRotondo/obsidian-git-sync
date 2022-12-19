@@ -1,10 +1,15 @@
 {
   "promptDelete": false,
   "pdfExportSettings": {
+    "includeName": true,
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
   },
-  "fileSortOrder": "byCreatedTime"
+  "fileSortOrder": "byCreatedTime",
+  "attachmentFolderPath": "Images",
+  "showLineNumber": false,
+  "showIndentGuide": true,
+  "spellcheck": false
 }
