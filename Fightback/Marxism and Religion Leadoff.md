@@ -6,7 +6,10 @@ Merry Christmas comrades!
 	- The aim of all socialists is the transformation of society 
 	- This aim, anticapitalism can be expressed by all people, and we would welcome every progressive person in our struggle irrespective of their religious beleifs
 	- With that being said, as a tendency with the expressed purpose of being the tool of the revolutionary masses, we must commit to a strong programme. Marxism, or Scientific Socialism
-**- The importance of Atheism not being on our program**
+- There is a very famous quote that comrades not well read on religion will know. Some have probably heard it used in a argument to show Marx was hostile to religion- i.e. that religion is the "opium of the masses". There is a reason why people who believe atheism should be entered into socialist program don't repeat the quote in full: 
+	- "Religious suffering is at one at the same time the expression of real suffering and protest against real suffering. Religion is the sigh of the oppressed creature, the heart of a heartless world, and the soul of souless conditions. It is the opium of the people". 
+		- What does this mean? Dulls your experience of the real world, but the main reason people resort to opium is the real suffering of their life (either mental or phsyical)
+		- Religion is not some nasty trick created by the ruling class... In contrast, it has a material basis in society and stems from the opressed layers. 
 ---
 #### Philosophical materialism and Science
 - From the materialist and scientific understanding of the world, the existence of any supernatural entity is not in the realm of possibility. Marxists place nature and the material world as primary. 
@@ -26,7 +29,11 @@ Merry Christmas comrades!
 - In this way, the materialist conception is action optimistic, with meaning stemming from the desire to make this life better for all. 
 ----
 #### Origins of Religion - Christianity 
-- I will be talking about christianity, mostly because the material on the marxist view of religion uses Christianity as its main example. This is more of a question of resoruces, thoguh if people have questions about other religions it can be a great topic of discussion. 
+- I will be talking about christianity, mostly because the material on the marxist view of religion uses Christianity as its main example. This is more of a question of resoruces, thoguh if people have questions about other religions it can be a great topic of discussion.
+- Christianity as a popularized religion first came out of Judea, a conquered state of the Roman empire. It did not come into being by accident. 
+	- The roman empire required slaves for its production of goods. Of course its was not a homogenous system, but slave labour and peasant labour differ in a few key ways which link to the rise of chrisitanity in Rome. 
+	- Slave society is not a productive form of class society. Compared to the peasants which existed prior, the slave would need less to survive and therefore would produce more surpluce relative to the price of subsitence. This lead Rome to conquer more and more territoty in finding more slaves for work. 
+	- Judea was one of these terretories, and as such a lot of the people were subjugated and oppressed by Rome, and saw little way out. Every economic system will resolve its internal contradictions in a matter of time, comrades have probably heard of the famous slaves revolts and sparticus. There were peasant revolts in Ancient Rome as well. Except the peasants and the slaves were often used to repress the other during these times of revolution. Even if there was no revolution that lead to a seizure of power, the contradictions need to resolve themself somehow. In its place was a sort of religious revolution. 
 - As Engels explains in his *Origins of Early Christianity*, there are many similarities between the origins of christianity and the socialist workers movement. For one, both are movements of opressed peoples, full of slaves and those deprived of all rights, displaced or subjugated from ancienent rome. 
 - Religion is as old as class society, both chrisitianity and islam were revolutionary movements form the poor and opressed
 	- Christianity places the salvation of life in death, while socialists offer it on Earth. Both are persicuted and despite it, seem to go stronger and stronger at the face of said persecution. 
@@ -59,18 +66,5 @@ Merry Christmas comrades!
 #### french revolution
 
 
-## Notes on Marxism and Religion podcast 
-- Joe Attard 
-- **Good to add in introduction**
-- "Religious suffering is at one at the same time the expression of real suffering and protest against real suffering. Religion is the sigh of the oppressed creature, the heart of a heartless world, and the soul of souless conditions. It is the opium of the people". 
-	- What does this mean? Dulls your experience of the real world, but the main reason people resort to opium is the real suffering of their life (either mental or phsyical)
-	- Religion is not some nasty trick created by the ruling class... In contrast, it has a material basis in society and stems from the opressed layers. 
 
-- On slave society: 
-	- Slave society is not a productive form of class society, looking at ancent rome for example, slaves were tools with voices. Compared to the peasants which existed prior, the slave would need less to survive and therefore would produce more surpluce relative to the price of subsitence. This lead Rome to conquer more and more territoty in finding more slaves for work. 
-
-- In place of a revolution, there was a religious revolution (religious strengthening during that time)
-	- reflected deep social needs that existed
-	- "ridicouled as a religion of slaves and women"
-	- Judea first emerged in a conquered province of rome 
 
