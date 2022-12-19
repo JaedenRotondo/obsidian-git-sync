@@ -6,6 +6,7 @@ Merry Christmas comrades!
 	- The aim of all socialists is the transformation of society 
 	- This aim, anticapitalism can be expressed by all people, and we would welcome every progressive person in our struggle irrespective of their religious beleifs
 	- With that being said, as a tendency with the expressed purpose of being the tool of the revolutionary masses, we must commit to a strong programme. Marxism, or Scientific Socialism
+**- The importance of Atheism not being on our program**
 ---
 #### Philosophical materialism and Science
 - From the materialist and scientific understanding of the world, the existence of any supernatural entity is not in the realm of possibility. Marxists place nature and the material world as primary. 
@@ -54,6 +55,9 @@ Merry Christmas comrades!
 - The question we must be asking ourselves isn't whether god exists or not, but rather *how* we will change the world we live in the now
 #### Lenin on party and religion 
 
+#### English revolution 
+#### french revolution
+
 
 ## Notes on Marxism and Religion podcast 
 - Joe Attard 
@@ -69,4 +73,4 @@ Merry Christmas comrades!
 	- reflected deep social needs that existed
 	- "ridicouled as a religion of slaves and women"
 	- Judea first emerged in a conquered province of rome 
-	- 
+

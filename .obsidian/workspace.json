@@ -23,13 +23,16 @@
             "id": "2d8136cb78223530",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "Fightback/Target.md"
+                "file": "Fightback/Marxism and Religion Leadoff.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,7 +158,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0dfe468ee70c667a",
+  "active": "2d8136cb78223530",
   "lastOpenFiles": [
     "Fightback/Target.md",
     "Fightback/Marxism and Religion Leadoff.md",
