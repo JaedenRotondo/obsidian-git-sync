@@ -60,10 +60,18 @@ Merry Christmas comrades!
 	- But more expensive than all of these is if you hold different ideas to those of the Church (i.e. a heretic)
 ---
 - The question we must be asking ourselves isn't whether god exists or not, but rather *how* we will change the world we live in the now
-#### Lenin on party and religion 
-
+## Religion and revolution 
 #### English revolution 
 #### french revolution
+---
+#### Lenin on party and religion 
+---
+#### The future of religion 
+---
+#### Religion and the crisis of capitalism 
+---
+#### For a paradise in the world (Conclusion)
+---
 
 
 

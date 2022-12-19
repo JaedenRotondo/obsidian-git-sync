@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0dfe468ee70c667a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fightback/Marxism and Religion Leadoff.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2d8136cb78223530",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,15 +147,15 @@
   },
   "active": "2d8136cb78223530",
   "lastOpenFiles": [
-    "Fightback/## Notes on Marxism and Religion podcast.md",
+    "Fightback/Marxism and Post-Colonialism.md",
     "Fightback/Marxism and Religion Leadoff.md",
+    "Fightback/Notes on Marxism and Religion podcast.md",
     "COMP 348/Erlang/Introduction to Erlang.md",
     "Marxism-and-Religion-Notes.pdf",
     "Reading Materials/Marxism-and-Religion-Notes.pdf",
     "COMP 348/Python/Python Intro.md",
     "COMP 348/Python/OOP in Python.md",
     "COMP 348/Erlang/Erlang Programs.md",
-    "COMP 348/CLojure/Clojure Programs.md",
-    "COMP 348/CLojure/Clojure Functions.md"
+    "COMP 348/CLojure/Clojure Programs.md"
   ]
 }
