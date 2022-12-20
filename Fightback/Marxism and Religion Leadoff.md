@@ -1,10 +1,10 @@
 Merry Christmas comrades! 
-- The attitude of marxists to religion is an important and interesting one. There are a lot of people, even supporters of the IMT who are liberation theologists or those who consider themselves islamic marxists. Personally I've been asked by contacts about our stance on religion, I hope that this leadoff will give comrades the idea required to explain our stance.
+- The attitude of marxists to religion is an important and interesting one. There are a lot of people, even supporters of the IMT who are liberation theologists or those who consider themselves islamic marxists. Personally I've been asked by contacts about our stance on religion, I hope that this leadoff will give comrades the ideas required to explain our stance.
 ---
 ##### What marxists want 
 - The point of this leadoff is to give a materialist understanding of what religion is, where it comes from historically, its role in society and lastly our attitude towards it. Firstly though, we must reiterate what the role of marxists are:
 	- The aim of all socialists is the transformation of society 
-	- This aim, anticapitalism - can be expressed by all people, and we would welcome every progressive person in our struggle irrespective of their religious beleifs
+	- This aim, and the broader one of anticapitalism - can be expressed by all people, and we would welcome every progressive person in our struggle irrespective of their religious beleifs
 	- With that being said, the IMT is a tendency with the expressed purpose of being the tool of the revolutionary masses, we must commit to a strong programme. Marxism, or Scientific Socialism
 - There is a very famous quote that comrades not well read on religion will know. Some have probably heard it used in a argument to show Marx was hostile to religion- i.e. that religion is the "opium of the masses". There is a reason why people who believe atheism should be entered into socialist program don't repeat the quote in full: 
 	- "Religious suffering is at one at the same time the expression of real suffering and protest against real suffering. Religion is the sigh of the oppressed creature, the heart of a heartless world, and the soul of souless conditions. It is the opium of the people". 
