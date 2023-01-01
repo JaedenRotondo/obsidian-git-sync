@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Readme.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -155,7 +155,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db39910bffc6bce5",
+  "active": "2d8136cb78223530",
   "lastOpenFiles": [
     "Images/Screen Shot 2022-12-05 at 1.50.46 PM.png",
     "Images/Screen Shot 2022-11-16 at 11.22.45 AM.png",
