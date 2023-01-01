@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fightback/Marxism and Religion Leadoff.md",
+                "file": "Readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fightback/Marxism and Religion Leadoff.md",
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fightback/Marxism and Religion Leadoff.md",
+                "file": "Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fightback/Marxism and Religion Leadoff.md"
+                "file": "Readme.md"
               }
             }
           },
@@ -145,17 +145,27 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2d8136cb78223530",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "db39910bffc6bce5",
   "lastOpenFiles": [
-    "Fightback/Marxism and Post-Colonialism.md",
-    "Fightback/Marxism and Religion Leadoff.md",
-    "Fightback/Notes on Marxism and Religion podcast.md",
-    "COMP 348/Erlang/Introduction to Erlang.md",
-    "Marxism-and-Religion-Notes.pdf",
+    "Images/Screen Shot 2022-12-05 at 1.50.46 PM.png",
+    "Images/Screen Shot 2022-11-16 at 11.22.45 AM.png",
     "Reading Materials/Marxism-and-Religion-Notes.pdf",
-    "COMP 348/Python/Python Intro.md",
-    "COMP 348/Python/OOP in Python.md",
-    "COMP 348/Erlang/Erlang Programs.md",
-    "COMP 348/CLojure/Clojure Programs.md"
+    "PHIL 260/Anaximander.md",
+    "PHIL 260/Pythagoras of Samos.md",
+    "COMP 335/Textbook Notes/2.1 DETERMINISTIC FINITE ACCEPERS.md",
+    "COMP 335/Lecture Notes/Lecture 2 Alphabets and Languages.md",
+    "COMP 348/Python/Python Programming.md",
+    "COMP 335/Lecture Notes/Lecture 1 Introduction.md",
+    "Fightback/Marxism and Religion Leadoff.md"
   ]
 }
