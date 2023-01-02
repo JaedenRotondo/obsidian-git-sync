@@ -100,4 +100,13 @@ Merry Christmas comrades!
 
 
 
+- Wrap up: 
+	- Corrections: Religion oftentimes comes from the top: 
+		- subsitution of material explanation for an idealist explanantion 
+			- idealism : Splitting the world into two 
+			- encouregment of idealism, sooner or later ends up in religin (ancient religion)
+- The workers overthrow religion and gave up religion in Russia- vanguard lost religion, but the masses didn't ! 
+- On islamic communism: deformed workers state. Pressure of impearlism, decided to build a state int he image of moscow. 
+
+
 
