@@ -1,3 +1,15 @@
 - The writings from the Youth Bulletins of britain should not be seen as a recipe or a cookbook 
+	- This bulletin should not be seen as a cookbook for youth work, because no such thing exists. Instead it contains ad- vice and guidance, based on the experi- ence of many comrades over many years. We can use this to develop our youth work on a higher level in the future. Everything in this bulletin must be read with one thing in mind above all else: the need to recruit to and build the IMT.
 - We might find some of these points useful and continue the traditions in reading the youth bulleitns
-- 
+- To- gether they clearly explain the difference between the Marxist approach to youth work, and a petty-bourgeois studentist approach.
+
+- Sussex: 
+	- The work in Sussex University is im- portant because it was the first time the Tendency carried out systematic student work. It also played a crucial role in building the forces of Militant. This expe- rience therefore deserves some attention.
+	- The Bulletins are from the 1960s and the context must be taken into consideration. The Tory pary had been in power for 13 years and was completely discredited. There were two large strikes at the time Allan woods started school, on campus CND attracted a  lot of students, as well as the Anti-Aparthied.
+- The state of the organisation 
+	- No more than ab 30 people in the whole country 
+	- No money, no full timer, no centre, and nothing but a small black and white 4 page paper called Socialist Fight
+	- The group did have one thing though, that other groups didn't have. The ideas of marxism, the correct perspectives, and correct methods of orientation that that I will later get into. I should add there were also some mistakes, ones which would be payed for and learned from through this presentation I hope! 
+- "Our experience in Sussex shows that it is possible to win and train students from a middle class background in such a way that they do not leave the movement"
+- "Our experience in Sussex shows that it is possible to win and train students from a middle class background in such a way that they do not leave the movement"
+- This is a very important question. It is essential to GET PEOPLE ACTIVELY INVOLVED in the work of building the organization. People like to be involved, doing things – and everybody is capable of doing SOMETHING. It is up to us to find out what that something is and encourage them to do it.

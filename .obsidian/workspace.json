@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2cab98a410ff8cbf",
@@ -192,7 +193,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a5d4b4db6b83589",
+  "active": "db39910bffc6bce5",
   "lastOpenFiles": [
     "Fightback/Marxism and Religion Leadoff.md",
     "Fightback/Postmodernism and Marxism.md",
