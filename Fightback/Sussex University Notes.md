@@ -1,0 +1,3 @@
+- The writings from the Youth Bulletins of britain should not be seen as a recipe or a cookbook 
+- We might find some of these points useful and continue the traditions in reading the youth bulleitns
+- 
