@@ -37,26 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 346/Chapter 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a5d4b4db6b83589",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fightback/Sussex University Notes.md",
+                "file": "COMP 346/Operating System Concepts - Chapter 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fightback/Sussex University Notes.md",
+                "file": "COMP 346/Operating System Concepts - Chapter 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fightback/Sussex University Notes.md",
+                "file": "COMP 346/Operating System Concepts - Chapter 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fightback/Sussex University Notes.md"
+                "file": "COMP 346/Operating System Concepts - Chapter 1.md"
               }
             }
           },
@@ -193,14 +181,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db39910bffc6bce5",
+  "active": "e2755f25507044c6",
   "lastOpenFiles": [
+    "Fightback/Sussex University Notes.md",
+    "Readme.md",
     "Fightback/Marxism and Religion Leadoff.md",
     "Fightback/Postmodernism and Marxism.md",
-    "Fightback/Sussex University Notes.md",
-    "COMP 346/Chapter 1.md",
+    "COMP 346/Operating System Concepts - Chapter 1.md",
     "COMP 353/Overview of Database Management System (Ch.2).md",
-    "Readme.md",
     "Images/Screen Shot 2022-12-05 at 1.50.46 PM.png",
     "Images/Screen Shot 2022-11-16 at 11.22.45 AM.png",
     "Reading Materials/Marxism-and-Religion-Notes.pdf",
