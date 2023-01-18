@@ -54,15 +54,57 @@
 
 - We catagorize thecomputer system architecture based on the number of general-purpose processors used
 - A **core** is the component that executes instructions and registers for storing data locally
-1. **Single Processor systems**
-	- General purpose computers in the past had single processors with single cores. 
+### Single Processor systems
+- General purpose computers in the past had single processors with single cores. 
 	- Device specific processors like a disk or keyboard might also be a single processor system
 		- E.g. PCs containt a microprocessor in the keyboard which converts the keystrokes into code
 		- Special-purpose micro-processors are oftern built into the hardware of the specific device
-1. **Multiprocessor sytems**
-	- Multiprocessor systems dominate the landscape of computing on 
-1. **Clustered Systems**
----
-## Operating Sytstem Operations 
+### Multiprocessor sytems
+- Multiprocessor systems dominate the landscape of computing of computing
+	- The main benefit of multicore systems is increased throughput 
+	- The speedup ration of N processors in not N time- it is less than N. This is because there is a bit of overhead when working with multiple processors cooperating on a single task 
+#### Symmetric multiprocessing system
+- Each peer CPU processor performs all tasks
+	- All processors use the same physical memory and share the same bus 
+	- The benefit of this model is that many processes can run simultaneously —N processes can run if there are N CPUs—without causing performance to deteriorate significantly.
+![[Screenshot 2023-01-18 at 11.32.44 AM.png]]
 
-Question: What distinguishes a strike which has mass support and becomes general vs not? 
+- **One chip (processor) and multiple cores** use a lot less energy compared to multiprocessor systems which makes them more useful in mobile devices and laptops 
+	- Here is an example of a dual core design on the same chip (processor)
+	- ![[Screenshot 2023-01-18 at 11.34.03 AM.png]]
+
+- Adding CPUs to a multiprocessor system does benefit preformance, but the rule is not the scalable. This is because the system bus becomes a bottleneck as the CPUs tend to compete for system bus space
+	- This can be avoided if we give each CPU a bit of its own memory accessed via a small fast local bus 
+	- The CPUs are connected by a "*shared system interconnect*" which is known as **non-uniform memory access aka NUMA**![[Screenshot 2023-01-18 at 11.38.56 AM.png]]
+### Clustered Systems
+ - Clustered systems gather togehter CPUs
+	 - They are different than multiprocessor systems because they are comprised of 2 or more individual systems (called nodes) joined together. Each node is like its own multicore system. 
+		- These systems are considered "loosely coupled"
+	- The generally accepted definition is that clustered computers share storage and are closely linked via a local-area network LAN
+	- Clustered systems provide *"high availability service"* meaning that if one or more of the clusters fails, the system can still run 
+		- We are able to achieve a high availability if there is some redundancy in the system 
+		- Systems which include this redundancy allow for "graceful degredation" when service is not fully available. And even "Fault tolerant" when things go wrong but the users can still maintain access
+			- Fault tolerance requires a mechanism to allow the failure to be detected, diagnosed, and, if possible, corrected.
+![[Screenshot 2023-01-18 at 11.59.16 AM.png]]
+> The definition of multiprocessor has evolved over time and now includes multicore systems, in which multiple computing cores reside on a single chip. Multicore systems can be more efficient than multiple chips with single cores because on-chip communication is faster than between-chip communication.
+> ![[Screenshot 2023-01-18 at 11.34.38 AM.png]]
+---
+## Operating Sytstem Operations (1.4)
+
+- An operating system provides an environment with which programs can run on 
+	- When a computer is booted, there needs to be an initial program which is run (this is known as a bootstrap) which is located in the hardware in firmware
+		- To accomplish this goal, the bootstrap program must locate the operating-system kernel and load it into memory.
+		- It is from here that the operating system can run daemons (one of which is systemd)
+
+### Multiprogramming and Multitasking 
+- In **multiprogramming**, a program is execution is called a process
+	- The operating system is dealing with many programs and needs to wait on certain (for example an I/O interrupt) and would move onto another process (program) while it waits
+	- In a non-multiprogrammed system, the CPU would simply sit idle waiting for an I/O interrupt
+	- This allows for the CPU to always ben in use, it is analogous to my gastrointerologiust who has more patients than just me. When i am finished my appointment he doesnt wait around but instead tends to his other patients
+- **Multitasking** is the logical extension of this: 
+	- In multitasking, the CPU executes multiple processes by switching among them. It swtiches so fast that the user experiences a fast response time
+	- EXAMPLE: Imagine, a human can only type at like 7 letters a second. This is really slow for a computer, it would be a waste of time for the CPU to sit idle waiting for the user to type another letter, it is best to move on and work on another process in the meantime 
+	- for CPUs to multitask, they need a form of memory management as well as a priority list for processes (called *CPU scheduling*)
+
+### Dual mode and multimode operation 
+- 
