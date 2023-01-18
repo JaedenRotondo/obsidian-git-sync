@@ -64,3 +64,5 @@
 1. **Clustered Systems**
 ---
 ## Operating Sytstem Operations 
+
+Question: What distinguishes a strike which has mass support and becomes general vs not? 
