@@ -40,7 +40,7 @@ COMP249,Emily Wilson,3.5
 6,COMP249,4.12
 ```
 - With the following console output from Main.java: 
-```txt
+```console
 Name: John Smith Student ID:  1
 Name: Jane Doe Student ID:  2
 Name: Bob Johnson Student ID:  3
@@ -131,3 +131,20 @@ INSERT INTO grades (SID, CID, Grade)
 VALUES (6, 'COMP249', 4.12);
 
 ```
+
+```SQL
+SELECT students.SID, students.Name
+FROM students
+JOIN grades ON students.SID = grades.SID
+WHERE grades.CID = 'COMP353' AND grades.Grade >= 3.3;
+```
+- Output 
+```console
+1|John Smith
+2|Jane Doe
+3|Bob Johnson
+5|Michael Davis
+```
+
+#### Explain why DB system is better than file processing system 
+- To write this 
