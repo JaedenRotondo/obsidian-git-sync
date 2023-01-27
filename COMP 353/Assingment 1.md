@@ -148,3 +148,23 @@ WHERE grades.CID = 'COMP353' AND grades.Grade >= 3.3;
 
 #### Explain why DB system is better than file processing system 
 - To write this 
+
+```SQL 
+CREATE TABLE Laptop(
+model VARCHAR(255), 
+speed FLOAT, 
+ram INT, 
+hd INT, 
+screen FLOAT, 
+price FLOAT, 
+PRIAMRY KEY (model)
+);
+```
+Who were the male stars in Titanic?
+```SQL 
+SELECT name
+FROM StarsIn, MovieStar
+WHERE Movietitle = "titanic" AND gender = "male" AND Starname = name;
+
+```
+Which stars appeared in movies produced by MGM in 1995?
