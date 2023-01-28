@@ -147,7 +147,12 @@ WHERE grades.CID = 'COMP353' AND grades.Grade >= 3.3;
 ```
 
 #### Explain why DB system is better than file processing system 
-- To write this 
+- There are many pros to using a DB system when working with tables and queries. The following are a list of bullet points which I believe describe the benefits of a DB system for this project and in general 
+- The main benefit of a Database management system is the limiting of *data redundancy* (ACID properties). A database management system insures 
+	- Atomicity: 
+	- Consistency: 
+	- Isolation:
+	- Durability:
 
 ```SQL 
 CREATE TABLE Laptop(
@@ -168,3 +173,15 @@ WHERE Movietitle = "titanic" AND gender = "male" AND Starname = name;
 
 ```
 Which stars appeared in movies produced by MGM in 1995?
+```SQL 
+SELECT StarsIn.starName 
+FROM StarsIn, Movies
+WHERE studioName = "MGM" AND title = movieTitle AND 
+
+Movies(title, year, length, genre, studioName, producerC#)
+StartsIn(movieTitle, movieYear, starName)
+MovieStar(name, address, gender, birthdate)
+MovieExec(name, address, cert#, netWorth)
+
+Studio(name, address, presC#)
+```
