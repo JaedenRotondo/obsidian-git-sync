@@ -248,7 +248,17 @@ VALUES ('C', '1100', 'PC');
 
 
 (c) Delete all PC’s with less than 100 GB of hard disk.
-
-5.  (e)  Manufacturer A buys manufacturer B. Change all products made by B so they are now made by A.
-    
+```SQL 
+DELETE FROM PC WHERE hd <100; 
+```
+1.  (e)  Manufacturer A buys manufacturer B. Change all products made by B so they are now made by A.
+```SQL 
+UPDATE Product 
+SET maker = 'A'
+WHERE maker = 'B';
+```
 6.  (f)  For each PC, double the amount of RAM and add 60 GB to the amount of hard disk. Note that several attributes can be changed by a single UPDATE statement.
+```SQL 
+UPDATE PC 
+SET hd = hd +60 AND ram = 2*ram;
+```
