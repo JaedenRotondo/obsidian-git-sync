@@ -154,9 +154,25 @@ WHERE grades.CID = 'COMP353' AND grades.Grade >= 3.3;
 	- Isolation:
 	- Durability:
 
+
+1.  [20 Points] Exercise 2.3.1, parts: c, d, e, f on page 36 in the textbook. Consider the following database schema for a Computer Equipment store (CED):
+    
+             Product(maker, model, type)
+             PC(model, speed, ram, hd, price)
+             Laptop(model, speed, ram, hd, screen, price)
+             Printer(model, color, type, price)
+    
+    The attributes of relation Product include: manufacturer, Model, and the equipment Type; the attributes of relation PC include Model, Speed, RAM, HD, and Price; For relation Laptop, the attributes include the following attributes: Model, Speed, RAM, HD, Screen, Price; and for relation P rinter, we have the attributes Model, Color, Type,
+    
+
+Price. Some explanations about this database. Relation Product records information about the model number and type of each equipment which could be pc, laptop, or printer. For convenience, assume that the model numbers of the equipments are unique across all manufacturers and product types. This assumption is not realistic, so explain how you would modify the database schema for a realistic situation?
+
+For each model number of a PC, the P C relation records the processor speed (in GHz), the RAM size (in MB), the size of the hard disk (in GB), and the price (in dollar). The information stored as the Laptop relation is similar to PC except that it records the screen size (in inches) as well. The color attribute in printer could have the true/false value, which indicates whether it is a color printer or otherwise. A printer type could be laser or ink-jet. Write the following schema declarations or modifications in SQL.
+
+(c) A suitable schema for relation Laptop.
 ```SQL 
 CREATE TABLE Laptop(
-model VARCHAR(255), 
+maker VARCHAR(255), 
 speed FLOAT, 
 ram INT, 
 hd INT, 
@@ -165,8 +181,26 @@ price FLOAT,
 PRIAMRY KEY (model)
 );
 ```
-
-
+4.  (d)  A suitable schema for relation Printer.
+```SQL 
+CREATE TABLE Printer(
+model VARCHAR(255),
+color BIT(1),
+type VARCHAR(255),
+price FLOAT,
+PRIMARY KEY (model)
+);
+```
+1.  (e)  A modification to your Printer schema from (d) to delete the attribute color.
+```SQL
+ALTER TABLE Printer  
+DROP COLUMN color;
+```
+6.  (f)  A modification to your Laptop schema from (c) to add the attribute od (for optical-disk type, e.g., cd or dvd). Use “none” as the default value if the laptop does not have an optical disk.**
+```SQL
+ALTER TABLE Laptop  
+ADD od VARCHAR(255) DEFAULT 'none';
+```
 
 Who were the male stars in Titanic?
 ```SQL 
@@ -200,3 +234,21 @@ SELECT ref2.title
 FROM Movies ref1, Movies ref2 
 WHERE ref1.title = "Gone With the Wind" AND ref2.length > ref1.length 
 ```
+
+4. [20 Points] Exercise 6.5.1, parts: a, c, e, f on page 295 in the textbook, with details as follow. Consider the schema of the CED database introduced above in question 2. Using SQL, express the following modifications on the data.
+
+(a) Using two INSERT statements, store in the database the fact that the PC model 1100 is made by manufaturer C, has speed 3.2, RAM 1024, hard disk 180, and sells for $2499.
+
+```SQL 
+INSERT INTO PC(model, speed, ram, hd, price)
+VALUES ('1100', 3.2, 1024, 180, 2499.00);
+INSERT INTO  Product(maker, model, type)
+VALUES ('C', '1100', 'PC');
+```
+
+
+(c) Delete all PC’s with less than 100 GB of hard disk.
+
+5.  (e)  Manufacturer A buys manufacturer B. Change all products made by B so they are now made by A.
+    
+6.  (f)  For each PC, double the amount of RAM and add 60 GB to the amount of hard disk. Note that several attributes can be changed by a single UPDATE statement.
