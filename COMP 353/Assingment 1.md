@@ -165,6 +165,9 @@ price FLOAT,
 PRIAMRY KEY (model)
 );
 ```
+
+
+
 Who were the male stars in Titanic?
 ```SQL 
 SELECT name
@@ -174,14 +177,26 @@ WHERE Movietitle = "titanic" AND gender = "male" AND Starname = name;
 ```
 Which stars appeared in movies produced by MGM in 1995?
 ```SQL 
-SELECT StarsIn.starName 
-FROM StarsIn, Movies
-WHERE studioName = "MGM" AND title = movieTitle AND 
+SELECT startsName 
+FROM StartsIn, Movies
+WHERE studioName = "MGM" AND title = movieTitle AND Movies.year = 1995;
 
 Movies(title, year, length, genre, studioName, producerC#)
 StartsIn(movieTitle, movieYear, starName)
 MovieStar(name, address, gender, birthdate)
 MovieExec(name, address, cert#, netWorth)
-
 Studio(name, address, presC#)
+```
+Who is the president of the studio MGM?  
+```SQL 
+SELECT MovieExec.name
+FROM Studio, MovieExec
+WHERE Studio.name = "MGM" AND presC# = cert#
+```
+
+Which movies are longer than Gone With the Wind?
+```SQL
+SELECT ref2.title 
+FROM Movies ref1, Movies ref2 
+WHERE ref1.title = "Gone With the Wind" AND ref2.length > ref1.length 
 ```
