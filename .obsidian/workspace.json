@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 353/Assingment 1.md",
+                "file": "COMP 346/Operating System Concepts - Chapter 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 353/Assingment 1.md",
+                "file": "COMP 346/Operating System Concepts - Chapter 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 353/Assingment 1.md",
+                "file": "COMP 346/Operating System Concepts - Chapter 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 353/Assingment 1.md"
+                "file": "COMP 346/Operating System Concepts - Chapter 1.md"
               }
             }
           },
@@ -194,6 +194,7 @@
   },
   "active": "e69782a52e439eb1",
   "lastOpenFiles": [
+    "COMP 353/Assingment 1.md",
     "COMP 346/Operating System Concepts - Chapter 1.md",
     "Fightback/Sussex University Notes.md",
     "Readme.md",
@@ -202,7 +203,6 @@
     "COMP 353/Overview of Database Management System (Ch.2).md",
     "Images/Screen Shot 2022-12-05 at 1.50.46 PM.png",
     "Images/Screen Shot 2022-11-16 at 11.22.45 AM.png",
-    "Reading Materials/Marxism-and-Religion-Notes.pdf",
-    "Fall 2022/PHIL 260/Anaximander.md"
+    "Reading Materials/Marxism-and-Religion-Notes.pdf"
   ]
 }
