@@ -64,12 +64,13 @@ Name: Michael Davis, Student ID:  5
 #### Explain why DB system is better than file processing system 
 - There are many pros to using a DB system when working with tables and queries. The following are a list of bullet points which I believe describe the benefits of a DB system for this project and in general 
 - The main benefit of a Database management system is the limiting of *data redundancy* (ACID properties). A database management system insures 
-	- Atomicity: 
-	- Consistency: 
-	- Isolation:
-	- Durability:
+	- Atomicity
+	- Consistency 
+	- Isolation
+	- Durability
 - Since there is no abstract view of the data, it is a lot harder to make queries. For example the query in Java requiered me to make a nested for loop that cannot be reused for other queries
-- 
+- Another benefit of using a database management system for this problem was that its complexity was lower. instead of having to use 3 buffereaders and a nested loop O(n^2), in the SQL implementation i used the very quick `JOIN` operation 
+- There are of course some benefits of using a file processing system. If there is a single query you are looking for and do not require a database, it could be implemented easier. 
 ---
 # Question 2
 
