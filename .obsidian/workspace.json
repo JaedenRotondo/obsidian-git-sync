@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dd305ac4a2d79d26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fightback/The death toll of homelessness rises.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -88,7 +100,7 @@
                 "query": "RAM",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -102,8 +114,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -123,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 353/Assingment 1.md",
+                "file": "Fightback/The death toll of homelessness rises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 353/Assingment 1.md",
+                "file": "Fightback/The death toll of homelessness rises.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 353/Assingment 1.md"
+                "file": "Fightback/The death toll of homelessness rises.md"
               }
             }
           },
@@ -193,12 +204,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "139c096d9763a6b7",
+  "active": "dd305ac4a2d79d26",
   "lastOpenFiles": [
-    "COMP 346/Operating System Concepts - Chapter 1.md",
     "COMP 353/Assingment 1.md",
-    "Fightback/Sussex University Notes.md",
     "Readme.md",
+    "COMP 346/Operating System Concepts - Chapter 1.md",
+    "Fightback/Sussex University Notes.md",
     "Fightback/Marxism and Religion Leadoff.md",
     "Fightback/Postmodernism and Marxism.md",
     "COMP 353/Overview of Database Management System (Ch.2).md",
