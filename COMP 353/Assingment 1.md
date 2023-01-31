@@ -62,15 +62,17 @@ Name: Michael Davis, Student ID:  5
 ```
 
 #### Explain why DB system is better than file processing system 
-- There are many pros to using a DB system when working with tables and queries. The following are a list of bullet points which I believe describe the benefits of a DB system for this project and in general 
+- There are many pros to using a DB system when working with tables and queries in comparison to a file processing system. The following are a list of bullet points which I believe describe the benefits of a DB system for this project and in general:
 - The main benefit of a Database management system is the limiting of *data redundancy* (ACID properties). A database management system insures 
-	- Atomicity
-	- Consistency 
-	- Isolation
-	- Durability
-- Since there is no abstract view of the data, it is a lot harder to make queries. For example the query in Java requiered me to make a nested for loop that cannot be reused for other queries
-- Another benefit of using a database management system for this problem was that its complexity was lower. instead of having to use 3 buffereaders and a nested loop O(n^2), in the SQL implementation i used the very quick `JOIN` operation 
+	- Atomicity: the all-or-nothing execution of transactions
+	- Consistency: DBM systems allows for the cosnsistency of data unlike file processing system
+	- Isolation: the fact that each transaction must appear to be executed as if no other transaction is executing at the same time.
+	- Durability:  the condition that the effect on the database of a transaction must never be lost, once the transaction has completed.
+- Rewriting code: Since there is no abstract view of the data, it is a lot harder to make queries. For example the query in Java requiered me to make a nested for loop that cannot be reused for other queries
+- Performance: Another benefit of using a database management system for this problem was that its complexity was lower. instead of having to use 3 buffereaders and a nested loop O(n^2), in the SQL/DB implementation i used the very quick `JOIN` operation which is more similar to O(n) but not exaclty. 
 - There are of course some benefits of using a file processing system. If there is a single query you are looking for and do not require a database, it could be implemented easier. 
+- SQL also allows you to change the data using the `alter` keyword. This would not be possible at least with my current implementation of the file processing system. 
+- Overall through the implementation of these 2 systems it is very clear the a DBMS is almost always perferable in comparison to a file processing system.
 ---
 # Question 2
 
@@ -79,11 +81,11 @@ A suitable schema for relation Laptop.
 ```SQL 
 CREATE TABLE Laptop(
 maker VARCHAR(255), 
-speed FLOAT, 
+speed DECIMAL, 
 ram INT, 
 hd INT, 
-screen FLOAT, 
-price FLOAT, 
+screen DECIMAL, 
+price DECIMAL, 
 PRIAMRY KEY (model)
 );
 ```
@@ -91,10 +93,10 @@ PRIAMRY KEY (model)
 A suitable schema for relation Printer.
 ```SQL 
 CREATE TABLE Printer(
-model VARCHAR(255),
+model INT,
 color BIT,
 type VARCHAR(255),
-price FLOAT,
+price DECIMAL,
 PRIMARY KEY (model)
 );
 ```
@@ -110,33 +112,35 @@ A modification to your Laptop schema from (c) to add the attribute od (for optic
 ALTER TABLE Laptop  
 ADD od VARCHAR(255) DEFAULT 'none';
 ```
+#### This assumption is not realistic, so explain how you would modify the database schema for a realistic situation?
+- We can alter the database to include indicators in the model to signify which maker it is from. 
 ---
 # Question 3
 Who were the male stars in Titanic?
 ```SQL 
 SELECT name
 FROM StarsIn, MovieStar
-WHERE Movietitle = "titanic" AND gender = "male" AND Starname = name;
+WHERE Movietitle = 'titanic' AND gender = 'male' AND Starname = name;
 
 ```
 Which stars appeared in movies produced by MGM in 1995?
 ```SQL 
 SELECT startsName 
 FROM StartsIn, Movies
-WHERE studioName = "MGM" AND title = movieTitle AND Movies.year = 1995;
+WHERE studioName = 'MGM' AND title = movieTitle AND Movies.year = 1995;
 ```
 Who is the president of the studio MGM?  
 ```SQL 
 SELECT MovieExec.name
 FROM Studio, MovieExec
-WHERE Studio.name = "MGM" AND presC# = cert#
+WHERE Studio.name = 'MGM' AND presC# = cert#
 ```
 
 Which movies are longer than Gone With the Wind?
 ```SQL
 SELECT ref2.title 
 FROM Movies ref1, Movies ref2 
-WHERE ref1.title = "Gone With the Wind" AND ref2.length > ref1.length 
+WHERE ref1.title = 'Gone With the Wind' AND ref2.length > ref1.length 
 ```
 ---
 # Question 4 
@@ -146,9 +150,9 @@ Using two INSERT statements, store in the database the fact that the PC model 11
 
 ```SQL 
 INSERT INTO PC(model, speed, ram, hd, price)
-VALUES ('1100', 3.2, 1024, 180, 2499.00);
+VALUES (1100, 3.2, 1024, 180, 2499.00);
 INSERT INTO  Product(maker, model, type)
-VALUES ('C', '1100', 'PC');
+VALUES ('C', 1100, 'PC');
 ```
 #### (c) 
 Delete all PC’s with less than 100 GB of hard disk.
