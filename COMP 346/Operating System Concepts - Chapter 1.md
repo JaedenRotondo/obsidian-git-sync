@@ -107,4 +107,23 @@
 	- for CPUs to multitask, they need a form of memory management as well as a priority list for processes (called *CPU scheduling*)
 
 ### Dual mode and multimode operation 
+- We need to distinguish between a user and a system, the way we give admin privledges is by using a **mode bit** where kernel (0) or user (1)
+- When control is passed from the kernel to the application, the mode bit would be set to one 
+- LOOK THRU THE SLIDES TO GET A BETTER IDEA OF HOW SECURITY OF ADMIN RIGHTS WORK 
+### Timer 
+- A timer can be set to interupt the computer after a specified amount of time. This allows for the OS to maintain control of the CPU at all times so that applicaitons which crash etc will not become detrimental 
+## Resource management (1.5)
+### Processing management 
+- A process is an instance of a program in execution. The process is an *active entity* while the program is a *passive entity*, similar to a file stored on a disk
+- The operating system is responsible for the following activies in connection with process management 
+	- Creating and deleting user/system processes
+	- Scheduling processes and threads on the CPU
+	- Suspending and resuming processes
+	- Providing mechanisms for process synchronisation and communication
+### Memory management
+- The operating system is responsible for 
+	- Keeping track of which parts of memory are currently being used and which processes are using them 
+	- Allocating and deallocating memory space as needed
+	- Deciding which processes (or parts of processes) and data to move into and out of main memory
+#### File-System Management 
 - 
