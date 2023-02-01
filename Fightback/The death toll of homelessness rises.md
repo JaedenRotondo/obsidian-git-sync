@@ -30,3 +30,11 @@ This is why we call for:
 **Expropriate the property development firms and run them under workers’ control!**
 
 **Housing for all!**
+
+
+
+Wrap Up: 
+---
+- There is no private solution 
+- Attack the problem at its rooot 
+- 
