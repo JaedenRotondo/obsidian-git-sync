@@ -126,4 +126,7 @@
 	- Allocating and deallocating memory space as needed
 	- Deciding which processes (or parts of processes) and data to move into and out of main memory
 #### File-System Management 
-- 
+### Virtualization (1.7)
+- Virtualization is a technology that allows us to abstract the hardware of a sin- gle computer (the CPU, memory, disk drives, network interface cards, and so forth) into several different execution environments, thereby creating the illu- sion that each separate environment is running on its own private computer.
+### Distributed Systems (1.8)
+- A distributed system is a collection of physically separate, possibly heteroge- neous computer systems that are networked to provide users with access to the various resources that the system maintains.
