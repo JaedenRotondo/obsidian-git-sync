@@ -4,119 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "bc42db14c7398241",
+        "id": "3253221d75621a16",
         "type": "tabs",
         "children": [
           {
-            "id": "2d8136cb78223530",
+            "id": "86bb1b85d2578b53",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readme.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "279ca94aaed35519",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 353/Overview of Database Management System (Ch.2).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2755f25507044c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 346/Operating System Concepts - Chapter 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e69782a52e439eb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 353/Assingment 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dd305ac4a2d79d26",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fightback/The death toll of homelessness rises.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d651076f14309449",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 354/Lecture 1 Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf6cf74662b03c24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 354/Lecture 1 Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9434c3adf0b9c231",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 353/Assingment 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dcd2944d78a53a69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 346/Untitled.md",
+                "file": "COMP 354/Lecture 2 Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 346/Untitled.md",
+                "file": "COMP 354/Lecture 2 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 346/Untitled.md",
+                "file": "COMP 354/Lecture 2 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 346/Untitled.md"
+                "file": "COMP 354/Lecture 2 Notes.md"
               }
             }
           },
@@ -252,17 +155,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dcd2944d78a53a69",
+  "active": "86bb1b85d2578b53",
   "lastOpenFiles": [
+    "COMP 354/Lecture 1 Notes.md",
+    "COMP 346/Untitled.md",
     "COMP 353/Assingment 1.md",
     "COMP 346/Operating System Concepts - Chapter 1.md",
-    "COMP 354/Lecture 1 Notes.md",
     "COMP 354/Lecture 2 Notes.md",
     "COMP 354/Lecture 3 Notes.md",
     "Fightback/Marxism and Religion Leadoff.md",
     "Fightback/Notes on Marxism and Religion podcast.md",
     "Fightback/The death toll of homelessness rises.md",
-    "Readme.md",
-    "Fightback/Sussex University Notes.md"
+    "Readme.md"
   ]
 }
