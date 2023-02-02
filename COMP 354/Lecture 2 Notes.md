@@ -75,4 +75,10 @@
 		- A close-ended question is a question that has bounded range of responses.
 		- Advantages: It helps avoid context-sensitivity and introduces predictability in the answer. *Easier to analyze the responses*
 		- Disadvantages: In a close-ended question, there is a potential for choices for answers to appear rather constraining *This can make the answer less useful for the interviewer*
-		- 
+	- Questions can be asked in either a **linear** or a **non-linear** fashion 
+### The Analysis of responses to Questions (18)
+1. The Halo Effect. The interviewee response is overly-optimistic (and, therefore, likely unjustifiable).
+
+2. The Horn Effect. The interviewee response is overly-pessimistic (and, therefore, likely unjustifiable).
+
+- Its best to look for patterns and trends as opposed to exceptions 
