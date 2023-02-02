@@ -1,0 +1,4 @@
+> Exclude Section 8 
+
+## THE INEVITABILITY OF COMPARISON (2)
+- 
