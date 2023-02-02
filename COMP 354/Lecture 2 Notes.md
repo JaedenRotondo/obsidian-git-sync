@@ -62,3 +62,17 @@
 	- ![[Screenshot 2023-02-01 at 10.55.26 AM.png]] It is common to set e to be 0.01 or 0.05.
 - It is reccomended to have only one interviewee during an interview, this allows for the answers to not be skewed due to social factors
 ## Interview Questions (17) 
+- The approach to an interview should be that the interviewer is an apprentice, and the interviewee is an expert
+- There are several types of questions that can be asked in an interview 
+	- **Contingent Questions**: There are ability speicific, gender specific, language specific, and device specific questions that cannot be asked to everyone, and exists "relative" to the interviewee
+		- Contignent questions are conditional, meaning that they are only asked based on waht the user answered with prior 
+		- E.g. Do you use DOS or Windows Explorer to compile your programs?
+	- **OPEN-ENDED QUESTIONS**
+		- An open-ended question is a question that has unbounded range of responses
+		- Advantages: It may be in some cases that all possible responses cannot be formulated or predetermined a priori by the interviewer. It provides flexibility 
+		- Disadvantages: In an open-ended question, there is a potential for ‘say-do’ problem. Meaning that there could be a difference between what the interviewee says and what they actualy do/mean 
+	- **CLOSE-ENDED QUESTIONS**
+		- A close-ended question is a question that has bounded range of responses.
+		- Advantages: It helps avoid context-sensitivity and introduces predictability in the answer. *Easier to analyze the responses*
+		- Disadvantages: In a close-ended question, there is a potential for choices for answers to appear rather constraining *This can make the answer less useful for the interviewer*
+		- 
