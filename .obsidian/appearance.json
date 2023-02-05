@@ -1,5 +1,12 @@
 {
+<<<<<<< HEAD
   "baseFontSize": 25,
   "cssTheme": "Wasp",
   "accentColor": ""
+=======
+  "baseFontSize": 14,
+  "cssTheme": "Wasp",
+  "accentColor": "#c66bef",
+  "translucency": true
+>>>>>>> origin/main
 }
