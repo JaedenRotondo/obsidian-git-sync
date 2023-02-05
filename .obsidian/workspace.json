@@ -11,12 +11,8 @@
             "id": "c321fe04068e53c0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 348/CLojure/Clojure Introduction.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -42,9 +38,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b79ff28fa113608d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -170,7 +176,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0dfe468ee70c667a",
+  "active": "b79ff28fa113608d",
   "lastOpenFiles": [
     "COMP 348/Erlang/Erlang Programs.md",
     "COMP 348/Erlang/Introduction to Erlang.md",

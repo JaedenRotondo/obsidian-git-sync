@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "COMP 348/Erlang/Concurrency and Erlang.md",
-            "mode": "source",
+            "file": "COMP 348/Erlang/Erlang Programs.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5,
-    "collapsed": true
+    "width": 259.5
   },
   "right": {
     "id": "2cab98a410ff8cbf",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 348/Erlang/Concurrency and Erlang.md",
+                "file": "COMP 348/Erlang/Erlang Programs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 348/Erlang/Concurrency and Erlang.md",
+                "file": "COMP 348/Erlang/Erlang Programs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 348/Erlang/Concurrency and Erlang.md"
+                "file": "COMP 348/Erlang/Erlang Programs.md"
               }
             }
           },
@@ -140,15 +139,15 @@
   },
   "active": "02af83de8cb9ab43",
   "lastOpenFiles": [
-    "COMP 348/Erlang/Erlang Programs.md",
+    "COMP 348/Erlang/Erlang and the Concurrency Model.md",
+    "COMP 348/Erlang/Concurrency and Erlang.md",
     "COMP 348/Erlang/Introduction to Erlang.md",
-    "COMP 348/Clojure/Clojure Programs.md",
-    "COMP 348/C/C Data Types.md",
+    "COMP 348/Erlang/Erlang Programs.md",
+    "COMP 348/Clojure/Clojure Data Structures.md",
     "COMP 348/Clojure/Clojure Functions.md",
     "COMP 348/Clojure/Clojure Introduction.md",
-    "COMP 348/Clojure/Clojure Data Structures.md",
-    "COMP 335/Lecture Notes/Lecture 1 Introduction.md",
-    "conflict-files-obsidian-git.md",
-    "Readme.md"
+    "COMP 348/Clojure/Clojure Programs.md",
+    "COMP 348/Python/Python -  More Data Structures.md",
+    "COMP 348/Python/OOP in Python.md"
   ]
 }
