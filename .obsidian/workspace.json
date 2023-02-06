@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 346/Assignments/Theoretical Assignment 1.md",
+                "file": "COMP 346/Textbook Notes/Operating System Structures.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 346/Assignments/Theoretical Assignment 1.md",
+                "file": "COMP 346/Textbook Notes/Operating System Structures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 346/Assignments/Theoretical Assignment 1.md",
+                "file": "COMP 346/Textbook Notes/Operating System Structures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 346/Assignments/Theoretical Assignment 1.md"
+                "file": "COMP 346/Textbook Notes/Operating System Structures.md"
               }
             }
           },
@@ -170,15 +170,15 @@
   },
   "active": "032d2ae56499a1d4",
   "lastOpenFiles": [
-    "COMP 346/Textbook Notes/Operating System Structures.md",
     "COMP 346/Textbook Notes/Operating System Concepts - Chapter 1.md",
+    "COMP 346/Textbook Notes/Operating System Structures.md",
+    "COMP 346/Assignments/Theoretical Assignment 1.md",
     "COMP 354/Lecture 1 Notes.md",
     "COMP 354/Lecture 2 Notes.md",
     "COMP 354/Lecture 3 Notes.md",
     "COMP 353/Assingment 1.md",
     "Fightback/Marxism and Religion Leadoff.md",
     "Fightback/Notes on Marxism and Religion podcast.md",
-    "Fightback/The death toll of homelessness rises.md",
-    "Readme.md"
+    "Fightback/The death toll of homelessness rises.md"
   ]
 }
