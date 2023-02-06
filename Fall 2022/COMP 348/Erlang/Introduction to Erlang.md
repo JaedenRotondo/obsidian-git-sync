@@ -34,7 +34,7 @@
 ## Data structures
 ### Tuples 
 ```erlang
-0.  P = {person, “John Smith”, 43}.
+P = {person, “John Smith”, 43}.
 ```
 - Note that, unlike a C struct, there are no labels associated with the struct(E.g. no name/age labels)
 - In practice, Erlang programmers use an "atom" as the first element of a tuple
