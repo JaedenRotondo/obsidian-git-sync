@@ -5,6 +5,10 @@ https://jobs-emplois.cse-cst.gc.ca/en/careers-carrieres/students-etudiants/oppor
 
 
 ## Summer 2023
+
+### Square point 
+https://www.squarepoint-capital.com/job#4435678
+
 https://www.linkedin.com/jobs/view/3441044388/?alternateChannel=search&refId=oPpsr45JoHvLeuEV6oO%2BjA%3D%3D&trackingId=NayQQN3NGw%2FpkASE3O939w%3D%3D
 
 
