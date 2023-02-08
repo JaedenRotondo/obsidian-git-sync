@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Internship Search.md",
+                "file": "COMP 346/Textbook Notes/Operating System Structures.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Internship Search.md",
+                "file": "COMP 346/Textbook Notes/Operating System Structures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Internship Search.md",
+                "file": "COMP 346/Textbook Notes/Operating System Structures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Internship Search.md"
+                "file": "COMP 346/Textbook Notes/Operating System Structures.md"
               }
             }
           },
@@ -190,15 +190,15 @@
   },
   "active": "e56f564dd5bef0b4",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "COMP 346/Textbook Notes/Operating System Structures.md",
     "COMP 346/Textbook Notes/Operating System Concepts - Chapter 1.md",
+    "COMP 346/Textbook Notes/Operating System Structures.md",
+    "Internship Search.md",
+    "conflict-files-obsidian-git.md",
     "COMP 346/Assignments/Theoretical Assignment 1.md",
     "COMP 354/Lecture 1 Notes.md",
     "COMP 354/Lecture 2 Notes.md",
     "COMP 354/Lecture 3 Notes.md",
     "COMP 353/Assingment 1.md",
-    "Fightback/Marxism and Religion Leadoff.md",
-    "Fightback/Notes on Marxism and Religion podcast.md"
+    "Fightback/Marxism and Religion Leadoff.md"
   ]
 }

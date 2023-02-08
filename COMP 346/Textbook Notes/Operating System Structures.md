@@ -14,11 +14,48 @@
 ## Section 2.3 System Calls
 - System calls provide an interface to the services made available by an operat- ing system.
 ### 2.3.1 Example
+- Gives an example of how the `cp` command works in Unix
+- Essentially, all elements of the command are other system calls which can be called from each other 
+- For example, these are system calls which would need to be made 
+	- Acquire input file name
+	- Write prompt to screen
+	- Accept input  
+	- Acquire output file name
+	- Write prompt to screen
 ### 2.3.2 Application Programming Interface
+- Oftentimes programmers do not want to work with the system calls of a given operating system, there are a few reasons for this
+	- Portability: a programmer would not be able to switch operating systems because the specific system calls will differ. An API on the other hand can is portable 
+	- Complexity: Although API calls are similar to the actual system calls which they will tigger, oftentimes they are more simple to use 
+	- For example the read function takes in several parameters which makes the process easier to code
+	- ![[Screenshot 2023-02-07 at 10.58.48 PM.png]]
 ### 2.3.3 Types of System Calls
-
-
-
+- System calls can be categorized into 6 different types 
+1. process control
+	1. ◦ create process / terminate process  
+	3. load / Execute
+	4. get process attributes / set process attributes 
+	5. Wait / signal event
+	6. Allocate and free memory 
+2. fil management
+	1. Open / close file
+	2. Create / delete file 
+	3. read write file 
+	4. get and set file attributes 
+3. device management
+	1. read / write / reposition 
+	2. get / set device attributes
+	3. logically attach or detach devices 
+5. information maintenance
+	1. get / set time or date
+	2. get / set system data
+	3. get / set process, file, device attributes
+6. communications
+	1.  create / delete communication connection
+	2. send / recieve messages 
+	3. attach / detach remote devices 
+7. protection
+	1. get / set file permissions 
+![[Screenshot 2023-02-07 at 11.01.06 PM.png]]
 ## Section 2.4 System Services
 
 ## Section 2.5 Linkers and Loaders
