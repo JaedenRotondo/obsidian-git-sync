@@ -57,22 +57,59 @@
 	1. get / set file permissions 
 ![[Screenshot 2023-02-07 at 11.01.06 PM.png]]
 ## Section 2.4 System Services
+- System services (also called system utilities) are a convenient environment for program developement and execution 
+- They can be divided into the following categories 
+	- File management 
+	- Status information 
+	- File modification 
+	- Programming language support
+	- Program loading and execution 
+	- Communications
+	- background services (daemons)
+
 
 ## Section 2.5 Linkers and Loaders
-
+- Usually a program exists on a disk as a binary executable fiele 
+	- To run this on the CPU it must be brought into main memory 
+	- **Linker**: combines the relocatble object files into a single binary *executable* Note that libraries might be included in this as well
+	- **Loader** : Loads the binary file from the linker into the main memory to be run on the CPU 
+	- DLL's allow for libraries to be dynamically linked, meaning that they will not be added to the executable unless they are needed
+	- ![[Screenshot 2023-02-08 at 3.33.26 PM.png]]
 ## Section 2.6 Why Applications Are OS Specific
-
+- Each OS provides its own unique set of system calls which makes it difficult to use applications on different OS's 
+- However, there are 3 main ways which a program can become OS independent 
+1. The application can be written in an *interpreted language* such as python or ruby which would allow for it to be ran with an interpreter 
+2. The application can be written in a language that is run in a virtural machine (such as Java). In this case, the virtual machine (which is portable) includes its own bytecode verifier and loader etc) 
+3. The application is written in a language that use a standard language or API which the operating system can compile into binary code that it will understand
+- There are other issues that exist at lower levels in this system 
+	- Each OS has its own binary format (location of header, instructions, variables) that is required for the OS to open the file 
+	- CPUs have varying instruction sets 
+	- System calls vary between platforms 
 ## Section 2.7 OS Design and Implementation
 ### 2.7.1 Design Goals
+- User goals and system goals need to be taken into consideration 
 ### 2.7.2 Mechanisms and Policies
 ### 2.7.3 Implementation
-
+- Higher level languages are often preffered 
+- The only possible disadvantages of implementing an operating system in a higher-level language are reduced speed and increased storage requirements.
+	- Not in issue in today's fast systems 
 ## Section 2.9 Building and Booting an OS
 ### 2.9.1 OS Generation
+- How to build an operating system (who cares)
 ### 2.9.2 System Boot
+- How does the hardware know where the kernel is or how to load that kernel?
+- The process of starting a computer by loading the kernel is known as booting the system.
+	- This is the BIOS 
 
 ## Section 3.4 Interprocess Communication
-
+- There are many benefits of an environment that allows for process communication 
+	- **Informaition sharing**: Several applications might be interested in the same piece of data
+	- **Computational speedup** If we want a process to run quickly, it is faster to divide it up into subroutines, this is only possible with subroutine communication 
+	- **Modulairty**: Interprocess communication allows us to use threads for different tasks and to split things up 
+- There are two methods of Interprocess Communication (IPC)
+	1. Shared memory 
+		- A region of the data is shared 
+	2. Message passing 
 ## Section 12.1 Overview of I/O Systems
 
 ## Section 12.2 I/O Hardware
