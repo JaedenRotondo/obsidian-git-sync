@@ -110,6 +110,8 @@
 	1. Shared memory 
 		- A region of the data is shared 
 	2. Message passing 
+		- Process comminicate via messages (smaller amounts of data)
+- ![[Screenshot 2023-02-08 at 4.40.18 PM.png]]
 ## Section 12.1 Overview of I/O Systems
 
 ## Section 12.2 I/O Hardware
