@@ -6,20 +6,6 @@ Wait(): checks if the semphore value is zero... if so it will not allow entry in
 Signal(): After a c.s. is finished in exection, it will increment the value of the semaphore integer. This makes it possible for other threads to enter the c.s. 
 
 - Counting semphore: multiple instances of a c.s. multiple processes can enter a c.s.
-```java
-public synchronized void Wait(){
-	while(this.value <= 0){  
-		try ("Semaphore::Wait(){  
-			wait();
-		}  
-		catch(InterruptedException e)
-		{System.out.println e.getMessage());
-		} 
-	}
-	this.value--; 
-} 
-e.printStackTrace();
-```
 - Notify(): will wake up the other thread for use of a critical section 
 - Explain how we can use semphors for multiple drinkers 
 - Thread.sleep() - context switch could happen but not when you have semaphors 
