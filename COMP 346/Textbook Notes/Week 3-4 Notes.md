@@ -58,7 +58,25 @@
 	- **Testing and Debugging**: Since the program will be running on multiple cores, it is inherently a lot more difficult to bug since there are different tasks that the program can take. 
 
 ### 4.2.2 Types of parallelism 
-- There are 
+- There are 2 types of parallelism 
+	1. **Data Parallelism**: This refers to seperating data sets alongside different computing cores. For example, if you had to find the sum of an array, you could sperate the data so that the first core can access 1 to (N/2)-1 and the other core N/2 to N-1. 
+	2. **Task Parallelism**: This refers to distributing Threads (*not tasks*) to different computing cores. Each thread is perfoming a unique operation. Different threads might be operating on the same data or different data. 
+> Note that these parallelism methods are not mutually exclusive, and an application may in fact use a hybrid of these two strategies.
 ---
 ## Section 4.3
+- Threads may be used at both the *Kernel level* or the *user level*.
+- Ultimately, there must be a relationship between the kernel threads and the user threads. This includes the following models: 
+	1. **Many-to-one Model**:
+	- Maps many user threads to a single kernel thread. This means that only one thread can access the kernel at a time. Mulitple threads are unable to run parallel in a multicore system.
+	- Thread managemen is done by the Thread library is user space so it is effecient 
+	- ![[Screenshot 2023-02-11 at 12.14.10 PM.png]]
+	2. **One-to-one Model**:
+		- The one to one model maps each user thread to a kernel thread 
+		- It allows for more concurrency compared to the many to one model 
+		- It is very expensive since making kernel threads is a lot more expensive than making user threads
+		- ![[Screenshot 2023-02-11 at 12.14.53 PM.png]]
+	3. **Many-to-many Model**:
+		- The many-to-many model suffers from neither of these shortcomings: developers can create as many user threads as necessary, and the corresponding kernel threads can run in parallel on a multiprocessor. Also, when a thread performs a blocking system call, the kernel can schedule another thread for execution.
+		- As systems advance, and the number of cores are increasing on systems, it is less important to keep track of kernel threads than ever. 
+		- ![[Screenshot 2023-02-11 at 12.15.07 PM.png]]
 ---
