@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d4a902affd0e7970",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP 346/Textbook Notes/Week 4-5 Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 346/Textbook Notes/Operating System Structures.md",
+                "file": "COMP 346/Textbook Notes/Week 4-5 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 346/Textbook Notes/Operating System Structures.md",
+                "file": "COMP 346/Textbook Notes/Week 4-5 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 346/Textbook Notes/Operating System Structures.md"
+                "file": "COMP 346/Textbook Notes/Week 4-5 Notes.md"
               }
             }
           },
@@ -155,17 +168,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a41a3875403a4696",
+  "active": "d4a902affd0e7970",
   "lastOpenFiles": [
-    "COMP 346/Textbook Notes/Week 3-4 Notes.md",
     "COMP 346/Textbook Notes/Operating System Structures.md",
     "COMP 346/Textbook Notes/Operating System Concepts - Chapter 1.md",
+    "COMP 346/Textbook Notes/Week 4-5 Notes.md",
+    "COMP 346/Textbook Notes/Week 3-4 Notes.md",
     "Internship Search.md",
     "COMP 346/Tutorial notes.md",
     "COMP 346/Assignments/Theoretical Assignment 1.md",
     "conflict-files-obsidian-git.md",
     "COMP 354/Lecture 1 Notes.md",
-    "COMP 354/Lecture 2 Notes.md",
-    "COMP 354/Lecture 3 Notes.md"
+    "COMP 354/Lecture 2 Notes.md"
   ]
 }
