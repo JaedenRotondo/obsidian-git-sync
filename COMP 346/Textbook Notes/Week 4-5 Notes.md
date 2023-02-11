@@ -9,11 +9,11 @@
 ## Section 6.2 The Critical Section Problem
 - The critical section problem is usually understood in the following code block format:
 
-```
+```Java
 while (true){
-	*entry section*
+	entry section
 		critical section
-	*exit section*
+	exit section
 	    remainder section
     }
 ```

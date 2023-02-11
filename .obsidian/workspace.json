@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 346/Textbook Notes/Operating System Structures.md",
+                "file": "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 346/Textbook Notes/Week 4-5 Notes.md",
+                "file": "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 346/Textbook Notes/Week 4-5 Notes.md",
+                "file": "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 346/Textbook Notes/Week 4-5 Notes.md",
+                "file": "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 346/Textbook Notes/Week 4-5 Notes.md"
+                "file": "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md"
               }
             }
           },
@@ -170,8 +170,8 @@
   },
   "active": "d4a902affd0e7970",
   "lastOpenFiles": [
-    "COMP 346/Textbook Notes/Operating System Structures.md",
-    "COMP 346/Textbook Notes/Operating System Concepts - Chapter 1.md",
+    "COMP 346/Textbook Notes/Week 1-2 Notes.md",
+    "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
     "COMP 346/Textbook Notes/Week 4-5 Notes.md",
     "COMP 346/Textbook Notes/Week 3-4 Notes.md",
     "Internship Search.md",
