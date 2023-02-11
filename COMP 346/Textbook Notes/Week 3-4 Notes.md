@@ -43,9 +43,22 @@
 - **Benefits of Multithreaded systems**
 	- **Responsiveness**: Multithreaded application allow for a program to keep on running if its performing an intensive operation. A single threaded application woul dbe unresponsive if until the process is completed
 	- **Resource Sharing**: Processes are able to share memory by using shared storage or message passing. However threads share memory and resources by default. 
-	- 
+	- **Economy**: Allocating memory for process creation is an expensive process. Since threads use the same shared/allocated memory it is a lot more economical 
+	- **Scalability**: The benefits of multithreading are even greater in a multiprocessor architecture, where threads can be ran parallel on different processing cores
 ---
-## Section 4.2 
+## Section 4.2 Multicore Programming 
+- Difference between *Concurrency* and *Parallelism*
+	- **Concurrency**: Refers to running multiple threads possibly on a single core ![[Screenshot 2023-02-11 at 11.48.39 AM.png]]
+	- **Parallelism**: referes to threads running on different cores in parallel ![[Screenshot 2023-02-11 at 11.49.06 AM.png]]
+- Problems with Programming systems which utilize multiple core arhitecture 
+	- **Idenitfying tasks**: that can be performed on different cores. Ideally, these tasks would be independent of each other
+	- **Balance**: One must also identify that certain indepent tasks are not worth running on a seperate core. 
+	- **Data Splitting**: In the same way that application processes must be divided into tasks, so does the memory which is allocated towards it
+	- **Data Dependency**: The data accessed by the task must be examined for dependencies between two or more tasks 
+	- **Testing and Debugging**: Since the program will be running on multiple cores, it is inherently a lot more difficult to bug since there are different tasks that the program can take. 
+
+### 4.2.2 Types of parallelism 
+- There are 
 ---
 ## Section 4.3
 ---
