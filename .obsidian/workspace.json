@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
+                "file": "COMP 353/Overview of Database Management System (Ch.2).md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
+                "file": "COMP 353/Overview of Database Management System (Ch.2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
+                "file": "COMP 353/Overview of Database Management System (Ch.2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md"
+                "file": "COMP 353/Overview of Database Management System (Ch.2).md"
               }
             }
           },
@@ -170,15 +170,15 @@
   },
   "active": "d4a902affd0e7970",
   "lastOpenFiles": [
-    "COMP 346/Textbook Notes/Week 1-2 Notes.md",
+    "COMP 353/Assingment 1.md",
     "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
+    "COMP 346/Textbook Notes/Week 1-2 Notes.md",
     "COMP 346/Textbook Notes/Week 4-5 Notes.md",
     "COMP 346/Textbook Notes/Week 3-4 Notes.md",
     "Internship Search.md",
     "COMP 346/Tutorial notes.md",
     "COMP 346/Assignments/Theoretical Assignment 1.md",
     "conflict-files-obsidian-git.md",
-    "COMP 354/Lecture 1 Notes.md",
-    "COMP 354/Lecture 2 Notes.md"
+    "COMP 354/Lecture 1 Notes.md"
   ]
 }

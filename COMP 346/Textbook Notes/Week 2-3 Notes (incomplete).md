@@ -30,7 +30,7 @@
 ### 2.3.3 Types of System Calls
 - System calls can be categorized into 6 different types 
 1. process control
-	1. ◦ create process / terminate process  
+	1. create process / terminate process  
 	3. load / Execute
 	4. get process attributes / set process attributes 
 	5. Wait / signal event
