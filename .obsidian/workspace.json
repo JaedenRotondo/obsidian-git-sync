@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 353/Overview of Database Management System (Ch.2).md",
+                "file": "Fightback/Fehr on the Palestinian Struggle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "77c64fd1f3c9d60e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fightback/Left Wing Communism - Lenin Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 353/Overview of Database Management System (Ch.2).md",
+                "file": "Fightback/Left Wing Communism - Lenin Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 353/Overview of Database Management System (Ch.2).md",
+                "file": "Fightback/Left Wing Communism - Lenin Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 353/Overview of Database Management System (Ch.2).md"
+                "file": "Fightback/Left Wing Communism - Lenin Notes.md"
               }
             }
           },
@@ -168,17 +180,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d4a902affd0e7970",
+  "active": "77c64fd1f3c9d60e",
   "lastOpenFiles": [
-    "COMP 353/Assingment 1.md",
-    "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
-    "COMP 346/Textbook Notes/Week 1-2 Notes.md",
-    "COMP 346/Textbook Notes/Week 4-5 Notes.md",
-    "COMP 346/Textbook Notes/Week 3-4 Notes.md",
-    "Internship Search.md",
-    "COMP 346/Tutorial notes.md",
-    "COMP 346/Assignments/Theoretical Assignment 1.md",
-    "conflict-files-obsidian-git.md",
-    "COMP 354/Lecture 1 Notes.md"
+    "Fightback/Fehr on the Palestinian Struggle.md",
+    "Fightback/Marxism and Post-Colonialism.md",
+    "Fightback/Article Presentation on Unionization attempts at APPLE.md",
+    "Fightback/Aggregate Branch Meeting Notes.md",
+    "Fightback/Postmodernism and Marxism.md",
+    "Fightback/Notes on Marxism and Religion podcast.md",
+    "Fightback/Marxism and Religion Leadoff.md",
+    "Fightback/Sussex University Notes.md",
+    "Fightback/The death toll of homelessness rises.md",
+    "COMP 353/Overview of Database Management System (Ch.2).md"
   ]
 }
