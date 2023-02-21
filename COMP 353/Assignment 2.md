@@ -51,6 +51,9 @@ F(**c**, d)
 ## Question 3 A 
 ![[AS2Q3A.drawio-2.png]]
 ## Question 3 B 
+- The textbook makes a point about how a database schema refers to the SQL queries, (or at least can be considered equivalent):
+
+---
 ```sql
 CREATE TABLE People
 ID CHAR(10) 
@@ -69,7 +72,7 @@ FatherID CHAR(10) NOT NULL
 FOREIGN KEY (FatherID) REFERENCES People(ID)
 FOREIGN KEY (ChildID) REFERENCES People(ID);
 ```
-
+---
 # Question 4
 Modify your design of the database People in the previous question to include additional information about “types of people such as Females, Males, and being parents, etc. Use subclasses of people to present the “types” of people.
 
@@ -89,7 +92,7 @@ Modify your design of the database People in the previous question to include ad
 - |R| = {0, e3}
 (c) The connection from R to each one of the 3 entity sets is a sharp arrow.
 ![[Screenshot 2023-02-20 at 4.40.50 PM.png]]
-- |R| = {MIN(e1, e2, e,3)}
+- |R| = {MIN(e1, e2, e3)}
 (d) The connection from R to E1 is a sharp arrow and from R to E2 is a round arrow.
 ![[Screenshot 2023-02-20 at 4.41.04 PM.png]]
-- |R| = {}
+- |R| = {0, e2}
