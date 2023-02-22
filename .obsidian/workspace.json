@@ -25,7 +25,55 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 353/Assignment 2.md",
+                "file": "COMP 353/Overview of Database Management System (Ch.2).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a38ce950492709d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP 353/db - 01 Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9bc38b465fe688ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP 353/db - 02 Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8359474376221ad7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP 353/db -03 Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c21a0bde43107fa5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP 353/db - 01 Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -122,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 353/Assignment 2.md",
+                "file": "COMP 353/db - 01 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 353/Assignment 2.md",
+                "file": "COMP 353/db - 01 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 353/Assignment 2.md"
+                "file": "COMP 353/db - 01 Notes.md"
               }
             }
           },
@@ -192,17 +240,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d4a902affd0e7970",
+  "active": "c21a0bde43107fa5",
   "lastOpenFiles": [
-    "Fightback/Fehr on the Palestinian Struggle.md",
     "COMP 353/Assignment 2.md",
     "COMP 353/Assingment 1.md",
+    "COMP 353/db - 01 Notes.md",
+    "COMP 353/db - 02 Notes.md",
+    "COMP 353/db -03 Notes.md",
+    "COMP 353/db - 04 Notes.md",
+    "COMP 353/Overview of Database Management System (Ch.2).md",
+    "Fightback/Fehr on the Palestinian Struggle.md",
     "COMP 346/Textbook Notes/Week 4-5 Notes.md",
-    "COMP 346/Tutorial notes.md",
-    "COMP 346/Textbook Notes/Week 3-4 Notes.md",
-    "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
-    "Fightback/Left Wing Communism - Lenin Notes.md",
-    "Fightback/Marxism and Post-Colonialism.md",
-    "Fightback/Article Presentation on Unionization attempts at APPLE.md"
+    "COMP 346/Tutorial notes.md"
   ]
 }
