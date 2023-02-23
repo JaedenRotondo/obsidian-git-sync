@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 353/db - 01 Notes.md",
+                "file": "COMP 353/db - 02 Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 353/db - 01 Notes.md",
+                "file": "COMP 353/db - 02 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 353/db - 01 Notes.md",
+                "file": "COMP 353/db - 02 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 353/db - 01 Notes.md"
+                "file": "COMP 353/db - 02 Notes.md"
               }
             }
           },
@@ -242,9 +242,9 @@
   },
   "active": "c21a0bde43107fa5",
   "lastOpenFiles": [
+    "COMP 353/db - 01 Notes.md",
     "COMP 353/Assignment 2.md",
     "COMP 353/Assingment 1.md",
-    "COMP 353/db - 01 Notes.md",
     "COMP 353/db - 02 Notes.md",
     "COMP 353/db -03 Notes.md",
     "COMP 353/db - 04 Notes.md",

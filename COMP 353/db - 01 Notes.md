@@ -29,4 +29,12 @@
 #### Physical independence 
 > -   Ability to modify physical schema with little or no  impact on the conceptual schema or the application programs, i.e., _the possibility of having separate schemas at the physical and conceptual levels_
 ## DB architecture 
-![[Screenshot 2023-02-21 at 6.49.05 PM.png]]
+![[Screenshot 2023-02-21 at 6.49.05 PM.png]
+
+-   The SQL query language components:
+	-   DDL
+	-   DML
+### Understanding NULL values 
+- Nulls are counted when grouping but ignored when aggregating.
+- NULL = NULL returns NULL 
+- 
