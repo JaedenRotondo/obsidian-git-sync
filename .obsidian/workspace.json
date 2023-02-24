@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 353/db - 02 Notes.md",
+                "file": "COMP 353/db -03 Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c1dbf78386635f2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 353/db - 02 Notes.md",
+                "file": "COMP 353/db -03 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 353/db - 02 Notes.md",
+                "file": "COMP 353/db -03 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 353/db - 02 Notes.md"
+                "file": "COMP 353/db -03 Notes.md"
               }
             }
           },
@@ -158,15 +170,17 @@
   },
   "active": "12b164eda8458500",
   "lastOpenFiles": [
+    "Untitled.md",
+    "COMP 353/db -03 Notes.md",
+    "Images/Screenshot 2023-02-24 at 1.05.09 PM.png",
+    "COMP 353/db - 02 Notes.md",
+    "COMP 353/db - 01 Notes.md",
     "Images/Screenshot 2023-02-24 at 11.51.24 AM.png",
     "Images/Screenshot 2023-02-24 at 11.44.36 AM.png",
     "Images/Screenshot 2023-02-24 at 11.41.06 AM.png",
     "COMP 353/Assignment 2.md",
     "COMP 346/Textbook Notes/Week 4-5 Notes.md",
-    "COMP 353/db - 01 Notes.md",
     "COMP 353/Assingment 1.md",
-    "COMP 353/db - 02 Notes.md",
-    "COMP 353/db -03 Notes.md",
     "COMP 353/db - 04 Notes.md",
     "COMP 353/Overview of Database Management System (Ch.2).md",
     "Fightback/Fehr on the Palestinian Struggle.md",
