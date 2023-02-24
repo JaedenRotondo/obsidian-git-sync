@@ -80,6 +80,16 @@
             }
           },
           {
+            "id": "a0a20b53bcfa82a5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.15"
+              }
+            }
+          },
+          {
             "id": "77c64fd1f3c9d60e",
             "type": "leaf",
             "state": {
@@ -104,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -240,7 +250,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c21a0bde43107fa5",
+  "active": "a0a20b53bcfa82a5",
   "lastOpenFiles": [
     "COMP 353/db - 01 Notes.md",
     "COMP 353/Assignment 2.md",
