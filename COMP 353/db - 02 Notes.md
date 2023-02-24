@@ -31,16 +31,42 @@
 ### Types of Constraints
 #### Single-value constraints
 - are requirements that the value in a certain context/role be unique (IDs? )
+- In our E/R model introduced so far, there is no way to 
+	- Express that a value of A *must* be present
+	- Express that a value of A *may* be present
+- If the choice is not explicit we use the following *defaults*:
+	- The value of A must exist if its a primary key 
+	- The value of A is optional otherwise
 #### Referential integrity constraints
 - are requirements that a value referred to by some object/entity must actually exist in the databe
 	- that means no dangling pointers
+- Referential integrity = single-value + Existance
+- ![[Screenshot 2023-02-24 at 11.41.06 AM.png]]
 #### Domain constraints
 - require that the value of an attribute must be drawn from a specific set of values (called attribute domain), or lies in a specific range
+- E/R diagrams do not support imposing domain constraints
+- ODL allows using types to limit values but cannot restrict "range"
+#### Relationship degree constraints (mulitplicity)
+- Refers to the restriction of the number of entites in the entity set incolved in a relationship 
+	- For example, we can say "A student cannot be enrolled in more than 5 courses" by addint a "<= 5" on the line between EnrolledIn and Courses as follows: 
+	- ![[Screenshot 2023-02-24 at 11.44.36 AM.png]]
 #### General constraints
 - arbitrary assertions that must hold on the DB
-### Keys 
+## Keys 
 - A **Superkey** is a set of attributes whose values uniquely identify an entity (object). int he entity set (class). This set may not be minimal 
 	- A **minimal superkey** is called a **Candidate key**
 - Note that an entity set may have more than one **candidate key**. one of them is picked to be the primary key
 	- Others are considered *aleternate keys*
-- 
+### Selecting Primary key
+- When there is more than one candidate: 
+	- Total size of attributes in forming the key 
+	- Number of attributes forming the key 
+	- Convenience/ natural choice
+	- A combination of the above
+### Weak Entity/ Relationship sets
+- A **Strong** entity set has a key 
+- A **Weak** entity set does not have sufficient attributes to form a key.
+	- It participates in a M-1 relationship with a strong entity set
+- **Discriminator** of a weak entity set is the set of attributes that distinguised among the entites corresponding to a strong entity
+- Key of a weak entity set = Key of Strong entity set + discriminator ![[Screenshot 2023-02-24 at 11.51.24 AM.png]]
+	- C 
