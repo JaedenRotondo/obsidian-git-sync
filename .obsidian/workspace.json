@@ -4,117 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3253221d75621a16",
+        "id": "605d606e76433ace",
         "type": "tabs",
         "children": [
           {
-            "id": "a41a3875403a4696",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d4a902affd0e7970",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 353/Overview of Database Management System (Ch.2).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a38ce950492709d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 353/db - 01 Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9bc38b465fe688ba",
+            "id": "12b164eda8458500",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "COMP 353/db - 02 Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8359474376221ad7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 353/db -03 Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c21a0bde43107fa5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 353/db - 02 Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0a20b53bcfa82a5",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.15"
-              }
-            }
-          },
-          {
-            "id": "77c64fd1f3c9d60e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 346/Textbook Notes/Week 4-5 Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eee8ec56c20024ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 353/Assignment 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2cab98a410ff8cbf",
@@ -250,17 +156,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a0a20b53bcfa82a5",
+  "active": "db39910bffc6bce5",
   "lastOpenFiles": [
-    "COMP 353/db - 01 Notes.md",
     "COMP 353/Assignment 2.md",
+    "COMP 346/Textbook Notes/Week 4-5 Notes.md",
+    "COMP 353/db - 01 Notes.md",
     "COMP 353/Assingment 1.md",
     "COMP 353/db - 02 Notes.md",
     "COMP 353/db -03 Notes.md",
     "COMP 353/db - 04 Notes.md",
     "COMP 353/Overview of Database Management System (Ch.2).md",
     "Fightback/Fehr on the Palestinian Struggle.md",
-    "COMP 346/Textbook Notes/Week 4-5 Notes.md",
     "COMP 346/Tutorial notes.md"
   ]
 }
