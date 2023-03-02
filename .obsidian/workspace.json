@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "90cfde568c11ab26",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,7 +166,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c1dbf78386635f2b",
+  "active": "90cfde568c11ab26",
   "lastOpenFiles": [
     "COMP 353/db - 02 Notes.md",
     "COMP 353/db - 01 Notes.md",
