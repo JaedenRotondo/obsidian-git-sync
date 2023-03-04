@@ -1,0 +1,1 @@
+ Exclude: Section 6, Section 7, Section 8, Section 9, Section 10, Section 11.3, Section 11.4, Section 12.3, Section 12.4, Section 13, Section 15, Section 18, Section 19, Section 20, Section 21.4, Section 21.5, Section 21.6, Section 22, Section 23, Section 24, Section 25, Section 26, Section 27, Appendix A, Appendix B, Appendix C.
