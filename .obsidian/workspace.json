@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 354/Lecture 6 Notes.md",
+                "file": "COMP 346/Assignments/Theoretical Assignment 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2cab98a410ff8cbf",
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 354/Lecture 6 Notes.md",
+                "file": "COMP 346/Assignments/Theoretical Assignment 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 354/Lecture 6 Notes.md",
+                "file": "COMP 346/Assignments/Theoretical Assignment 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 354/Lecture 6 Notes.md"
+                "file": "COMP 346/Assignments/Theoretical Assignment 1.md"
               }
             }
           },
@@ -203,9 +202,9 @@
   },
   "active": "30b1b26d45ec6b09",
   "lastOpenFiles": [
-    "COMP 354/Lecture 5 notes.md",
-    "COMP 354/Lecture 6 Notes.md",
     "COMP 353/db - 05 Notes.md",
+    "COMP 354/Lecture 6 Notes.md",
+    "COMP 354/Lecture 5 notes.md",
     "COMP 346/Assignments/Theoretical Assignment 1.md",
     "COMP 346/Textbook Notes/Week 3-4 Notes.md",
     "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",

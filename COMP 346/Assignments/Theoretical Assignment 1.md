@@ -31,18 +31,19 @@ Consider a computer system with a single-core processor. There are two processes
 - Since we are using a single process system, there is no possibility of context switching and the minimum execution time will be the sum of all the processes regardless of whether they are CPU or I/O 
 $$T = p1 + p2 = (15 + 10 + 10) + (10 +5 + 15) = 65 \ units  $$
 1.  b)  Now considering a multiprogrammed operating system, what is the minimal total time required to complete executions of the two processes? You should explain your answer with a diagram.
-- Since we are using a multiprocessing system, we can assume that th I/O device execution times can be yielded to the other process in the following *minimal* order: 
-
+- Since we are using a multiprocessing system, we can assume that th I/O device execution times can be yielded to the other process in the following *minimal* order: Max(P1, P2) = 35 Units
 
 c) Throughput is defined as the number of processes (tasks) completed per unit time. Following this definition, calculate the throughputs for parts a) and b) above. How does multiprogramming affect throughput? Explain your answer.
+- Throughput for single processor system: 2/65
+- Throughput for dual processeor system 2/35
 
 ## Question # 3
 
 I. What is the performance advantage in having device drivers and devices synchronize by means of device interrupts, rather than by polling (i.e., device driver keeps on polling the device to see if a specific event has occurred)? Under what circumstances can polling be advantageous over interrupts?
 - Device interrupts used to synchronize devices rather than polling allows for the processing unit to work on other tasks while the I/O device is working. If there is just polling, the computer will have to busy wait until the external process is complete. 
-- There are certain circumstances where polling is better than interrupts. Performing storage I/O with ultra-low latency devices with fast memory with polling till copmletion (running clock cycles) is faster than 
+- There are certain circumstances where polling is better than interrupts. Performing storage I/O with ultra-low latency devices with fast memory with polling till copmletion (running clock cycles) is faster than interrupts, especially due ot the time it takes to context switch on large systems. 
 II. Is it possible to use a DMA controller if the system does not support interrupts? Explain why.
-- yes because direct memory access, as per its name, does not involve the CPU in the transfer of memory. Instead, it utilizes the bus directly. 
+- no because direct memory access involves the CPU in the transfer of memory. It utilizes the bus directly but is still interupted after every block (instead of every byte)
 IV. The procedure ContextSwitch is called whenever there is a switch in context from a running program A to another program B. The procedure is a straightforward assembly language routine that saves and restores registers, and must be atomic. Something disastrous can happen if the routine ContextSwitch is not atomic.
 
 (a) Explain why ContextSwitch must be atomic, possibly with an example. (b) Explain how the atomicity can be achieved in practice.
@@ -51,12 +52,12 @@ IV. The procedure ContextSwitch is called whenever there is a switch in context 
 ## Question # 4
 
 1.  If a user program needs to perform I/O, it needs to trap the OS via a system call that transfers control to the kernel. The kernel performs I/O on behalf of the user program. However, systems calls have added overheads, which can slow down the entire system. In that case, why not let user processes perform I/O directly, without going through the kernel?
-    - The main reason why things are performed through the kernel and not directly via the I/O device is mainly due to security. 
+    - The main reason why things are performed through the kernel and not directly via the  user processes because that would be a security issue. Instead, supervision via a mode bit allows for the kernel space to be entered for short and monitored periods of time. On top of this, certain actions (errors, either malicious or unintentional) should not be granted to the user unless authorized. 
 2.  Consider a computer running in the user mode. It will switch to the monitor mode whenever an interrupt or trap occurs, jumping to the address determined from the interrupt vector.
-    
     1.  (a)  A smart, but malicious, user took advantage of a certain serious loophole in the computer's protection mechanism, by which he could make run his own user program in the monitor mode! This can cause disastrous effects. What could have he possibly done to achieve this? What disastrous effects could it cause?
-        
+        - yielding and intering monitor mode? Creating several threads and yielding to a different thread - executing in monitor mode? 
     2.  (b)  Suggest a remedy for the loophole.
+
 
 ## Question # 5
 
