@@ -20,10 +20,19 @@
 
 Consider a computer system with a single-core processor. There are two processes to run in the system: P1 and P2. Process P1 has a life cycle as follows: CPU burst time of 15 units, followed by I/O burst time of minimum 10 units, followed by CPU burst time of 10 units. Process P2 has the following life cycle: CPU burst time of 10 units, followed by I/O burst time of minimum 5 units, followed by CPU burst time of 15 units. Now answer the following questions:
 
+| Type | p1 | Type | p2 |
+|------|----|------|----|
+| CPU  | 15 | CPU  | 10 |
+| I/O  | 10 | I/O  | 5  |
+| CPU  | 10 | CPU  | 15 |
+
+
 1.  a)  Considering a single programmed operating system, what is the minimal total time required to complete executions of the two processes? You should explain your answer with a diagram.
-    
-2.  b)  Now considering a multiprogrammed operating system, what is the minimal total time required to complete executions of the two processes? You should explain your answer with a diagram.
-    
+- Since we are using a single process system, there is no possibility of context switching and the minimum execution time will be the sum of all the processes regardless of whether they are CPU or I/O 
+$$T = p1 + p2 = (15 + 10 + 10) + (10 +5 + 15) = 65 \ units  $$
+1.  b)  Now considering a multiprogrammed operating system, what is the minimal total time required to complete executions of the two processes? You should explain your answer with a diagram.
+- Since we are using a multiprocessing system, we can assume that th I/O device execution times can be yielded to the other process in the following *minimal* order: 
+
 
 c) Throughput is defined as the number of processes (tasks) completed per unit time. Following this definition, calculate the throughputs for parts a) and b) above. How does multiprogramming affect throughput? Explain your answer.
 
@@ -33,15 +42,16 @@ I. What is the performance advantage in having device drivers and devices synchr
 - Device interrupts used to synchronize devices rather than polling allows for the processing unit to work on other tasks while the I/O device is working. If there is just polling, the computer will have to busy wait until the external process is complete. 
 - There are certain circumstances where polling is better than interrupts. Performing storage I/O with ultra-low latency devices with fast memory with polling till copmletion (running clock cycles) is faster than 
 II. Is it possible to use a DMA controller if the system does not support interrupts? Explain why.
-- yes because direct memory access 
+- yes because direct memory access, as per its name, does not involve the CPU in the transfer of memory. Instead, it utilizes the bus directly. 
 IV. The procedure ContextSwitch is called whenever there is a switch in context from a running program A to another program B. The procedure is a straightforward assembly language routine that saves and restores registers, and must be atomic. Something disastrous can happen if the routine ContextSwitch is not atomic.
 
 (a) Explain why ContextSwitch must be atomic, possibly with an example. (b) Explain how the atomicity can be achieved in practice.
-
+- (a) Atomicity of context switching is incredibly important because, if it were not the case, the information within the registers duiring a context switch need to be transferred to the main memory. If this is not done to completion and the registers are overwritten prior to the transfer- data will be lost
+- (b) Atomocity can be achieved in practice with the "disable interrupt" functionality. Disable interrupt tells the cpu that during the critical section of a program, it cannot be halted until completion 
 ## Question # 4
 
 1.  If a user program needs to perform I/O, it needs to trap the OS via a system call that transfers control to the kernel. The kernel performs I/O on behalf of the user program. However, systems calls have added overheads, which can slow down the entire system. In that case, why not let user processes perform I/O directly, without going through the kernel?
-    
+    - The main reason why things are performed through the kernel and not directly via the I/O device is mainly due to security. 
 2.  Consider a computer running in the user mode. It will switch to the monitor mode whenever an interrupt or trap occurs, jumping to the address determined from the interrupt vector.
     
     1.  (a)  A smart, but malicious, user took advantage of a certain serious loophole in the computer's protection mechanism, by which he could make run his own user program in the monitor mode! This can cause disastrous effects. What could have he possibly done to achieve this? What disastrous effects could it cause?
