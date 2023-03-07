@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 354/Lecture 5 notes.md",
+                "file": "COMP 346/Assignments/Theoretical Assignment 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,8 +63,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,16 +199,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30b1b26d45ec6b09",
+  "active": "c1dbf78386635f2b",
   "lastOpenFiles": [
-    "COMP 353/db - 05 Notes.md",
-    "COMP 354/Lecture 6 Notes.md",
-    "COMP 354/Lecture 5 notes.md",
-    "COMP 346/Assignments/Theoretical Assignment 1.md",
+    "COMP 346/Textbook Notes/Week 4-5 Notes.md",
     "COMP 346/Textbook Notes/Week 3-4 Notes.md",
     "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
     "COMP 346/Textbook Notes/Week 1-2 Notes.md",
-    "COMP 346/Textbook Notes/Week 4-5 Notes.md",
+    "COMP 354/Lecture 5 notes.md",
+    "COMP 346/Assignments/Theoretical Assignment 1.md",
+    "COMP 353/db - 05 Notes.md",
+    "COMP 354/Lecture 6 Notes.md",
     "Images/Screenshot 2023-03-05 at 2.31.09 PM.png",
     "Images/Screenshot 2023-03-05 at 1.53.20 PM.png",
     "Images/Screenshot 2023-03-05 at 1.51.00 PM.png",

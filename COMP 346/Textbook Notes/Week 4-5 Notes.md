@@ -72,3 +72,8 @@ release() {
 ### 6.8.2 Priority Inversion
 - We haven't learned this in class yet
 > A scheduling challenge arises when a higher-priority process needs to read or modify kernel data that are currently being accessed by a lower-priority process—or a chain of lower-priority processes. Since kernel data are typi- cally protected with a lock, the higher-priority process will have to wait for a lower-priority one to finish with the resource.
+
+
+
+
+System calls vs message passing 
