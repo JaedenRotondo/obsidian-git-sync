@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "eea5906033a11154",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP 346/Assignments/Programming Assignment 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "30b1b26d45ec6b09",
             "type": "leaf",
             "state": {
@@ -63,7 +75,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 354/Lecture 5 notes.md",
+                "file": "COMP 346/Assignments/Programming Assignment 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 354/Lecture 5 notes.md",
+                "file": "COMP 346/Assignments/Programming Assignment 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 354/Lecture 5 notes.md"
+                "file": "COMP 346/Assignments/Programming Assignment 2.md"
               }
             }
           },
@@ -199,11 +212,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c1dbf78386635f2b",
+  "active": "eea5906033a11154",
   "lastOpenFiles": [
+    "COMP 354/Lecture 5 notes.md",
+    "COMP 346/Assignments/Programming Assignment 2.md",
     "COMP 354/Lecture 3 Notes.md",
     "COMP 354/Lecture 6 Notes.md",
-    "COMP 354/Lecture 5 notes.md",
     "COMP 346/Assignments/Theoretical Assignment 1.md",
     "COMP 346/Textbook Notes/Week 4-5 Notes.md",
     "COMP 346/Textbook Notes/Week 3-4 Notes.md",
