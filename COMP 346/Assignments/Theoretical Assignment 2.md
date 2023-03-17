@@ -4,6 +4,8 @@
 - Kernel threads are implmented by the operarting system (as opposed to users) and are therefore recognizeable to the kernel and require hardware support.
 - Context swithcing kernel threads is more demanding than user threads. 
 - Switching between user threads does not require supervisor privledges, but switching between kernel threads do. 
+
+- 
 ---
 ### Question # 2
 > Why threads are referred to as “light-weight” processes? What resources are used when a thread is created? How do they differ from those used when a process is created?
