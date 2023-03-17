@@ -41,6 +41,7 @@ In a swapping/relocation system, the values assigned to the <base, limit> regist
 
 Is it conceivable that some operating-system processes might have the entire main memory as their address space? If this is possible, is it necessarily a bad thing? Explain.
 
+- 
 ### Question # 6
 
 Sometimes it is necessary to synchronize two or more processes so that all process must finish their first phase before any of them is allowed to start its second phase. For two processes, we might write:
