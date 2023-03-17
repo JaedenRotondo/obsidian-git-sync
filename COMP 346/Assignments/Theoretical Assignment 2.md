@@ -16,6 +16,7 @@
 
 Does shared memory provide faster or slower interactions between user processes? Under what conditions is shared memory not suitable at all for inter-process communications?
 - Shared memory allows for faster interactions between user processes. This is because it does not incu the overhead from executing sysetm calls. Shared memory is not suitable for inter-process communications when you are in a distributed system and you require a network for inter-process communication
+- Since shared memory requires that user processes access memory that is shared amongst processes, it means that memory can be deleted or overwritten in scenarios where it shouldnt be. This type of access can be dangerous in high security scenarios 
 
 ### Question # 4
 
@@ -23,6 +24,7 @@ Does shared memory provide faster or slower interactions between user processes?
 ![[Screenshot 2023-03-16 at 2.29.46 PM.png]]
 Does there exist an execution scenario in which: (i) All three processes block permanently? (ii) Precisely two processes block permanently? (iii) No process blocks permanently? Justify your answers.
 
+- All three block permanently 
 
 b) Now consider a slightly modified example involving two processes:
 ![[Screenshot 2023-03-16 at 2.24.54 PM.png]]
