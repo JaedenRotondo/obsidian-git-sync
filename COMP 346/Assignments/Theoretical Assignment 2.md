@@ -9,11 +9,13 @@
 > Why threads are referred to as “light-weight” processes? What resources are used when a thread is created? How do they differ from those used when a process is created?
 
 - A thread is considered a "light-weight" process becuase they share memory from the process they are running in. This means that context switching between threads can be dones easily. The resources consumed by a thread when it is created is from theh resources of the larger process itself. 
-- When a process is created, memory must be allocated (to MM) by the OS and 
+- When a process is created, memory must be allocated (to MM) by the OS and are completely independent from each other. While threads use the same area of memory and are managed by a scheduler
+- User level threads are treated as a single task by the operating system 
 
 ### Question # 3
 
 Does shared memory provide faster or slower interactions between user processes? Under what conditions is shared memory not suitable at all for inter-process communications?
+- Shared memory allows for faster interactions between user processes. This is because it does not incu the overhead from executing sysetm calls. Shared memory is not suitable for inter-process communications when you are in a distributed system and you require a network for inter-process communication
 
 ### Question # 4
 
