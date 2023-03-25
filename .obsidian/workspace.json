@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "61f477945045708d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP 353/Assignment 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "30b1b26d45ec6b09",
             "type": "leaf",
             "state": {
@@ -88,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -154,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
+                "file": "COMP 353/Assignment 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
+                "file": "COMP 353/Assignment 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md"
+                "file": "COMP 353/Assignment 3.md"
               }
             }
           },
@@ -224,11 +236,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb03fb1c308a14ae",
+  "active": "61f477945045708d",
   "lastOpenFiles": [
+    "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
+    "COMP 353/Assignment 3.md",
     "COMP 346/Textbook Notes/Week 3-4 Notes.md",
     "COMP 346/Textbook Notes/Week 4-5 Notes.md",
-    "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
     "COMP 346/Textbook Notes/Week 1-2 Notes.md",
     "COMP 346/Assignments/Programming Assignment 2.md",
     "COMP 346/Assignments/Theoretical Assignment 1.md",
