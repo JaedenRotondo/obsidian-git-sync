@@ -36,9 +36,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7139df1509bf3da9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.9"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -163,7 +173,17 @@
     "width": 334.5,
     "collapsed": true
   },
-  "active": "7ac17f7e1af66666",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7139df1509bf3da9",
   "lastOpenFiles": [
     "COMP 346/Textbook Notes/Operating System Structures.md",
     "COMP 346/Textbook Notes/Operating System Concepts - Chapter 1.md",

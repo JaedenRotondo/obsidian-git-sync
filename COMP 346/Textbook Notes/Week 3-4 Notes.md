@@ -4,7 +4,6 @@
 	- A typical speed is several microseconds 
 	- It should be noted that the more advanced/complex a system is, the longer it takes to do a context switch
 - Generically, we perform a state save of the current state of the CPU core, be it in kernel or user mode, and then a state restore to resume operations.
----
 ### Section 3.3.2 Process Termination 
 - A process terminates when it finishes executing its final statement and asks the operating system to delete it by using `exit` 
 - There are other ways which a process can be terminated. Windows has `TerminateProcess()` for example. For a process to terminate another, it needs to be a child and its identity must be known by the parent process. 
