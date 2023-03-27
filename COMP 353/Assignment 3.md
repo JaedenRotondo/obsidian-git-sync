@@ -23,6 +23,7 @@ _If it is not valid, then give a counter-example_
 
 _(a). AB → DE and A → C, then B → C._
 No, lets say we have the following entities: 
+
 | A 	| B 	| C 	| D 	| E 	|
 |---	|---	|---	|---	|---	|
 | 1 	| 1 	| 0 	| 1 	| 1 	|
@@ -30,6 +31,7 @@ No, lets say we have the following entities:
 | 0 	| 0 	| 1 	| 0 	| 0 	|
 _(b). If AB → C, then A → C or B → C._
 No, lets say we have the following entities: 
+
 | A 	| B 	| C 	|
 |---	|---	|---	|
 | 1 	| 1 	| 1 	|
@@ -63,11 +65,11 @@ F1 = {AC -> B}
 _(a). R(A,B,C,D) with the FD’s: A → B, B → C, C → D, and D → A._
 Already in BCNF 
 _(b). R(A,B,C,D,E) with the FD’s: AB → C, C → D, D → B, and D → E._
-To answer the question, we compute the closures of the LHS X of every FD to see if X+=R or not.
-AB -> ABCDE
-C-> CDBE
-D-> DBE
-C and D are not superkeys 
+To answer the question, we compute the closures of the LHS X of every FD to see if X$^{+}$ =R or not.
+AB$^{+}$ -> ABCDE
+C$^{+}$-> CDBE
+D$^{+}$-> DBE
+C$^{+}$ and D are not superkeys 
 
 1. Decompose R into two relations: AB and R –B, and project F onto the new relations
 R1{DBE} 
@@ -82,31 +84,77 @@ Projection:
 {D, B, E} -> {DBE}
 F1 = {D -> BE}
 
-R2{ACD}
+R2{ABC} 
 - {} ->{}  
 - {A} -> {A} 
-- {D} ->{asd}
-- {C} -> {BCDE}
-- {A,D} -> {}
+- {B} ->{B}
+- {C} -> {CD}
+- {A,B} -> {ABC}
 - {A,C} -> {ABCDE}
-- {D,C} -> {}
-- {A,D,C} -> {ABCDE}
-F2 = {AB -> C, AC -> B, C->D}
-2. Repeatedly do the following 
+- {B,C} -> {ABDE}
+- {A,B,C} -> {ABCDE}
+F2 = {AB -> C, AC -> B}
 
-If either R–B or AB is not in BCNF w.r.t their corresponding FDs, decompose it further.
+R3{AC}
+- {} ->{}  
+- {A} -> {A} 
+- {C} -> {C} 
+- {AC} -> {AC} 
+F3 = {}
+
+R4{CD}
+- {} ->{}  
+- {C} -> {CD} 
+- {D} -> {D} 
+- {CD} -> {CD}
+F4= {C->D}
+
+All of the relations are in 3NF
 ### 5. [20 Points] For a relation R(A,B,C,D,E), we propose a decomposition R into the three relation schemas: R1(A,B,C), R2(B,C,D), and R3(A,C,E). For each of the following sets of FD’s that hold on R, use the technique discussed in the class to (i) prove/disprove the proposed decomposition is lossless, and (ii) determine whether or not, the proposed decomposition is dependency-preserving.
 
 _(a). A → D, D → E, and B → D._
+Using the chase method, we can construct the following table: 
 
+| R  | A | B | C | D | E |
+|----|---|---|---|---|---|
+| R1 | a | b | c | 1 | 2 |
+| R2 | 3 | b | c | d | 4 |
+| R3 | a | 5 | c | 6 | e |
+
+| R  | A | B | C | D | E |
+|----|---|---|---|---|---|
+| R1 | a | b | c | d | e |
+| R2 | 3 | b | c | d | 4 |
+| R3 | a | 5 | c | 1 | e |
+
+R1 has a row of hard values which means that our decomposition is losless
 _(b). CD → E, E → D, and A → D._
+
+| R  | A | B | C | D | E |
+|----|---|---|---|---|---|
+| R1 | a | a | a |  |  |
+| R2 |  | a | a | a |  |
+| R3 | a |  | a |  | a |
+
+| R  | A | B | C | D | E |
+|----|---|---|---|---|---|
+| R1 | a | a | a | b | a |
+| R2 |  | a | a | a |  |
+| R3 | a |  | a | b | a |
+- Since we don't get a row of a's, our decomposition is lossy
 
 6. [15 Points] Consider the relation stocks(B,O, I, S, Q,D) with the FD’s: S → D, I → B, IS → Q, and B → O, where you can think of B as broker, O as office (of the broker), I as investor, S as stock, Q as quantity (of the stocks owned by the investor), and D as dividend (of the stock)._
 
 _(a). Find all the keys of Stocks._
-
+To find all the keys of Stocks, we can take the powerset of unordered pairs which includes IS (as the minimal key): {{I, S}, {B, I, S}, {O, I, S}, {Q, I, S}, {D, I, S}, {B, O, I, S}, {B, Q, I, S}, {B, D, I, S}, {O, Q, I, S}, {O, D, I, S}, {Q, D, I, S}, {B, O, Q, I, S}, {B, O, D, I, S}, {B, Q, D, I, S}, {O, Q, D, I, S}, {B, O, Q, D, I, S}}
 _(b). Find a minimal basis for the FD’s, if not already minimal._
-
+The minimal cover is { S-->D; I-->B; IS-->Q; B-->O }
 _(c). Use the synthesis algorithm to find a lossless-join and dependency-preserving_
 _decomposition of Stocks into 3NF relations. Are any of the resulting relations_
 _not in BCNF?_
+-   Relation 1 is B,O
+-   Relation 2 is I,S,Q
+-   Relation 3 is S,D
+-   Relation 4 is I,B
+-   Relation 5 is IS,Q
+All relations are in BCNF 
