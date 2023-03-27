@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 353/Assignment 3.md",
+                "file": "Internship Search.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,11 +23,16 @@
             "id": "df50adda3b269b05",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Readme.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 353/Assignment 3.md",
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 353/Assignment 3.md",
+                "file": "Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 353/Assignment 3.md"
+                "file": "Readme.md"
               }
             }
           },
@@ -162,10 +167,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b3bb4b0d403af956",
+  "active": "df50adda3b269b05",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Internship Search.md",
+    "Readme.md",
+    "Untitled.md",
     "COMP 353/Assignment 3.md",
+    "conflict-files-obsidian-git.md",
     "COMP 354/Lecture 7 Notes.md",
     "COMP 353/Assignment 2.md",
     "COMP 346/Textbook Notes/Operating System Structures.md",
