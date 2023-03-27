@@ -30,7 +30,7 @@
 ### 2.3.3 Types of System Calls
 - System calls can be categorized into 6 different types 
 1. process control
-	1. ◦ create process / terminate process  
+	1. create process / terminate process  
 	3. load / Execute
 	4. get process attributes / set process attributes 
 	5. Wait / signal event
@@ -112,9 +112,9 @@
 		- Process comminicate via messages (smaller amounts of data)
 - ![[Screenshot 2023-02-08 at 4.40.18 PM.png]]
 ## Section 12.1 Overview of I/O Systems
-
+- There are two dominant trends in I/O systems, there is an increasing standardization of communication across devices as well as a advancement of the devices being used
 ## Section 12.2 I/O Hardware
-
+- 
 ## Section 12.3 Application I/O Interface
 ### 12.3.3 Clocks and Timers
 ### 12.3.4 Nonblocking and Asynchronous I/O
