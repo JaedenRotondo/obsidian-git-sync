@@ -124,11 +124,12 @@ Using the chase method, we can construct the following table:
 | R  | A | B | C | D | E |
 |----|---|---|---|---|---|
 | R1 | a | b | c | d | e |
-| R2 | 3 | b | c | d | 4 |
-| R3 | a | 5 | c | 1 | e |
+| R2 | 3 | b | c | d | e |
+| R3 | a | 5 | c | d | e |
 
-R1 has a row of hard values which means that our decomposition is losless
-_(b). CD → E, E → D, and A → D._
+- R1 has a row of hard values which means that our decomposition is losless
+- R2 is not dependency preserving because  A → D is not in the decomposed FDs
+_(b). CD → E, E → D, and A → D._ (I use a different but equivalent method for this question)
 
 | R  | A | B | C | D | E |
 |----|---|---|---|---|---|
@@ -142,8 +143,9 @@ _(b). CD → E, E → D, and A → D._
 | R2 |  | a | a | a |  |
 | R3 | a |  | a | b | a |
 - Since we don't get a row of a's, our decomposition is lossy
+- Our decomposition is also not dependency preserving since there is no CD → E functional dependency in our decomposed tables
 
-6. [15 Points] Consider the relation stocks(B,O, I, S, Q,D) with the FD’s: S → D, I → B, IS → Q, and B → O, where you can think of B as broker, O as office (of the broker), I as investor, S as stock, Q as quantity (of the stocks owned by the investor), and D as dividend (of the stock)._
+1. [15 Points] Consider the relation stocks(B,O, I, S, Q,D) with the FD’s: S → D, I → B, IS → Q, and B → O, where you can think of B as broker, O as office (of the broker), I as investor, S as stock, Q as quantity (of the stocks owned by the investor), and D as dividend (of the stock)._
 
 _(a). Find all the keys of Stocks._
 To find all the keys of Stocks, we can take the powerset of unordered pairs which includes IS (as the minimal key): {{I, S}, {B, I, S}, {O, I, S}, {Q, I, S}, {D, I, S}, {B, O, I, S}, {B, Q, I, S}, {B, D, I, S}, {O, Q, I, S}, {O, D, I, S}, {Q, D, I, S}, {B, O, Q, I, S}, {B, O, D, I, S}, {B, Q, D, I, S}, {O, Q, D, I, S}, {B, O, Q, D, I, S}}
@@ -157,8 +159,6 @@ _not in BCNF?_
 -   Relation 3 is S,D
 -   Relation 4 is I,B
 -   Relation 5 is IS,Q
-<<<<<<< HEAD
+
 All relations are in BCNF 
-=======
-All relations are in BCNF 
->>>>>>> origin/main
+
