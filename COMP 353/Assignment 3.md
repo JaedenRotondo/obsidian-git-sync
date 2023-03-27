@@ -22,13 +22,13 @@ _(b). Find all the superkeys of R that are not keys._
 _If it is not valid, then give a counter-example_
 
 _(a). AB → DE and A → C, then B → C._
-No, lets say we have the following entities: 
+No, lets say we have the following entities (counterexample): 
 
 | A 	| B 	| C 	| D 	| E 	|
 |---	|---	|---	|---	|---	|
-| 1 	| 1 	| 0 	| 1 	| 1 	|
+| 1 	| 1 	| 1 	| 1 	| 1 	|
 | 1 	| 0 	| 1 	| 0 	| 0 	|
-| 0 	| 0 	| 1 	| 0 	| 0 	|
+| 0 	| 1 	| 0 	| 0 	| 0 	|
 _(b). If AB → C, then A → C or B → C._
 No, lets say we have the following entities: 
 
