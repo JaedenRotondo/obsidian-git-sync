@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 353/Assignment 3.md",
+                "file": "COMP 354/Lecture 7 Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 353/Assignment 3.md",
+                "file": "COMP 354/Lecture 7 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 353/Assignment 3.md",
+                "file": "COMP 354/Lecture 7 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 353/Assignment 3.md"
+                "file": "COMP 354/Lecture 7 Notes.md"
               }
             }
           },
@@ -181,8 +181,8 @@
   },
   "active": "4d5d31fe567845f2",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "COMP 353/Assignment 3.md",
+    "conflict-files-obsidian-git.md",
     "Readme.md",
     "Internship Search.md",
     "Untitled.md",
