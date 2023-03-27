@@ -157,4 +157,8 @@ _not in BCNF?_
 -   Relation 3 is S,D
 -   Relation 4 is I,B
 -   Relation 5 is IS,Q
+<<<<<<< HEAD
 All relations are in BCNF 
+=======
+All relations are in BCNF 
+>>>>>>> origin/main
