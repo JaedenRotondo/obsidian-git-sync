@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,16 +179,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4d5d31fe567845f2",
+  "active": "df50adda3b269b05",
   "lastOpenFiles": [
-    "COMP 354/Lecture 6 Notes.md",
-    "COMP 354/Lecture 7 Notes.md",
+    "COMP 353/Assignment 2.md",
     "COMP 353/Assignment 3.md",
     "conflict-files-obsidian-git.md",
+    "COMP 354/Lecture 6 Notes.md",
+    "COMP 354/Lecture 7 Notes.md",
     "Readme.md",
     "Internship Search.md",
     "Untitled.md",
-    "COMP 353/Assignment 2.md",
     "COMP 346/Textbook Notes/Operating System Structures.md",
     "COMP 346/Textbook Notes/Operating System Concepts - Chapter 1.md",
     "COMP 346/Assignments/Theoretical Assignment 1.md",

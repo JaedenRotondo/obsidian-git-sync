@@ -1,3 +1,4 @@
+> Jaeden Rotondo 40160803, Submitted March 28th 2023. 
 ### 1. [10 Points] Let R(A,B,C,D) be a relation schema with the following set of FD’s: _F = {AB → C, C → D, D → A}._
 _(a). Find all the keys of R._
 First, find the closure of each attribute: 
@@ -22,13 +23,13 @@ _(b). Find all the superkeys of R that are not keys._
 _If it is not valid, then give a counter-example_
 
 _(a). AB → DE and A → C, then B → C._
-No, lets say we have the following entities: 
+No, lets say we have the following entities (counterexample): 
 
 | A 	| B 	| C 	| D 	| E 	|
 |---	|---	|---	|---	|---	|
-| 1 	| 1 	| 0 	| 1 	| 1 	|
+| 1 	| 1 	| 1 	| 1 	| 1 	|
 | 1 	| 0 	| 1 	| 0 	| 0 	|
-| 0 	| 0 	| 1 	| 0 	| 0 	|
+| 0 	| 1 	| 0 	| 0 	| 0 	|
 _(b). If AB → C, then A → C or B → C._
 No, lets say we have the following entities: 
 
@@ -112,6 +113,7 @@ R4{CD}
 F4= {C->D}
 
 All of the relations are in 3NF
+
 ### 5. [20 Points] For a relation R(A,B,C,D,E), we propose a decomposition R into the three relation schemas: R1(A,B,C), R2(B,C,D), and R3(A,C,E). For each of the following sets of FD’s that hold on R, use the technique discussed in the class to (i) prove/disprove the proposed decomposition is lossless, and (ii) determine whether or not, the proposed decomposition is dependency-preserving.
 
 _(a). A → D, D → E, and B → D._
@@ -126,12 +128,13 @@ Using the chase method, we can construct the following table:
 | R  | A | B | C | D | E |
 |----|---|---|---|---|---|
 | R1 | a | b | c | d | e |
-| R2 | 3 | b | c | d | 4 |
-| R3 | a | 5 | c | 1 | e |
+| R2 | 3 | b | c | d | e |
+| R3 | a | 5 | c | d | e |
 
-R1 has a row of hard values which means that our decomposition is losless
-Decomposition is not dependency preserving since we lose D->E
-_(b). CD → E, E → D, and A → D._
+
+- R1 has a row of hard values which means that our decomposition is losless
+- R2 is not dependency preserving because  A → D is not in the decomposed FDs, this is enough to prove the decomposition was not dependency preserving.
+_(b). CD → E, E → D, and A → D._ (I use a different but equivalent method for this question)
 
 | R  | A | B | C | D | E |
 |----|---|---|---|---|---|
@@ -145,7 +148,8 @@ _(b). CD → E, E → D, and A → D._
 | R2 |  | a | a | a |  |
 | R3 | a |  | a | b | a |
 - Since we don't get a row of a's, our decomposition is lossy
-- None of the dependencies can be preserved. 
+- Our decomposition is also not dependency preserving since there is no CD → E functional dependency in our decomposed tables
+
 6. [15 Points] Consider the relation stocks(B,O, I, S, Q,D) with the FD’s: S → D, I → B, IS → Q, and B → O, where you can think of B as broker, O as office (of the broker), I as investor, S as stock, Q as quantity (of the stocks owned by the investor), and D as dividend (of the stock)._
 
 _(a). Find all the keys of Stocks._
@@ -163,4 +167,5 @@ _not in BCNF?_
 -   Relation 4 is I,B (FDs: I-->B)
 
  The relations are in BCNF
+
 
