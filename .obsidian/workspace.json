@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 354/Lecture 7 Notes.md",
+                "file": "COMP 353/Assignment 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 217.50260543823242
   },
   "right": {
     "id": "2cab98a410ff8cbf",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 354/Lecture 7 Notes.md",
+                "file": "COMP 353/Assignment 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 354/Lecture 7 Notes.md",
+                "file": "COMP 353/Assignment 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 354/Lecture 7 Notes.md"
+                "file": "COMP 353/Assignment 3.md"
               }
             }
           },
@@ -181,12 +181,13 @@
   },
   "active": "4d5d31fe567845f2",
   "lastOpenFiles": [
+    "COMP 354/Lecture 6 Notes.md",
+    "COMP 354/Lecture 7 Notes.md",
     "COMP 353/Assignment 3.md",
     "conflict-files-obsidian-git.md",
     "Readme.md",
     "Internship Search.md",
     "Untitled.md",
-    "COMP 354/Lecture 7 Notes.md",
     "COMP 353/Assignment 2.md",
     "COMP 346/Textbook Notes/Operating System Structures.md",
     "COMP 346/Textbook Notes/Operating System Concepts - Chapter 1.md",
