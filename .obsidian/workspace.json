@@ -49,7 +49,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 353/Assignment 3.md",
+                "file": "COMP 354/Lecture 7 Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e7b95cd047e1101",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP 354/Lecture 8.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -166,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 353/Assignment 3.md",
+                "file": "COMP 354/Lecture 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 353/Assignment 3.md",
+                "file": "COMP 354/Lecture 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 353/Assignment 3.md"
+                "file": "COMP 354/Lecture 8.md"
               }
             }
           },
@@ -236,11 +248,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61f477945045708d",
+  "active": "1e7b95cd047e1101",
   "lastOpenFiles": [
     "COMP 354/Lecture 7 Notes.md",
-    "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
+    "COMP 354/Lecture 8.md",
+    "Fall 2022/COMP 335/Textbook Notes/Automata - The Methods and the Madness.md",
+    "Fall 2022/COMP 335/Textbook Notes/2.1 DETERMINISTIC FINITE ACCEPERS.md",
+    "Fall 2022/COMP 335/Lecture Notes/Lecture 3 Deterministic Finite Automata (DFA).md",
+    "Fall 2022/COMP 335/Lecture Notes/Lecture 2 Alphabets and Languages.md",
+    "Fall 2022/COMP 335/Lecture Notes/Lecture 1 Introduction.md",
     "COMP 353/Assignment 3.md",
+    "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
     "COMP 346/Textbook Notes/Week 3-4 Notes.md",
     "COMP 346/Textbook Notes/Week 4-5 Notes.md",
     "COMP 346/Textbook Notes/Week 1-2 Notes.md",
@@ -267,9 +285,6 @@
     "Images/Screenshot 2023-02-24 at 11.44.36 AM.png",
     "Images/Screenshot 2023-02-24 at 11.41.06 AM.png",
     "COMP 353/Assignment 2.md",
-    "COMP 353/Assingment 1.md",
-    "COMP 353/Overview of Database Management System (Ch.2).md",
-    "Fightback/Fehr on the Palestinian Struggle.md",
-    "COMP 346/Tutorial notes.md"
+    "COMP 353/Assingment 1.md"
   ]
 }
