@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 346/Assignments/Theoretical Assignment 3.md",
+                "file": "COMP 346/Textbook Notes/File Management.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 346/Assignments/Theoretical Assignment 3.md",
+                "file": "COMP 346/Textbook Notes/File Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 346/Assignments/Theoretical Assignment 3.md",
+                "file": "COMP 346/Textbook Notes/File Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 346/Assignments/Theoretical Assignment 3.md"
+                "file": "COMP 346/Textbook Notes/File Management.md"
               }
             }
           },
@@ -193,9 +193,11 @@
   },
   "active": "79641c67c685eafd",
   "lastOpenFiles": [
+    "Images/Pasted image 20230419142532.png",
+    "Images/Pasted image 20230419140901.png",
+    "COMP 346/Assignments/Theoretical Assignment 3.md",
     "COMP 346/Assignments/Theoretical Assignment 1.md",
     "Images/Pasted image 20230419123119.png",
-    "COMP 346/Assignments/Theoretical Assignment 3.md",
     "Images/Pasted image 20230419122656.png",
     "COMP 346/Assignments/Theoretical Assignment 2.md",
     "COMP 353/Assignment 3.md",
