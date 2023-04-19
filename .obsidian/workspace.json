@@ -4,40 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "605d606e76433ace",
+        "id": "bc42db14c7398241",
         "type": "tabs",
         "children": [
           {
-            "id": "9732446e596517ad",
+            "id": "b3bb4b0d403af956",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 353/Assignment 4 COMP 353.md",
+                "file": "Internship Search.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4f11f2220cc57b1b",
+            "id": "df50adda3b269b05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 353/Assignment 4 COMP 353.md",
+                "file": "COMP 346/Assignments/Theoretical Assignment 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "573369a8ee40c3b6",
+            "id": "79641c67c685eafd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "COMP 346/Assignments/Theoretical Assignment 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4d5d31fe567845f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP 353/Assignment 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,10 +85,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "RAM",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -94,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 217.50260543823242
   },
   "right": {
     "id": "2cab98a410ff8cbf",
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "COMP 346/Assignments/Theoretical Assignment 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "COMP 346/Assignments/Theoretical Assignment 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "COMP 346/Assignments/Theoretical Assignment 3.md"
               }
             }
           },
@@ -162,12 +174,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 334.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -180,42 +191,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "573369a8ee40c3b6",
+  "active": "79641c67c685eafd",
   "lastOpenFiles": [
-    "COMP 353/Assignment 4 COMP 353.md",
-    "conflict-files-obsidian-git.md",
-    "COMP 346/Textbook Notes/Deadlock.md",
-    "Images/Screenshot 2023-04-18 at 3.31.26 PM.png",
-    "COMP 346/Textbook Notes/File Management.md",
-    "Images/Screenshot 2023-04-18 at 2.29.17 PM.png",
-    "COMP 346/Textbook Notes/Week 3-4 Notes.md",
-    "COMP 346/Textbook Notes/Classical Synchronisation Problems.md",
-    "COMP 346/Textbook Notes/Week 4-5 Notes.md",
-    "COMP 346/Assignments/Theoretical Assignment 1.md",
-    "COMP 354/Lecture 8.md",
-    "COMP 354/Lecture 7 Notes.md",
-    "COMP 346/Textbook Notes/Week 1-2 Notes.md",
-    "COMP 354/Lecture 5 notes.md",
-    "Fall 2022/COMP 335/Textbook Notes/Automata - The Methods and the Madness.md",
-    "Fall 2022/COMP 335/Textbook Notes/2.1 DETERMINISTIC FINITE ACCEPERS.md",
-    "Fall 2022/COMP 335/Lecture Notes/Lecture 3 Deterministic Finite Automata (DFA).md",
-    "Fall 2022/COMP 335/Lecture Notes/Lecture 2 Alphabets and Languages.md",
-    "Fall 2022/COMP 335/Lecture Notes/Lecture 1 Introduction.md",
-    "COMP 353/Assignment 3.md",
-    "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
-    "COMP 346/Assignments/Programming Assignment 2.md",
+    "Images/Pasted image 20230419123119.png",
+    "Images/Pasted image 20230419122656.png",
     "COMP 346/Assignments/Theoretical Assignment 2.md",
-    "Images/Screenshot 2023-03-16 at 2.29.46 PM.png",
-    "Images/Screenshot 2023-03-16 at 2.25.24 PM.png",
-    "Images/Screenshot 2023-03-16 at 2.24.54 PM.png",
-    "COMP 354/Lecture 3 Notes.md",
+    "COMP 346/Assignments/Theoretical Assignment 3.md",
+    "COMP 346/Assignments/Theoretical Assignment 1.md",
+    "COMP 353/Assignment 3.md",
+    "Images/Screenshot 2023-04-18 at 3.31.26 PM.png",
+    "Images/Screenshot 2023-04-18 at 2.29.17 PM.png",
+    "COMP 354/Lecture 8.md",
+    "COMP 353/Assignment 4 COMP 353.md",
+    "COMP 346/Textbook Notes/File Management.md",
+    "COMP 346/Textbook Notes/Deadlock.md",
+    "COMP 353/Assignment 2.md",
+    "conflict-files-obsidian-git.md",
     "COMP 354/Lecture 6 Notes.md",
-    "COMP 353/db - 05 Notes.md",
-    "Images/Screenshot 2023-03-05 at 2.31.09 PM.png",
-    "Images/Screenshot 2023-03-05 at 1.53.20 PM.png",
-    "Images/Screenshot 2023-03-05 at 1.51.00 PM.png",
-    "COMP 353/db - 02 Notes.md",
-    "Images/Screenshot 2023-02-24 at 1.05.09 PM.png",
-    "Images/Screenshot 2023-02-24 at 11.51.24 AM.png"
+    "COMP 354/Lecture 7 Notes.md",
+    "Readme.md",
+    "Internship Search.md",
+    "Untitled.md",
+    "COMP 346/Textbook Notes/Operating System Structures.md",
+    "COMP 346/Textbook Notes/Operating System Concepts - Chapter 1.md",
+    "COMP 346/Operating System Concepts - Chapter 1.md",
+    "COMP 353/Overview of Database Management System (Ch.2).md",
+    "COMP 353/Assingment 1.md"
   ]
 }
