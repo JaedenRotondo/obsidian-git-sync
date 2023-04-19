@@ -25,19 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 346/Assignments/Theoretical Assignment 2.md",
+                "file": "COMP 346/Textbook Notes/File Management.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9d54e1dba8251d3a",
+            "id": "db8922c60876bdb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "COMP 346/Office Hours Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "COMP 346/Office Hours Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "COMP 346/Office Hours Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "COMP 346/Office Hours Notes.md"
               }
             }
           },
@@ -180,21 +180,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d54e1dba8251d3a",
+  "active": "db8922c60876bdb5",
   "lastOpenFiles": [
+    "Images/Screenshot 2023-04-19 at 5.01.28 PM.png",
+    "COMP 346/Textbook Notes/File Management.md",
+    "COMP 346/Office Hours Notes.md",
+    "Images/Screenshot 2023-04-19 at 4.10.52 PM.png",
+    "Images/Screenshot 2023-04-19 at 4.08.25 PM.png",
+    "Images/Screenshot 2023-04-19 at 3.50.28 PM.png",
+    "Images/Screenshot 2023-04-19 at 3.47.42 PM.png",
+    "COMP 346/Assignments/Theoretical Assignment 3.md",
+    "COMP 346/Assignments/Theoretical Assignment 2.md",
+    "COMP 346/Assignments/Theoretical Assignment 1.md",
+    "conflict-files-obsidian-git.md",
     "Images/Pasted image 20230419142532.png",
     "Images/Pasted image 20230419140901.png",
     "Images/Pasted image 20230419123119.png",
     "Images/Pasted image 20230419122656.png",
-    "COMP 346/Assignments/Theoretical Assignment 3.md",
-    "COMP 346/Assignments/Theoretical Assignment 2.md",
-    "conflict-files-obsidian-git.md",
-    "COMP 346/Assignments/Theoretical Assignment 1.md",
     "COMP 346/Assignments/Programming Assignment 2.md",
     "COMP 353/Assignment 4 COMP 353.md",
     "COMP 346/Textbook Notes/Deadlock.md",
     "Images/Screenshot 2023-04-18 at 3.31.26 PM.png",
-    "COMP 346/Textbook Notes/File Management.md",
     "Images/Screenshot 2023-04-18 at 2.29.17 PM.png",
     "COMP 346/Textbook Notes/Week 3-4 Notes.md",
     "COMP 346/Textbook Notes/Classical Synchronisation Problems.md",
@@ -210,13 +216,7 @@
     "Fall 2022/COMP 335/Lecture Notes/Lecture 1 Introduction.md",
     "COMP 353/Assignment 3.md",
     "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
-    "Images/Screenshot 2023-03-16 at 2.29.46 PM.png",
-    "Images/Screenshot 2023-03-16 at 2.25.24 PM.png",
-    "Images/Screenshot 2023-03-16 at 2.24.54 PM.png",
     "COMP 354/Lecture 3 Notes.md",
-    "COMP 354/Lecture 6 Notes.md",
-    "COMP 353/db - 05 Notes.md",
-    "Images/Screenshot 2023-03-05 at 2.31.09 PM.png",
-    "Images/Screenshot 2023-03-05 at 1.53.20 PM.png"
+    "COMP 354/Lecture 6 Notes.md"
   ]
 }
