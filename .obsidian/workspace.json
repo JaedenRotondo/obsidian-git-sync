@@ -8,111 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c1dbf78386635f2b",
+            "id": "9732446e596517ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 354/Lecture 5 notes.md",
+                "file": "COMP 353/Assignment 4 COMP 353.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "eea5906033a11154",
+            "id": "4f11f2220cc57b1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 346/Assignments/Theoretical Assignment 1.md",
+                "file": "COMP 353/Assignment 4 COMP 353.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fb03fb1c308a14ae",
+            "id": "573369a8ee40c3b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "61f477945045708d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 354/Lecture 7 Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e7b95cd047e1101",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 354/Lecture 8.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "30b1b26d45ec6b09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 346/Assignments/Theoretical Assignment 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "90cfde568c11ab26",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 346/Textbook Notes/Week 4-5 Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e388cb825763a899",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP 346/Textbook Notes/Classical Synchronisation Problems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7215239627e826ac",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -178,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 354/Lecture 8.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 354/Lecture 8.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 354/Lecture 8.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -235,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -248,10 +180,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1e7b95cd047e1101",
+  "active": "573369a8ee40c3b6",
   "lastOpenFiles": [
-    "COMP 354/Lecture 7 Notes.md",
+    "COMP 353/Assignment 4 COMP 353.md",
+    "conflict-files-obsidian-git.md",
+    "COMP 346/Textbook Notes/Deadlock.md",
+    "Images/Screenshot 2023-04-18 at 3.31.26 PM.png",
+    "COMP 346/Textbook Notes/File Management.md",
+    "Images/Screenshot 2023-04-18 at 2.29.17 PM.png",
+    "COMP 346/Textbook Notes/Week 3-4 Notes.md",
+    "COMP 346/Textbook Notes/Classical Synchronisation Problems.md",
+    "COMP 346/Textbook Notes/Week 4-5 Notes.md",
+    "COMP 346/Assignments/Theoretical Assignment 1.md",
     "COMP 354/Lecture 8.md",
+    "COMP 354/Lecture 7 Notes.md",
+    "COMP 346/Textbook Notes/Week 1-2 Notes.md",
+    "COMP 354/Lecture 5 notes.md",
     "Fall 2022/COMP 335/Textbook Notes/Automata - The Methods and the Madness.md",
     "Fall 2022/COMP 335/Textbook Notes/2.1 DETERMINISTIC FINITE ACCEPERS.md",
     "Fall 2022/COMP 335/Lecture Notes/Lecture 3 Deterministic Finite Automata (DFA).md",
@@ -259,32 +203,19 @@
     "Fall 2022/COMP 335/Lecture Notes/Lecture 1 Introduction.md",
     "COMP 353/Assignment 3.md",
     "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
-    "COMP 346/Textbook Notes/Week 3-4 Notes.md",
-    "COMP 346/Textbook Notes/Week 4-5 Notes.md",
-    "COMP 346/Textbook Notes/Week 1-2 Notes.md",
     "COMP 346/Assignments/Programming Assignment 2.md",
-    "COMP 346/Assignments/Theoretical Assignment 1.md",
     "COMP 346/Assignments/Theoretical Assignment 2.md",
     "Images/Screenshot 2023-03-16 at 2.29.46 PM.png",
     "Images/Screenshot 2023-03-16 at 2.25.24 PM.png",
     "Images/Screenshot 2023-03-16 at 2.24.54 PM.png",
-    "COMP 354/Lecture 5 notes.md",
     "COMP 354/Lecture 3 Notes.md",
     "COMP 354/Lecture 6 Notes.md",
     "COMP 353/db - 05 Notes.md",
     "Images/Screenshot 2023-03-05 at 2.31.09 PM.png",
     "Images/Screenshot 2023-03-05 at 1.53.20 PM.png",
     "Images/Screenshot 2023-03-05 at 1.51.00 PM.png",
-    "COMP 346/Textbook Notes/Classical Synchronisation Problems.md",
     "COMP 353/db - 02 Notes.md",
-    "COMP 353/db - 01 Notes.md",
-    "Untitled.md",
-    "COMP 353/db -03 Notes.md",
     "Images/Screenshot 2023-02-24 at 1.05.09 PM.png",
-    "Images/Screenshot 2023-02-24 at 11.51.24 AM.png",
-    "Images/Screenshot 2023-02-24 at 11.44.36 AM.png",
-    "Images/Screenshot 2023-02-24 at 11.41.06 AM.png",
-    "COMP 353/Assignment 2.md",
-    "COMP 353/Assingment 1.md"
+    "Images/Screenshot 2023-02-24 at 11.51.24 AM.png"
   ]
 }
