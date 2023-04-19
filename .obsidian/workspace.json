@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9d54e1dba8251d3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 346/Assignments/Theoretical Assignment 2.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 346/Assignments/Theoretical Assignment 2.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 346/Assignments/Theoretical Assignment 2.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -168,12 +180,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f11f2220cc57b1b",
+  "active": "9d54e1dba8251d3a",
   "lastOpenFiles": [
+    "Images/Pasted image 20230419142532.png",
+    "Images/Pasted image 20230419140901.png",
+    "Images/Pasted image 20230419123119.png",
+    "Images/Pasted image 20230419122656.png",
+    "COMP 346/Assignments/Theoretical Assignment 3.md",
+    "COMP 346/Assignments/Theoretical Assignment 2.md",
+    "conflict-files-obsidian-git.md",
     "COMP 346/Assignments/Theoretical Assignment 1.md",
     "COMP 346/Assignments/Programming Assignment 2.md",
     "COMP 353/Assignment 4 COMP 353.md",
-    "conflict-files-obsidian-git.md",
     "COMP 346/Textbook Notes/Deadlock.md",
     "Images/Screenshot 2023-04-18 at 3.31.26 PM.png",
     "COMP 346/Textbook Notes/File Management.md",
@@ -192,7 +210,6 @@
     "Fall 2022/COMP 335/Lecture Notes/Lecture 1 Introduction.md",
     "COMP 353/Assignment 3.md",
     "COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
-    "COMP 346/Assignments/Theoretical Assignment 2.md",
     "Images/Screenshot 2023-03-16 at 2.29.46 PM.png",
     "Images/Screenshot 2023-03-16 at 2.25.24 PM.png",
     "Images/Screenshot 2023-03-16 at 2.24.54 PM.png",
@@ -200,10 +217,6 @@
     "COMP 354/Lecture 6 Notes.md",
     "COMP 353/db - 05 Notes.md",
     "Images/Screenshot 2023-03-05 at 2.31.09 PM.png",
-    "Images/Screenshot 2023-03-05 at 1.53.20 PM.png",
-    "Images/Screenshot 2023-03-05 at 1.51.00 PM.png",
-    "COMP 353/db - 02 Notes.md",
-    "Images/Screenshot 2023-02-24 at 1.05.09 PM.png",
-    "Images/Screenshot 2023-02-24 at 11.51.24 AM.png"
+    "Images/Screenshot 2023-03-05 at 1.53.20 PM.png"
   ]
 }

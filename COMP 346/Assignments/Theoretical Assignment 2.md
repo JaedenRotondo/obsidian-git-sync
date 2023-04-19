@@ -26,14 +26,18 @@ Does shared memory provide faster or slower interactions between user processes?
 ![[Screenshot 2023-03-16 at 2.29.46 PM.png]]
 Does there exist an execution scenario in which: (i) All three processes block permanently? (ii) Precisely two processes block permanently? (iii) No process blocks permanently? Justify your answers.
 
-- All three block permanently 
+- All three block permanently: Scenario:
+	- Process C starts, the mutex is changed to locked (0) and process C waits for goC (locked). goC can only be signaled if Process B runs which will never because the mutex is never signaled. 
 
-b) Now consider a slightly modified example involving two processes:
+#### b) Now consider a slightly modified example involving two processes:
 ![[Screenshot 2023-03-16 at 2.24.54 PM.png]]
 1.  (i)  Let m > n. In this case, does there exist an execution scenario in which both processes block permanently? Does there exist an execution scenario in which neither process blocks permanently? Explain your answers.
-    
-2.  (ii)  Now, let m < n. In this case, does there exist an execution scenario in which both processes block permanently? Does there exist an execution scenario in which neither process blocks permanently? Explain your answers.
-    
+    - There is no deadlock in this code if Process A starts. Since process A will signal goB more times than Process B needs to run. 
+    - If process B starts, it will never release the mutex to allow for signal(goB)
+1.  (ii)  Now, let m < n. In this case, does there exist an execution scenario in which both processes block permanently? Does there exist an execution scenario in which neither process blocks permanently? Explain your answers.
+    - If m < n, there is an obvious deadlock scenario, since wait(goB) requires a signal from process A, it cannot run more times than Process A. 
+    - If process B starts, it will never release the mutex to allow for signal(goB)
+    - In every scenario, process B will never finish executing 
 
 ### Question # 5
 
@@ -41,7 +45,7 @@ In a swapping/relocation system, the values assigned to the <base, limit> regist
 
 Is it conceivable that some operating-system processes might have the entire main memory as their address space? If this is possible, is it necessarily a bad thing? Explain.
 
-- 
+- The operating system processes need to have the entire main memory as their address space so that it can reach certain processes. This is a good thing for security purposes as well. 
 ### Question # 6
 
 Sometimes it is necessary to synchronize two or more processes so that all process must finish their first phase before any of them is allowed to start its second phase. For two processes, we might write:
