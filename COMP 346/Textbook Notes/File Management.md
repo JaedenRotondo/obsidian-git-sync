@@ -78,8 +78,19 @@
 #### Tree- Structured Directories 
 - This is the natural generalization of two-level directory structure 
 - ![[Screenshot 2023-04-19 at 4.08.25 PM.png]]
-#### General graph directory
-![[Screenshot 2023-04-19 at 4.10.52 PM.png]]
-
+- absolute path and relative paths
+- This system allows for different users to access other user files, which is better than the 2-level model which suffered from user isolation
+- With the tree structure, whether or not you allow deleting directories is can cause big problems. For example, deleting root could wipe your entire system. 
+	- This is why sometimes you can only delete a directory if its empty
 ## 13.4 Protection 
 - There are different types of access in terms of file protection 
+- Types of file access 
+![[Screenshot 2023-04-20 at 8.55.24 AM.png]]
+##### Access Control
+- Access control list
+	1. Owner: The creator of the file
+	2. Group: The set of users who share the file and need similar access
+	3. Other: All other users 
+##### Password protected files
+- Can be effected based on the strengh of passwords 
+- Requires the user to memorize too many passwords 

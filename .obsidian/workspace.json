@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 346/Office Hours Notes.md",
+                "file": "COMP 346/Textbook Notes/File Management.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 346/Office Hours Notes.md",
+                "file": "COMP 346/Textbook Notes/File Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 346/Office Hours Notes.md",
+                "file": "COMP 346/Textbook Notes/File Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 346/Office Hours Notes.md"
+                "file": "COMP 346/Textbook Notes/File Management.md"
               }
             }
           },
@@ -182,26 +182,26 @@
   },
   "active": "db8922c60876bdb5",
   "lastOpenFiles": [
+    "Images/Screenshot 2023-04-20 at 8.55.24 AM.png",
+    "COMP 346/Assignments/Theoretical Assignment 3.md",
+    "COMP 346/Assignments/Theoretical Assignment 2.md",
+    "COMP 346/Assignments/Theoretical Assignment 1.md",
+    "COMP 346/Assignments/Programming Assignment 2.md",
+    "COMP 346/Office Hours Notes.md",
     "Images/Screenshot 2023-04-19 at 5.01.28 PM.png",
     "COMP 346/Textbook Notes/File Management.md",
-    "COMP 346/Office Hours Notes.md",
     "Images/Screenshot 2023-04-19 at 4.10.52 PM.png",
     "Images/Screenshot 2023-04-19 at 4.08.25 PM.png",
     "Images/Screenshot 2023-04-19 at 3.50.28 PM.png",
     "Images/Screenshot 2023-04-19 at 3.47.42 PM.png",
-    "COMP 346/Assignments/Theoretical Assignment 3.md",
-    "COMP 346/Assignments/Theoretical Assignment 2.md",
-    "COMP 346/Assignments/Theoretical Assignment 1.md",
     "conflict-files-obsidian-git.md",
     "Images/Pasted image 20230419142532.png",
     "Images/Pasted image 20230419140901.png",
     "Images/Pasted image 20230419123119.png",
     "Images/Pasted image 20230419122656.png",
-    "COMP 346/Assignments/Programming Assignment 2.md",
     "COMP 353/Assignment 4 COMP 353.md",
     "COMP 346/Textbook Notes/Deadlock.md",
     "Images/Screenshot 2023-04-18 at 3.31.26 PM.png",
-    "Images/Screenshot 2023-04-18 at 2.29.17 PM.png",
     "COMP 346/Textbook Notes/Week 3-4 Notes.md",
     "COMP 346/Textbook Notes/Classical Synchronisation Problems.md",
     "COMP 346/Textbook Notes/Week 4-5 Notes.md",
