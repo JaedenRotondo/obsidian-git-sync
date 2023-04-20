@@ -13,6 +13,19 @@
 - The operating system keeps a copy of the page table for each process, so paging therefore increases context-swtiching time 
 ### 9.3.2 Hardware Support
 ---
-- 
-### 9.3.3
-### 9.5.2
+- Page tables being held in the main memory lead to faster context switches but the time it takes to retrieve it in MM is slower than if there was a TLB (Translation look-aside buffer) which is a type of *CPU cache*
+- The chance that the desired page adress is in the TLB is considered *hit ratio* and when the memory manager isnt able to find the page in the TLB we call it a *TLB miss*
+- *Effective memory access time* is the equation as follows
+$$effective \ access \ = (P_{TLB-hit} \cdot T_1) + (P_{TLB-miss} \ T_2)$$
+### 9.3.3 Protection 
+---
+- Memory protection in a paged environment is accomplished by protection bits associated with each frame. Normally, these bits are kept in the page table.
+- One bit can defne a page to be read–write or read-only.
+	- This can be extended to other access rights
+- There are also valid-invalid bits for each frame to signify to the OS whehter or not the frame is in the processes logical address space![[Screenshot 2023-04-20 at 3.46.28 PM.png]]
+### 9.5.2 Swapping with Paging 
+---
+- Standard swapping was used in traditional unix sytstems but is generally not used today because the time it takes to move entire processes between memory and backing store is not needed
+- Most systems, including Linux andWindows, now use a variation of swapping in which pages of a process—rather than an entire process can be swapped.
+- Paging nowadays usually referes to swapping with paging 
+![[Screenshot 2023-04-20 at 3.52.48 PM.png]]
