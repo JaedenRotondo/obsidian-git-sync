@@ -55,8 +55,10 @@ IV. The procedure ContextSwitch is called whenever there is a switch in context 
     - The main reason why things are performed through the kernel and not directly via the  user processes because that would be a security issue. Instead, supervision via a mode bit allows for the kernel space to be entered for short and monitored periods of time. On top of this, certain actions (errors, either malicious or unintentional) should not be granted to the user unless authorized. 
 2.  Consider a computer running in the user mode. It will switch to the monitor mode whenever an interrupt or trap occurs, jumping to the address determined from the interrupt vector.
     1.  (a)  A smart, but malicious, user took advantage of a certain serious loophole in the computer's protection mechanism, by which he could make run his own user program in the monitor mode! This can cause disastrous effects. What could have he possibly done to achieve this? What disastrous effects could it cause?
-        - yielding and intering monitor mode? Creating several threads and yielding to a different thread - executing in monitor mode? 
+        - This malcious user could have exploited the system by running a system call with a way to break the code. A fatal error during a system call would mean that the mode bit (which is changed to monitor mode during the system operations) is never switched back. This would mean that the mode bit for the user would remain as monitor and the malicious user would have the power of admin (remove files, search through directories that were once protected etc)
     2.  (b)  Suggest a remedy for the loophole.
+	    - The only solution to this problem is to make sure that there are no exploitable system calls that could end up with incorrect mode bits. 
+	    - Software is being patched constantly so that whatever exploits are found are fixed immediately. 
 
 
 ## Question # 5
@@ -64,15 +66,18 @@ IV. The procedure ContextSwitch is called whenever there is a switch in context 
 Suppose that a multiprogrammed system has a load of N processes with individual execution times of t1, t2, ...,tN. Answer the following questions:
 
 a) How would it be possible that the time to complete the N processes could be as small as: maximum (t1, t2, ...,tN)?
-
+- This is only possible if the processes run in parallel. 
 b) How would it be possible that the total execution time, T > t1+ t2+ ...+tN? In other words, what would cause the total execution time to exceed the sum of individual process execution times?
-
+- Yes, the total process time would exceed the sum of the individual process execution times due to the time lost during context swtiches. This is overhead that is not atributed to any particular process. 
 ## Question # 6
 
-Which of the following instructions should be privileged? Explain why. (i) Read the system clock,  
+Which of the following instructions should be privileged? Explain why. 
+(i) Read the system clock,
+- Non priveldged because applications might need to tell time 
 (ii) Clear memory,  
+- Priveldged, the memory allocated might be required and sensitive to deletion (processes might be using it)
 (iii) Reading from user space
-
+- Not priveledged since any sensitive info
 (iv) Writing to user space  
 (v) Copy from one register to another (vi) Turn off interrupts, and  
 (vii) Switch from user to monitor mode.

@@ -1,7 +1,8 @@
 ## Question # 1 
 Answer the following questions: 
 ###### i. (a) What are relocatable programs? (b) What makes a program relocatable? (c) From the OS memory management context, why programs (processes) need to be relocatable? 
-
+- Relocatable programs are programs that can be loaded into phsyical memory from other locations 
+- A program is relocatable if it can be relocated without the loss of data. If a program contains relative addresses (or logical addresses) then it is relocatable. 
 ###### ii. What is (are) the advantage(s) and/or disadvantage(s) of small versus big page sizes? 
 
 ###### iii. What is (are) the advantage(s) of paging over segmentation? iv. What is (are) the advantage(s) of segmentation over paging? Explain your answers.
