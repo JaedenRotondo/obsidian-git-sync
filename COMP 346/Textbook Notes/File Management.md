@@ -9,7 +9,7 @@
 - Size: Current file size and possibly max file size
 - Protection: Access rifhts of the file (read, write, execute)
 - Timestamp and user info
-- Note that some file systems support extended attributes *click "view properties" on a file*
+- Note that some file systems support extended attributes *click "view proper ties" on a file*
 #### File operations
 - Creating a fil
 - Opening a fil
