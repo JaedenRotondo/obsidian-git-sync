@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP 346/Textbook Notes/Classical Synchronisation.md",
+                "file": "COMP 346/Assignments/Theoretical Assignment 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP 346/Textbook Notes/Classical Synchronisation.md",
+                "file": "COMP 346/Assignments/Theoretical Assignment 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP 346/Textbook Notes/Classical Synchronisation.md",
+                "file": "COMP 346/Assignments/Theoretical Assignment 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP 346/Textbook Notes/Classical Synchronisation.md"
+                "file": "COMP 346/Assignments/Theoretical Assignment 3.md"
               }
             }
           },
@@ -206,8 +206,11 @@
   },
   "active": "cbf0c2eae592deba",
   "lastOpenFiles": [
-    "COMP 346/Textbook Notes/Virtual Memory.md",
+    "COMP 346/Assignments/Theoretical Assignment 2.md",
+    "COMP 346/Assignments/Programming Assignment 2.md",
+    "COMP 346/Assignments/Theoretical Assignment 1.md",
     "COMP 346/Textbook Notes/Classical Synchronisation.md",
+    "COMP 346/Textbook Notes/Virtual Memory.md",
     "Images/Screenshot 2023-04-20 at 3.52.48 PM.png",
     "Images/Screenshot 2023-04-20 at 3.46.28 PM.png",
     "Images/Screenshot 2023-04-20 at 12.20.56 PM.png",
@@ -215,9 +218,6 @@
     "COMP 346/Textbook Notes/File Management.md",
     "Images/Screenshot 2023-04-20 at 8.55.24 AM.png",
     "COMP 346/Assignments/Theoretical Assignment 3.md",
-    "COMP 346/Assignments/Theoretical Assignment 2.md",
-    "COMP 346/Assignments/Theoretical Assignment 1.md",
-    "COMP 346/Assignments/Programming Assignment 2.md",
     "COMP 346/Office Hours Notes.md",
     "Images/Screenshot 2023-04-19 at 5.01.28 PM.png",
     "Images/Screenshot 2023-04-19 at 4.10.52 PM.png",

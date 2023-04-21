@@ -4,8 +4,14 @@ Answer the following questions:
 - Relocatable programs are programs that can be loaded into phsyical memory from other locations 
 - A program is relocatable if it can be relocated without the loss of data. If a program contains relative addresses (or logical addresses) then it is relocatable. 
 ###### ii. What is (are) the advantage(s) and/or disadvantage(s) of small versus big page sizes? 
-
+- Small page sizes: 
+	- Advantage: The internal fragmentation caused by the last page is smaller 
+	- Disadvantag: Page table entries accquire more overhead, and I/O is slower
+- Big page sizes:
+	- Advantage: I/O is more suitable for larger page sizes, page tables have less overhead
+	- Disadvatange: internal fragmentation in the last frame 
 ###### iii. What is (are) the advantage(s) of paging over segmentation? iv. What is (are) the advantage(s) of segmentation over paging? Explain your answers.
+- Paging is advantageous compared to segmentation because 
 
 ## Question # 2
 Consider the below implementations of a semaphore’s wait and signal operations:
