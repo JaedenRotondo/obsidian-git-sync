@@ -10,6 +10,7 @@ Answer the following questions:
 - Big page sizes:
 	- Advantage: I/O is more suitable for larger page sizes, page tables have less overhead
 	- Disadvatange: internal fragmentation in the last frame 
+	- less page faukts 
 ###### iii. What is (are) the advantage(s) of paging over segmentation? iv. What is (are) the advantage(s) of segmentation over paging? Explain your answers.
 - Paging is advantageous compared to segmentation because it removes the problem of externel fragmentation. Segmentation involves splitting the code to be loaded into memory into differently sized pieces which when taken in and out of memory will require compaction to create usable space
 - Segmentation is not all bad though, it removes the issue of internal fragmentation. Since eacg segment is a custom size required for the micro process, there is no internal fragmentation. Also since page lookup is preferably done in the cache, context switching is faster because there is no extra storage used in the cache.
