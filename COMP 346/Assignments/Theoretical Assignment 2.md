@@ -64,6 +64,4 @@ Generally, both P and V operation must be implemented as a critical section. Are
 
 What is the potential problem of multiprogramming?
 
-Redistribution or publication of this document or its text, by any means, is strictly prohibited.
-
-Page 3
+The potential problem of multiprogramming is that, since several processes will be running concurrently, mutual exclusion between the program data as well as allocation of resources which can result in deadlock becomes an issue. 

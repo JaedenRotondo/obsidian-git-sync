@@ -1,12 +1,13 @@
 ## Question # 1 
 Answer the following questions: 
 ###### i. (a) What are relocatable programs? (b) What makes a program relocatable? (c) From the OS memory management context, why programs (processes) need to be relocatable? 
-- Relocatable programs are programs that can be loaded into phsyical memory from other locations 
+- Relocatable programs are programs that can be loaded into phsyical memory from other locations with correct adresses for resources.   
 - A program is relocatable if it can be relocated without the loss of data. If a program contains relative addresses (or virtual addresses) then it is relocatable. 
+- Processes must be relocatable for purposes of compaction. If you shift the process in memory you need that process to be relocatable 
 ###### ii. What is (are) the advantage(s) and/or disadvantage(s) of small versus big page sizes? 
 - Small page sizes: 
 	- Advantage: The internal fragmentation caused by the last page is smaller 
-	- Disadvantag: Page table entries accquire more overhead, and I/O is slower
+	- Disadvantag: Page table entries accquire more overhead, and I/O is slower. Page faults are also more likely if the pager size is smaller. 
 - Big page sizes:
 	- Advantage: I/O is more suitable for larger page sizes, page tables have less overhead
 	- Disadvatange: internal fragmentation in the last frame 
@@ -19,8 +20,19 @@ Answer the following questions:
 Consider the below implementations of a semaphore’s wait and signal operations:
 ![[Pasted image 20230419122656.png]]
 ###### a) What are the critical sections inside the wait and signal operations which are protected by disabling and enabling of interrupts?
-- 
+- The critical sections in the wait operation which are protected by the disable and enable interrupts is the semaphore implementations  
+```Java
+sem.value--;
+if(sem.value<0)
+```
+- The same is true for the signal method: 
+```Java 
+sem.value++;
+if(sem.value <= 0)
+```
+- Note that, although the other lines of code isnde the body are also critical sections, there are being provided mutual exclusion by the semaphores and do not require enable and disable interrupts 
 ###### b) Give example of a specific execution scenario for the above code leading to inconsistency if the critical sections inside implementation of wait() and signal() are not protected (by disabling of interrupts).
+- 
 ###### Suppose that process A calling semaphore wait() gets blocked and another process B is selected to run (refer to the above code). Since interrupts are enabled only at the completion of the wait operation, will B start executing with the interrupts disabled? Explain your answer.
 ## Question # 3
 Consider a demand-paged system where the page table for each process resides in main memory. In addition, there is a fast associative memory (also known as TLB which stands for Translation Look-aside Buffer) to speed up the translation process. Each single memory access takes 1 microsecond while each TLB access takes 0.2 microseconds. Assume that 2% of the page requests lead to page faults, while 98% are hits. On the average, page fault time is 20 milliseconds (includes everything: TLB/memory/disc access time and transfer, and any context switch overhead). Out of the 98% page hits, 80 % of the accesses are found in the TLB and the rest, 20%, are TLB misses. Calculate the effective memory access time for the system.
@@ -38,20 +50,27 @@ Effective memory access time:
 ## Question # 4
 Consider the page reference string Ʀ={0, 1, 2, 0, 1, 2, 0, 1, 2, 3, 6, 7, 6, 7, 0, 1, 2, 3, 4} for a given process.
 ###### (a) Show the memory representation of the pages using the LRU algorithm and an allocation of 3 frames. How many page faults are there?
-| Frame / Allocation | 0  | 1  | 2  | 0 | 1 | 2 | 0 | 1 | 2 | 3  | 6  | 7  | 6 | 7 | 0  | 1  | 2  | 3  | 4  | 3 |
-|--------------------|----|----|----|---|---|---|---|---|---|----|----|----|---|---|----|----|----|----|----|---|
-| Frame 1            | 0* | 0  | 0  | 0 | 0 | 0 | 0 | 0 | 0 | 3* | 3  | 3  | 3 | 3 | 0* | 0  | 0  | 3* | 3  | 3 |
-| Frame 2            |    | 1* | 1  | 1 | 1 | 1 | 1 | 1 | 1 | 1  | 6* | 6  | 6 | 6 | 6  | 1* | 1  | 2  | 4* | 4 |
-| Frame 3            |    |    | 2* | 2 | 2 | 2 | 2 | 2 | 2 | 2  | 2  | 7* | 7 | 7 | 7  | 7  | 2* | 2  | 2  | 2 |
+| Frame / Allocation | 0  | 1  | 2  | 0 | 1 | 2 | 0 | 1 | 2 | 3  | 6  | 7  | 6 | 7 | 0  | 1  | 2  | 3  | 4  |
+|--------------------|----|----|----|---|---|---|---|---|---|----|----|----|---|---|----|----|----|----|----|
+| Frame 1            | 0* | 0  | 0  | 0 | 0 | 0 | 0 | 0 | 0 | 3* | 3  | 3  | 3 | 3 | 0* | 0  | 0  | 3* | 3  |
+| Frame 2            |    | 1* | 1  | 1 | 1 | 1 | 1 | 1 | 1 | 1  | 6* | 6  | 6 | 6 | 6  | 1* | 1  | 2  | 4* | 
+| Frame 3            |    |    | 2* | 2 | 2 | 2 | 2 | 2 | 2 | 2  | 2  | 7* | 7 | 7 | 7  | 7  | 2* | 2  | 2  |
+
 There are 11 page faults 
 ###### (b) Show the memory representation of the pages using the Belady Optimal algorithm and an allocation of 3 frames. How many page faults are there? 
-| Frame / Allocation | 0  | 1  | 2  | 0 | 1 | 2 | 0 | 1 | 2 | 3  | 6  | 7  | 6 | 7 | 0 | 1  | 2  | 3  | 4  | 3 |
-|--------------------|----|----|----|---|---|---|---|---|---|----|----|----|---|---|---|----|----|----|----|---|
-| Frame 1            | 0* | 0  | 0  | 0 | 0 | 0 | 0 | 0 | 0 | 0  | 0  | 0  | 0 | 0 | 0 | 0  | 0  | 3* | 3  | 3 |
-| Frame 2            |    | 1* | 1  | 1 | 1 | 1 | 1 | 1 | 1 | 1  | 1  | 7* | 7 | 7 | 7 | 7  | 7  | 7  | 4* | 4 |
-| Frame 3            |    |    | 2* | 2 | 2 | 2 | 2 | 2 | 2 | 3* | 6* | 6  | 6 | 6 | 6 | 1* | 2* | 2  | 2  | 2 |
+| Frame / Allocation | 0  | 1  | 2  | 0 | 1 | 2 | 0 | 1 | 2 | 3  | 6  | 7  | 6 | 7 | 0 | 1  | 2  | 3  | 4  |
+|--------------------|----|----|----|---|---|---|---|---|---|----|----|----|---|---|---|----|----|----|----|
+| Frame 1            | 0* | 0  | 0  | 0 | 0 | 0 | 0 | 0 | 0 | 0  | 0  | 0  | 0 | 0 | 0 | 0  | 0  | 3* | 3  |
+| Frame 2            |    | 1* | 1  | 1 | 1 | 1 | 1 | 1 | 1 | 1  | 1  | 7* | 7 | 7 | 7 | 7  | 7  | 7  | 4* |
+| Frame 3            |    |    | 2* | 2 | 2 | 2 | 2 | 2 | 2 | 3* | 6* | 6  | 6 | 6 | 6 | 1* | 2* | 2  | 2  |
+There are 9 page faults 
 ###### (C) Show the memory representation of the pages using the working set model with a window size ∆=3 (∆ indicates the maximum number allowed for a page to be in memory before being replaced; i.e. if a page is not used for 3 consecutive times, then it must either be used/demanded next, or it has to be removed). How many page faults are there?
-
+| Frame / Allocation | 0  | 1  | 2  | 0 | 1 | 2 | 0 | 1 | 2 | 3  | 6  | 7  | 6 | 7 | 0  | 1  | 2  | 3  | 4  |
+|--------------------|----|----|----|---|---|---|---|---|---|----|----|----|---|---|----|----|----|----|----|
+| Frame 1            | 0* | 0  | 0  | 0 | 0 | 0 | 0 | 0 | 0 | 3* | 3  | 3  | 3 |   | 0* | 0  | 0  | 3* | 3  |
+| Frame 2            |    | 1* | 1  | 1 | 1 | 1 | 1 | 1 | 1 | 1  | 6* | 6  | 6 | 6 | 6  | 1* | 1  | 1  | 4* |
+| Frame 3            |    |    | 2* | 2 | 2 | 2 | 2 | 2 | 2 | 2  | 2  | 7* | 7 | 7 | 7  | 7  | 2* | 2  | 2  |
+There are 11 page faults 
 ## Question # 5
 Consider a system that would implement the page table on the CPU if feasible.
 ###### (a) Give an advantage of this strategy. 
@@ -84,5 +103,30 @@ Assume that all processes arrived at the same time, however they are inserted in
 
 ###### a) Draw Gantt charts for the execution scenarios assuming: - FCFS scheduling - Non-preemptive SJF scheduling - Non-preemptive priority scheduling - Pure Round-Robin scheduling with the quantum = 3 
 ###### b) What is the waiting time of each process in each case? 
+- FCFS waiting times: 
+	- P0= 0 
+	- P1= 20
+	- P2 = 35
+	- P3 = 56
+	- P4 63
+| CPU Time total | 20 | 35 | 56 | 63 | 75 |
+|-----------|----|----|----|----|----|
+| Process   | 0  | 1  | 2  | 3  | 4  |
+- SJF waiting times: 
+	- P0= 34
+	- P1= 19
+	- P2 = 54
+	- P3 = 0
+	- P4 = 7
+| CPU Time total | 7 | 19 | 34 | 54 | 75 |
+|-----------|---|----|----|----|----|
+| Process   | 3 | 4  | 1  | 0  | 2  |
+- Priority 
+| CPU Time total  | 15 | 27 | 47 | 68 | 75 |
+|-----------|----|----|----|----|----|
+| Process   | 1  | 4  | 0  | 2  | 3  |
+- Round Robin (Quantum time is 3)
+
 ###### c) What is the response time of each process in each case? 
+- 
 ###### d) What is the turn-around time of each process in each case?
