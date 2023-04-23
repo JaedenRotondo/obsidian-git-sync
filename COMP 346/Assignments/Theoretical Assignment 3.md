@@ -82,10 +82,16 @@ Explain (i) an advantage and (ii) a disadvantage that a global page replacement 
 - The advantage of global page replacement is that it has more information to decide what processes will possibly need to be used in the future. This, in theory, would lead to a close number of page faults to Belady's algorithm despite only looking into the past
 - The disadvantage of global pae replacement is the complexity time required to process which page should be replaced. The complexity of the global page replacement in O(n) while the local algorithm is O($\Delta$) aka constant 
 ## Question # 7
-Consider a system that adjusts the degree of multiprogramming by monitoring the mean time between page faults (i.e. Tpf) and the mean time to service a page fault (i.e. Tfs). Describe the performance of the paging system in terms of the degree of multiprogramming when (i) Tpf is greater than Tfs, (ii) Tpf is less than Tfs and (iii) Tpf is equal to Tfs.
+Consider a system that adjusts the degree of multiprogramming by monitoring the mean time between page faults (i.e. Tpf) and the mean time to service a page fault (i.e. Tfs). Describe the performance of the paging system in terms of the degree of multiprogramming when (i) Tpf is greater than Tfs
+- If the page fault time is greater than the page service time, the degree of multiprogramming is too high 
+(ii) Tpf is less than Tfs and 
+- If the page fault time is less than the page service time, the degree of multiprogramming is acceptable 
+(iii) Tpf is equal to Tfs.
+- This would mean that half of the processing time is waisted on page faulting which in most scenarios would be considered wasteful, and therefore the degree of multiprogramming might be too high. 
 
 ## Question # 8 
 Some systems automatically open a file when it is referenced for the first time and close the file when the job terminates. Discuss the advantages and disadvantages of this scheme as compared to the more traditional one, where the user has to open and close the file explicitly. 
+- 
 ## Question # 9 
 ###### a) What is the difference between preemptive and non-preemptive scheduling? Why is strict nonpreemptive scheduling unlikely to be used in a computer system that provides both batch and timesharing service? 
 - Preemptive scheduling refers to a method of scheduling where a process can be interupted by another process, for reasons such as starvation and priority. non-preemptive scheduling executes processes in a one by one manner like in systems which utilize uniprogramming. 
@@ -109,23 +115,41 @@ Assume that all processes arrived at the same time, however they are inserted in
 	- P2 = 35
 	- P3 = 56
 	- P4 63
+
 | CPU Time total | 20 | 35 | 56 | 63 | 75 |
 |-----------|----|----|----|----|----|
 | Process   | 0  | 1  | 2  | 3  | 4  |
+
 - SJF waiting times: 
 	- P0= 34
 	- P1= 19
 	- P2 = 54
 	- P3 = 0
 	- P4 = 7
+
 | CPU Time total | 7 | 19 | 34 | 54 | 75 |
 |-----------|---|----|----|----|----|
 | Process   | 3 | 4  | 1  | 0  | 2  |
+
+
 - Priority 
+
 | CPU Time total  | 15 | 27 | 47 | 68 | 75 |
 |-----------|----|----|----|----|----|
 | Process   | 1  | 4  | 0  | 2  | 3  |
+
+
 - Round Robin (Quantum time is 3)
+
+| CPU End Time | 3 | 6 | 9 | 12 | 15 | 18 | 21 | 24 | 27 | 30 | 33 | 36 | 39 | 40 | 43 | 46 | 49 | 52 | 55 |
+|--------------|---|---|---|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+| Process      | 0 | 1 | 2 | 3  | 4  | 0  | 1  | 2  | 3  | 4  | 0  | 1  | 2  | 3  | 4  | 0  | 1  | 2  | 4  |
+
+
+| CPU Time  | 58 | 61 | 64 | 67 | 70 | 72 | 75 |
+|-----------|----|----|----|----|----|----|----|
+| Process   | 0  | 1  | 2  | 0  | 2  | 0  | 2  |
+
 
 ###### c) What is the response time of each process in each case? 
 - 
