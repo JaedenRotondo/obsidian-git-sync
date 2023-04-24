@@ -16,7 +16,7 @@
 1.  Under what circumstances would a user be better of using a time-sharing system rather than a PC or single-user workstation?
 - When there is a lack of resoruces, or when instead of having individual computers it is more cost effects ot have a single large computer. It might also be beneficial for large computational programs where a single user workstation is not a viable option. 
 
-## Question # 2 skipped
+## Question # 2 
 
 Consider a computer system with a single-core processor. There are two processes to run in the system: P1 and P2. Process P1 has a life cycle as follows: CPU burst time of 15 units, followed by I/O burst time of minimum 10 units, followed by CPU burst time of 10 units. Process P2 has the following life cycle: CPU burst time of 10 units, followed by I/O burst time of minimum 5 units, followed by CPU burst time of 15 units. Now answer the following questions:
 
