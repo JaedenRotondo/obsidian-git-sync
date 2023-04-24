@@ -20,20 +20,15 @@ Answer the following questions:
 Consider the below implementations of a semaphore’s wait and signal operations:
 ![[Pasted image 20230419122656.png]]
 ###### a) What are the critical sections inside the wait and signal operations which are protected by disabling and enabling of interrupts?
-- The critical sections in the wait operation which are protected by the disable and enable interrupts is the semaphore implementations  
-```Java
-sem.value--;
-if(sem.value<0)
-```
-- The same is true for the signal method: 
-```Java 
-sem.value++;
-if(sem.value <= 0)
-```
-- Note that, although the other lines of code isnde the body are also critical sections, there are being provided mutual exclusion by the semaphores and do not require enable and disable interrupts 
+- The critical sections in the wait operation which are protected by the disable and enable interrupts is the semaphore implementations of the ready queue
 ###### b) Give example of a specific execution scenario for the above code leading to inconsistency if the critical sections inside implementation of wait() and signal() are not protected (by disabling of interrupts).
-- 
+- Scenario: If the wait() and signal() operations are not protected the following can throw a queue empty index error: 
+- wait() operation runs with semaphore value reduced to 0
+- interrupt
+- Signal() operation dequeues sem.queue
+- there is no elements in sem.queue (error)
 ###### Suppose that process A calling semaphore wait() gets blocked and another process B is selected to run (refer to the above code). Since interrupts are enabled only at the completion of the wait operation, will B start executing with the interrupts disabled? Explain your answer.
+- No, although the restore(state) is executed, it is up to the operating system to perform the context switch which will not be performed until the disable interrupt is released
 ## Question # 3
 Consider a demand-paged system where the page table for each process resides in main memory. In addition, there is a fast associative memory (also known as TLB which stands for Translation Look-aside Buffer) to speed up the translation process. Each single memory access takes 1 microsecond while each TLB access takes 0.2 microseconds. Assume that 2% of the page requests lead to page faults, while 98% are hits. On the average, page fault time is 20 milliseconds (includes everything: TLB/memory/disc access time and transfer, and any context switch overhead). Out of the 98% page hits, 80 % of the accesses are found in the TLB and the rest, 20%, are TLB misses. Calculate the effective memory access time for the system.
 MM lookup: 1ms
@@ -44,8 +39,12 @@ page miss : 20000ms
 TLB hit ratio: 0.8 
 TLB miss ratio 0.2
 Effective memory access time: 
+$$hitTime: 0.98(0.8(0.2+1)+0.2(1+1+0.2) + 1)+$$
+$$missTime : 0.02(0.2+1+20000 + hitTime)$$
 
-
+- hitTime + missTime = 2.352 + 400.0704
+=  402.42(rounded to 2 decimal)
+_Note that this solution takes as an assumption that the pages which are stored in the TLB are random_
 
 ## Question # 4
 Consider the page reference string Ʀ={0, 1, 2, 0, 1, 2, 0, 1, 2, 3, 6, 7, 6, 7, 0, 1, 2, 3, 4} for a given process.
@@ -91,7 +90,8 @@ Consider a system that adjusts the degree of multiprogramming by monitoring the 
 
 ## Question # 8 
 Some systems automatically open a file when it is referenced for the first time and close the file when the job terminates. Discuss the advantages and disadvantages of this scheme as compared to the more traditional one, where the user has to open and close the file explicitly. 
-- 
+- The advantage of the scheme would be the memory saved from closing files. Users who would possibly not close files when they are finished reading would be wasting the memory by keeping it open 
+- The disadvantage is the user experience. Having to reopen files when jobs complete mean unescessary wait times (time spent moving the data to main memory once more)
 ## Question # 9 
 ###### a) What is the difference between preemptive and non-preemptive scheduling? Why is strict nonpreemptive scheduling unlikely to be used in a computer system that provides both batch and timesharing service? 
 - Preemptive scheduling refers to a method of scheduling where a process can be interupted by another process, for reasons such as starvation and priority. non-preemptive scheduling executes processes in a one by one manner like in systems which utilize uniprogramming. 
@@ -107,33 +107,52 @@ Consider the following set of prioritized processes, where a smaller priority va
 ![[Pasted image 20230419123119.png]]
 Assume that all processes arrived at the same time, however they are inserted in the ready list in the order indicated in the above table.
 
-###### a) Draw Gantt charts for the execution scenarios assuming: - FCFS scheduling - Non-preemptive SJF scheduling - Non-preemptive priority scheduling - Pure Round-Robin scheduling with the quantum = 3 
-###### b) What is the waiting time of each process in each case? 
-- FCFS waiting times: 
+- FCFS waiting times & response times: 
 	- P0= 0 
 	- P1= 20
 	- P2 = 35
 	- P3 = 56
-	- P4 63
-
+	- P4 = 63
+- FCFS TAT:
+	- P0= 20 
+	- P1= 35
+	- P2 = 56
+	- P3 = 63
+	- P4 = 75
 | CPU Time total | 20 | 35 | 56 | 63 | 75 |
 |-----------|----|----|----|----|----|
 | Process   | 0  | 1  | 2  | 3  | 4  |
 
-- SJF waiting times: 
+- SJF waiting times & response times: 
 	- P0= 34
 	- P1= 19
 	- P2 = 54
 	- P3 = 0
 	- P4 = 7
-
+- SJF TAT: 
+	- P0= 54
+	- P1= 34
+	- P2 = 75
+	- P3 = 7
+	- P4 = 19
 | CPU Time total | 7 | 19 | 34 | 54 | 75 |
 |-----------|---|----|----|----|----|
 | Process   | 3 | 4  | 1  | 0  | 2  |
 
 
 - Priority 
-
+- Priority waiting times & response times: 
+	- P0= 27
+	- P1= 0
+	- P2 = 47
+	- P3 = 68
+	- P4 = 15
+- Priority TAT:
+	- P0= 47
+	- P1= 15
+	- P2 = 68
+	- P3 = 75
+	- P4 = 27
 | CPU Time total  | 15 | 27 | 47 | 68 | 75 |
 |-----------|----|----|----|----|----|
 | Process   | 1  | 4  | 0  | 2  | 3  |
@@ -150,7 +169,21 @@ Assume that all processes arrived at the same time, however they are inserted in
 |-----------|----|----|----|----|----|----|----|
 | Process   | 0  | 1  | 2  | 0  | 2  | 0  | 2  |
 
-
-###### c) What is the response time of each process in each case? 
-- 
-###### d) What is the turn-around time of each process in each case?
+- RR Response times: 
+	- P0 = 0
+	- P1= 3
+	- P2 = 6
+	- P3 = 9
+	- P4 = 12
+- RR waiting times: 
+	- P0= 72 - 20 = 52
+	- P1= 61-15 = 46
+	- P2 = 75 - 21 = 54
+	- P3 = 27-7 = 0
+	- P4 = 30-12 = 18
+- RR TAT: 
+	- P0= 72 
+	- P1= 61
+	- P2 = 75
+	- P3 = 27
+	- P4 = 30

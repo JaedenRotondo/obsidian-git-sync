@@ -50,14 +50,58 @@ Sometimes it is necessary to synchronize two or more processes so that all proce
 ![[Screenshot 2023-03-16 at 2.25.24 PM.png]]
 
 a) Give a solution to the problem for three processes P1, P2, and P3.  
-
+```
+P1{
+V(S1)
+V(S1)
+P(S2)
+P(S3)
+}
+P2{
+V(S2)
+V(S2)
+P(S1)
+P(S3)
+}
+P3{
+V(S3)
+V(S3)
+P(S1)
+P(S2)
+}
+```
 b) Give the solution if the following rule is added: after all processes finish their first phase,
 
 phase I, they must execute phase II in order of their number; that is P1, then P2 and finally P3.
-
+```
+P1{
+V(S1)
+V(S1)
+P(S2)
+P(S3)
+V(F)
+}
+P2{
+V(S2)
+V(S2)
+P(S1)
+P(S3)
+P(F)
+V(M)
+}
+P3{
+V(S3)
+V(S3)
+P(S1)
+P(S2)
+P(M)
+}
+```
 ### Question # 7
 
 Generally, both P and V operation must be implemented as a critical section. Are there any cases when any of these two operations can safely be implemented as a non-critical section? If yes, demonstrate through an example when/how this can be done without creating any violations. If no, explain why these operations must always be implemented as critical sections.
+
+P and V operations must be implemented using critical sections because semaphores cannot be interrupted or else their mutual exclusion proerties will be lost. 
 
 ### Question # 8
 
