@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Winter 2023/COMP 353/Assignment 4 COMP 353.md",
+                "file": "Internship Search.md",
                 "mode": "source",
                 "source": false
               }
@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Winter 2023/COMP 353/db - 01 Notes.md",
+                "file": "Internship Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Winter 2023/COMP 353/db - 01 Notes.md",
+                "file": "Internship Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Winter 2023/COMP 353/db - 01 Notes.md"
+                "file": "Internship Search.md"
               }
             }
           },
@@ -203,8 +202,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db39910bffc6bce5",
+  "active": "9732446e596517ad",
   "lastOpenFiles": [
+    "Winter 2023/COMP 353/Assignment 4 COMP 353.md",
     "Summer 2023/ENCS 392",
     "Summer 2023/COMP 472",
     "Summer 2023/ECON 203",
@@ -213,7 +213,6 @@
     "Winter 2023",
     "Winter 2023/COMP 353/db - 02 Notes.md",
     "Winter 2023/COMP 353/db - 05 Notes.md",
-    "Winter 2023/COMP 353/Assignment 4 COMP 353.md",
     "Winter 2023/COMP 346/Textbook Notes/Virtual Memory.md",
     "Winter 2023/COMP 346/Textbook Notes/File Management.md",
     "Winter 2023/COMP 346/Textbook Notes/Deadlock.md",
