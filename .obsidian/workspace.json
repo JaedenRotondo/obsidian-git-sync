@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Internship Search.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Internship Search.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Internship Search.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Internship Search.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -204,6 +204,7 @@
   },
   "active": "9732446e596517ad",
   "lastOpenFiles": [
+    "Internship Search.md",
     "Winter 2023/COMP 353/Assignment 4 COMP 353.md",
     "Summer 2023/ENCS 392",
     "Summer 2023/COMP 472",
