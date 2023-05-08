@@ -4,67 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "605d606e76433ace",
+        "id": "b754d8a35b4750fa",
         "type": "tabs",
         "children": [
           {
-            "id": "9732446e596517ad",
+            "id": "ea5c69b7cd6b0c22",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f11f2220cc57b1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Winter 2023/COMP 346/Textbook Notes/File Management.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db8922c60876bdb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Winter 2023/COMP 346/Textbook Notes/File Management.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aeceeceb307673ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Winter 2023/COMP 346/Textbook Notes/Virtual Memory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cbf0c2eae592deba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Winter 2023/COMP 353/db - 01 Notes.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -133,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 20.md"
               }
             }
           },
@@ -202,8 +150,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9732446e596517ad",
+  "active": "db39910bffc6bce5",
   "lastOpenFiles": [
+    "Summer 2023/ECON 201/Textbook Notes/Chapter 19.md",
+    "Summer 2023/ECON 201/Textbook Notes/Chapter 20.md",
+    "Summer 2023/ECON 201/Textbook Notes/Chapter 16.md",
+    "Summer 2023/ECON 201/Textbook Notes/Chapter 11.md",
+    "Summer 2023/ECON 201/Textbook Notes/Chapter 10.md",
+    "Summer 2023/ECON 201/Textbook Notes/Chapter 9.md",
+    "Summer 2023/ECON 201/Textbook Notes/Chapter 8.md",
+    "Summer 2023/ECON 201/Textbook Notes/Chapter 7.md",
+    "Summer 2023/ECON 201/Textbook Notes/Chapter 6.md",
+    "Summer 2023/ECON 201/Textbook Notes/Chapter 5.md",
+    "Summer 2023/ECON 201/Textbook Notes/Chapter 4.md",
+    "Summer 2023/ECON 201/Textbook Notes/Chapter 3.md",
+    "Summer 2023/ECON 201/Textbook Notes/Chapter 2.md",
+    "Summer 2023/ECON 201/Textbook Notes/Chapter 1.md",
+    "Summer 2023/ECON 201/Textbook Notes",
+    "Untitled.md",
     "Internship Search.md",
     "Winter 2023/COMP 353/Assignment 4 COMP 353.md",
     "Summer 2023/ENCS 392",
@@ -221,30 +185,15 @@
     "Winter 2023/COMP 346/Textbook Notes/Classical Synchronisation.md",
     "Winter 2023/COMP 346/Textbook Notes/Week 4-5 Notes.md",
     "Winter 2023/COMP 346/Textbook Notes/Week 1-2 Notes.md",
-    "Winter 2023/COMP 346/Textbook Notes/Week 2-3 Notes (incomplete).md",
-    "Winter 2023/COMP 346/Assignments/Theoretical Assignment 3.md",
-    "Winter 2023/COMP 346/Assignments/Theoretical Assignment 2.md",
-    "Winter 2023/COMP 346/Assignments/Theoretical Assignment 1.md",
-    "Winter 2023/COMP 346/Assignments/Programming Assignment 2.md",
     "Images/Screenshot 2023-04-20 at 3.52.48 PM.png",
     "Images/Screenshot 2023-04-20 at 3.46.28 PM.png",
     "Images/Screenshot 2023-04-20 at 12.20.56 PM.png",
     "Images/Screenshot 2023-04-20 at 12.18.44 PM.png",
     "Images/Screenshot 2023-04-20 at 8.55.24 AM.png",
-    "Winter 2023/COMP 346/Office Hours Notes.md",
     "Images/Screenshot 2023-04-19 at 5.01.28 PM.png",
     "Images/Screenshot 2023-04-19 at 4.10.52 PM.png",
     "Images/Screenshot 2023-04-19 at 4.08.25 PM.png",
     "Images/Screenshot 2023-04-19 at 3.50.28 PM.png",
-    "Images/Screenshot 2023-04-19 at 3.47.42 PM.png",
-    "conflict-files-obsidian-git.md",
-    "Winter 2023/COMP 346/Textbook Notes/Classical Synchronisation Problems.md",
-    "Winter 2023/COMP 354/Lecture 8.md",
-    "Winter 2023/COMP 354/Lecture 7 Notes.md",
-    "Winter 2023/COMP 354/Lecture 5 notes.md",
-    "Fall 2022/COMP 335/Textbook Notes/Automata - The Methods and the Madness.md",
-    "Fall 2022/COMP 335/Textbook Notes/2.1 DETERMINISTIC FINITE ACCEPERS.md",
-    "Fall 2022/COMP 335/Lecture Notes/Lecture 3 Deterministic Finite Automata (DFA).md",
-    "Fall 2022/COMP 335/Lecture Notes/Lecture 2 Alphabets and Languages.md"
+    "Images/Screenshot 2023-04-19 at 3.47.42 PM.png"
   ]
 }
