@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b754d8a35b4750fa",
+        "id": "ec312d4d823865f3",
         "type": "tabs",
         "children": [
           {
-            "id": "ea5c69b7cd6b0c22",
+            "id": "d61a516642d53343",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Internship Search.md",
+                "file": "Summer 2023/ECON 203/Textbook Notes/Chapter 4.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Internship Search.md",
+                "file": "Summer 2023/ECON 203/Textbook Notes/Chapter 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Internship Search.md",
+                "file": "Summer 2023/ECON 203/Textbook Notes/Chapter 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Internship Search.md"
+                "file": "Summer 2023/ECON 203/Textbook Notes/Chapter 4.md"
               }
             }
           },
@@ -154,8 +154,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ea5c69b7cd6b0c22",
+  "active": "d61a516642d53343",
   "lastOpenFiles": [
+    "Internship Search.md",
+    "Summer 2023/ECON 203/Textbook Notes/Chapter 4.md",
+    "Summer 2023/ECON 201/Textbook Notes/Chapter 1.md",
+    "Summer 2023/ECON 203/Textbook Notes/Chapter 5.md",
+    "Summer 2023/ECON 203/Textbook Notes/Chapter 19.md",
+    "Summer 2023/ECON 203/Textbook Notes/Chapter 16.md",
+    "Summer 2023/ECON 203/Textbook Notes/Chapter 15.md",
+    "Summer 2023/ECON 203/Textbook Notes/Chapter 14.md",
+    "Summer 2023/ECON 203/Textbook Notes/Chapter 13.md",
+    "Summer 2023/ECON 203/Textbook Notes/Chapter 12.md",
+    "Summer 2023/ECON 203/Textbook Notes/Chapter 11.md",
+    "Summer 2023/ECON 203/Textbook Notes/Chapter 10.md",
+    "Summer 2023/ECON 203/Textbook Notes/Chapter 9.md",
+    "Summer 2023/ECON 203/Textbook Notes/Chapter 8.md",
+    "Summer 2023/ECON 203/Textbook Notes/Chapter 7.md",
+    "Summer 2023/ECON 203/Textbook Notes/Chapter 6.md",
+    "Summer 2023/ECON 203/Textbook Notes",
     "Summer 2023/ECON 201/Textbook Notes/Chapter 20.md",
     "Summer 2023/ECON 201/Textbook Notes/Chapter 19.md",
     "Summer 2023/ECON 201/Textbook Notes/Chapter 16.md",
@@ -166,29 +183,13 @@
     "Summer 2023/ECON 201/Textbook Notes/Chapter 7.md",
     "Summer 2023/ECON 201/Textbook Notes/Chapter 6.md",
     "Summer 2023/ECON 201/Textbook Notes/Chapter 5.md",
-    "Summer 2023/ECON 201/Textbook Notes/Chapter 4.md",
-    "Summer 2023/ECON 201/Textbook Notes/Chapter 3.md",
-    "Summer 2023/ECON 201/Textbook Notes/Chapter 2.md",
-    "Summer 2023/ECON 201/Textbook Notes/Chapter 1.md",
     "Summer 2023/ECON 201/Textbook Notes",
-    "Untitled.md",
-    "Internship Search.md",
-    "Winter 2023/COMP 353/Assignment 4 COMP 353.md",
     "Summer 2023/ENCS 392",
     "Summer 2023/COMP 472",
     "Summer 2023/ECON 203",
     "Summer 2023/ECON 201",
     "Summer 2023",
     "Winter 2023",
-    "Winter 2023/COMP 353/db - 02 Notes.md",
-    "Winter 2023/COMP 353/db - 05 Notes.md",
-    "Winter 2023/COMP 346/Textbook Notes/Virtual Memory.md",
-    "Winter 2023/COMP 346/Textbook Notes/File Management.md",
-    "Winter 2023/COMP 346/Textbook Notes/Deadlock.md",
-    "Winter 2023/COMP 346/Textbook Notes/Week 3-4 Notes.md",
-    "Winter 2023/COMP 346/Textbook Notes/Classical Synchronisation.md",
-    "Winter 2023/COMP 346/Textbook Notes/Week 4-5 Notes.md",
-    "Winter 2023/COMP 346/Textbook Notes/Week 1-2 Notes.md",
     "Images/Screenshot 2023-04-20 at 3.52.48 PM.png",
     "Images/Screenshot 2023-04-20 at 3.46.28 PM.png",
     "Images/Screenshot 2023-04-20 at 12.20.56 PM.png",
