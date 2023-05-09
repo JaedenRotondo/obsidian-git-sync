@@ -11,8 +11,12 @@
             "id": "ea5c69b7cd6b0c22",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Internship Search.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 20.md",
+                "file": "Internship Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 20.md",
+                "file": "Internship Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 20.md"
+                "file": "Internship Search.md"
               }
             }
           },
@@ -150,10 +154,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db39910bffc6bce5",
+  "active": "ea5c69b7cd6b0c22",
   "lastOpenFiles": [
-    "Summer 2023/ECON 201/Textbook Notes/Chapter 19.md",
     "Summer 2023/ECON 201/Textbook Notes/Chapter 20.md",
+    "Summer 2023/ECON 201/Textbook Notes/Chapter 19.md",
     "Summer 2023/ECON 201/Textbook Notes/Chapter 16.md",
     "Summer 2023/ECON 201/Textbook Notes/Chapter 11.md",
     "Summer 2023/ECON 201/Textbook Notes/Chapter 10.md",
