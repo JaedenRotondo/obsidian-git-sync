@@ -47,4 +47,21 @@
 - Price level is the current average price of a goods or service
 	- The Consumer Price Index (CPI) is the best known price index
 	- Price indexes are measured without units, it is relatice to a base (in CPIs case its 2002)
-	- Inflation can be calculated easily from a price index 
+	- Inflation can be calculated easily from a price index as so
+		$$\frac{current - base}{base}\cdot 100$$
+## Interest
+- Nominal interest rate is the price paid per dollar borrowed over a period of time 
+- Principle is the amount that was lended to begin with 
+- Because the value of the dollar changes, we refere to real interest rate as the buying power of the nominal interest rate (nominal interest rate - inflation)
+- Loans can end up having a real interest rate that is negative if the inflation is higher than the nominal interest rate 
+
+## Exchange Rates and Trade Flows 
+- Canada US exchange rate has been very volatile over the last 5 decades
+- the trade-weighted exchange rate in canada is very similar to the exchnage rate between Canada and US (reflects that US is Canada's biggest trade partner)
+
+# 4.2 Growth vs Fluctuations 
+- Macroeconomics is concerned witht the long run and short run fluctuatoins 
+- since 1975 the Canadian GDP has tripled, this shows great growth. Year to year the GDP fluctuates though 
+- Some economists believe that a policy designed to keep inflation low and stable will contribute to the economy’s growth.
+- Some, however, believe there are dangers from having inflation too low—that a moderate inflation rate is more conducive to growth than a very low inflation rate.
+- 
