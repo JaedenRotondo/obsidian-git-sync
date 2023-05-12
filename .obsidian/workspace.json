@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 1.md",
+                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 1.md",
+                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 1.md",
+                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 1.md"
+                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 2.md"
               }
             }
           },
@@ -156,9 +156,9 @@
   },
   "active": "d61a516642d53343",
   "lastOpenFiles": [
+    "Summer 2023/ECON 201/Textbook Notes/Chapter 1.md",
     "Images/Screenshot 2023-05-12 at 9.40.30 AM.png",
     "Summer 2023/ECON 201/Textbook Notes/Chapter 2.md",
-    "Summer 2023/ECON 201/Textbook Notes/Chapter 1.md",
     "Images/Screenshot 2023-05-12 at 9.23.34 AM.png",
     "Summer 2023/ECON 203/Textbook Notes/Chapter 4.md",
     "Internship Search.md",
@@ -198,7 +198,6 @@
     "Images/Screenshot 2023-04-20 at 8.55.24 AM.png",
     "Images/Screenshot 2023-04-19 at 5.01.28 PM.png",
     "Images/Screenshot 2023-04-19 at 4.10.52 PM.png",
-    "Images/Screenshot 2023-04-19 at 4.08.25 PM.png",
-    "Images/Screenshot 2023-04-19 at 3.50.28 PM.png"
+    "Images/Screenshot 2023-04-19 at 4.08.25 PM.png"
   ]
 }
