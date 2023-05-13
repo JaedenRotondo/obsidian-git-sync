@@ -49,11 +49,11 @@
 
 # Key Concepts:
 -   Resources
-    
+	- 
 -   Scarcity and the need for choice
-    
+	- 
 -   Choice and opportunity cost
-    
+	- 
 -   Production possibilities boundary
     
 -   The self-organizing economy
