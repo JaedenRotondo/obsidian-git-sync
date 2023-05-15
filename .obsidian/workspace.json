@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3a9f08cae67ab53d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Summer 2023/COMP 472/Intelligent Agents - Chapter 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 2.md",
+                "file": "Summer 2023/COMP 472/Intelligent Agents - Chapter 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 2.md",
+                "file": "Summer 2023/COMP 472/Intelligent Agents - Chapter 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 2.md"
+                "file": "Summer 2023/COMP 472/Intelligent Agents - Chapter 2.md"
               }
             }
           },
@@ -154,15 +167,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d61a516642d53343",
+  "active": "3a9f08cae67ab53d",
   "lastOpenFiles": [
-    "Summer 2023/ECON 201/Textbook Notes/Chapter 1.md",
-    "Summer 2023/ECON 203/Textbook Notes/Chapter 4.md",
+    "Images/Screenshot 2023-05-15 at 1.26.36 PM.png",
+    "Images/Screenshot 2023-05-15 at 12.46.37 PM.png",
     "Summer 2023/ECON 201/Textbook Notes/Chapter 2.md",
+    "Summer 2023/COMP 472/Intelligent Agents - Chapter 2.md",
+    "Summer 2023/ECON 201/Textbook Notes/Chapter 1.md",
+    "Summer 2023/ECON 203/Textbook Notes/Chapter 5.md",
+    "Summer 2023/ECON 203/Textbook Notes/Chapter 4.md",
     "Images/Screenshot 2023-05-12 at 9.40.30 AM.png",
     "Images/Screenshot 2023-05-12 at 9.23.34 AM.png",
     "Internship Search.md",
-    "Summer 2023/ECON 203/Textbook Notes/Chapter 5.md",
     "Summer 2023/ECON 203/Textbook Notes/Chapter 19.md",
     "Summer 2023/ECON 203/Textbook Notes/Chapter 16.md",
     "Summer 2023/ECON 203/Textbook Notes/Chapter 15.md",
@@ -183,7 +199,6 @@
     "Summer 2023/ECON 201/Textbook Notes/Chapter 10.md",
     "Summer 2023/ECON 201/Textbook Notes/Chapter 9.md",
     "Summer 2023/ECON 201/Textbook Notes/Chapter 8.md",
-    "Summer 2023/ECON 201/Textbook Notes/Chapter 7.md",
     "Summer 2023/ECON 201/Textbook Notes",
     "Summer 2023/ENCS 392",
     "Summer 2023/COMP 472",
@@ -197,7 +212,6 @@
     "Images/Screenshot 2023-04-20 at 12.18.44 PM.png",
     "Images/Screenshot 2023-04-20 at 8.55.24 AM.png",
     "Images/Screenshot 2023-04-19 at 5.01.28 PM.png",
-    "Images/Screenshot 2023-04-19 at 4.10.52 PM.png",
-    "Images/Screenshot 2023-04-19 at 4.08.25 PM.png"
+    "Images/Screenshot 2023-04-19 at 4.10.52 PM.png"
   ]
 }
