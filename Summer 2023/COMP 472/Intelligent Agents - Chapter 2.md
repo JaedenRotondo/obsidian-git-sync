@@ -71,4 +71,31 @@
 - ![[Screenshot 2023-05-15 at 1.26.36 PM.png]]
 ---
 ## Agent Types
+- There are 4 basic types of agents (in increasing generality)
+	1. Simple reflex models 
+	2. Model based reflex agents (with states)
+	3. Goal based agents
+	4. Utility based agents 
+
+### Simple Reflex Model 
+![[Screenshot 2023-05-17 at 11.55.44 AM.png]]
+
+### Reflex Agents with States
+- The most effective way to handle *partial observability* is for the agent to keep track of history 
+- The agent should maintain some sort of internal state
+- ![[Screenshot 2023-05-17 at 12.06.12 PM.png]]
+### Goal-based Agents
+![[Screenshot 2023-05-17 at 12.11.56 PM.png]]
+### Utility-based Agents 
+- ![[Screenshot 2023-05-17 at 12.14.09 PM.png]]
+### Learning Agents
+- ![[Screenshot 2023-05-17 at 12.14.32 PM.png]]
+
+## Summary 
+- Agents interact with the enviroenment through sensors and actuators
+- The agent funcitons determines what the agent does in all circumstances
+- The **performance measure** evaluates the environment sequence
+- a **perfectly rational** agent maximizes expected performace 
+- **Agent programs** implement (some) agent functions
+- **PEAS** descriptions define task environments
 ---
