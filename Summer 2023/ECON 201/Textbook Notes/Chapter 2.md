@@ -22,10 +22,23 @@
 - Assumptions do not need to be 100% realistic for a theory to be true. For example the asusmption that people want to maximize profits may not be true of all managers (some might care about the environment) but it has a strong enough truthness to have an affect on the economy
 ## Testing Theories 
 - A theory is trsted by confronting its predictions with empirical evidence 
-- **Statistical Analysis**: 
-- 
+- **Statistical Analysis**: Can be used to test preditions like "if X happens, then Y will happen"
+- Many variables which economists care about are dependent on a lot of factors, and since economics is not a laboratory sceince it must do many many small experiments within the economy
+- Causal vs Corrolated relationships
 # **2.3 Economic Data**
 ---
-    
+- In economics, the stats which are studied are gathered by others (such as government agencies)
+- Index numbers are calculated by dividing the value in the given year by the value in the base year and multiplying the result by 100.
+- Comparing the time paths of two data series is difficult when absolute numbers are used. Hence the purpose of **index numbers**
+- The Consumer price index is a weighted average. Meaning that things like housing prices can sway the CPI more than the price of sardines
+### Graphing Economic Data 
+- We can grpah economic data in several ways 
+	- Single economic variable:
+		- Cross sectional vs Time series data 
+	- Relationship between 2 different variables
+		- Scatter diagram
 # **2.4 Graphing Economic Theories**
 ---
+- There are different ways of laying out economic theories: 
+	- Functions: 
+		- 
