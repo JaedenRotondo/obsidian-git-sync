@@ -28,5 +28,12 @@
 	- the set of javascript functions
 	- the subset of a set of functions 
 - We call the true output u, the ground truth, the true arenswer are are asking our model to predict 
+- **overfitting**: can be a problem with high degree polynomials 
+- **Underfitting**: fails to find a pattern in the data
+- **Bias variance tradeoff**: a choice between more complex, low bias hypothesis that fit the training data well and simpler, low-variance hypotheses that may generalize better
+- There shouldnt be a huge variance between datasets when fitting (signifies overfitting)
 
+### Probability
+- ![[Screenshot 2023-05-17 at 1.59.20 PM.png]]
+- 
 ---
