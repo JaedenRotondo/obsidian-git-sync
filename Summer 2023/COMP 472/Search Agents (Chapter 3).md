@@ -1,0 +1,7 @@
+- Problem-solving agents
+- Example Problems
+- Problem formulation
+- Search Algorithms
+- Uninformed Search Strategies
+- Informed (Heuristic) Search Strategies
+- Heuristic Functions
