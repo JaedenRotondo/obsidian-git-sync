@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Summer 2023/COMP 472/Search Agents (Chapter 3).md",
+                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Summer 2023/COMP 472/Search Agents (Chapter 3).md",
+                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Summer 2023/COMP 472/Search Agents (Chapter 3).md",
+                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Summer 2023/COMP 472/Search Agents (Chapter 3).md"
+                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 3.md"
               }
             }
           },
@@ -164,8 +164,8 @@
   },
   "active": "4e007cc0baff9445",
   "lastOpenFiles": [
-    "Summer 2023/COMP 472/Learning Agents Part 1.md",
     "Summer 2023/COMP 472/Search Agents (Chapter 3).md",
+    "Summer 2023/COMP 472/Learning Agents Part 1.md",
     "Summer 2023/COMP 472/Intelligent Agents - Chapter 2.md",
     "Summer 2023/ECON 203/Textbook Notes/Chapter 5.md",
     "Images/Screenshot 2023-05-28 at 11.15.03 AM.png",
