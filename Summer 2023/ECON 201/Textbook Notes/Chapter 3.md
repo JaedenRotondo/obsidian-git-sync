@@ -18,3 +18,10 @@
 - An increase in supply causes a decrease in the equilibrium price and an increase in the equilibrium quantity exchanged.
     
 - A decrease in supply causes an increase in the equilibrium price and a decrease in the equilibrium quantity exchanged.
+### Caveat
+- supply and demand only works under the 3 conditions: 
+1. There must be a large number of consumers of the product, each one small relative to the size of the market.
+    
+- There must be a large number of producers of the product, each one small relative to the size of the market.
+    
+- Producers must be selling identical or “homogeneous” versions of the product.
