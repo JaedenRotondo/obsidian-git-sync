@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e4bd47ad0f28b6d3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,7 +173,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4e007cc0baff9445",
+  "active": "e4bd47ad0f28b6d3",
   "lastOpenFiles": [
     "Summer 2023/ECON 201/Textbook Notes/Chapter 3.md",
     "Summer 2023/COMP 472/Search Agents (Chapter 3).md",
