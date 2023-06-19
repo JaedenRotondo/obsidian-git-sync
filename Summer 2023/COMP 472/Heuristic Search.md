@@ -1,0 +1,1 @@
+> Heuristic functions are an informed search strategy 
