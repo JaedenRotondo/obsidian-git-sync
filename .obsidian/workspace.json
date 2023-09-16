@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ec312d4d823865f3",
+        "id": "5b6851b23eb7b392",
         "type": "tabs",
         "children": [
           {
-            "id": "4e007cc0baff9445",
+            "id": "dd2a106f965de24f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Summer 2023/ECON 201/Textbook Notes/Chapter 4.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e4bd47ad0f28b6d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Summer 2023/ECON 203/Textbook Notes/Chapter 5.md",
+                "file": "Fall 2023/Chapter 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Summer 2023/ECON 203/Textbook Notes/Chapter 5.md",
+                "file": "Fall 2023/Chapter 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Summer 2023/ECON 203/Textbook Notes/Chapter 5.md",
+                "file": "Fall 2023/Chapter 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Summer 2023/ECON 203/Textbook Notes/Chapter 5.md"
+                "file": "Fall 2023/Chapter 1.md"
               }
             }
           },
@@ -175,10 +162,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e4bd47ad0f28b6d3",
+  "active": "dd2a106f965de24f",
   "lastOpenFiles": [
-    "Summer 2023/ECON 203/Textbook Notes/Chapter 4.md",
+    "Fall 2023/Chapter 1.md",
     "Summer 2023/ECON 203/Textbook Notes/Chapter 5.md",
+    "Fall 2023",
+    "Summer 2023/ECON 203/Textbook Notes/Chapter 4.md",
     "Summer 2023/ECON 203/Textbook Notes/Chapter 6.md",
     "Summer 2023/COMP 472/Heuristic Search.md",
     "Summer 2023/COMP 472/Neural Networks.md",
@@ -213,7 +202,6 @@
     "Summer 2023/ECON 203/Textbook Notes",
     "Summer 2023/ECON 201/Textbook Notes/Chapter 20.md",
     "Summer 2023/ECON 201/Textbook Notes/Chapter 19.md",
-    "Summer 2023/ECON 201/Textbook Notes/Chapter 16.md",
     "Summer 2023/ECON 201/Textbook Notes",
     "Summer 2023/ENCS 392",
     "Summer 2023/COMP 472",
