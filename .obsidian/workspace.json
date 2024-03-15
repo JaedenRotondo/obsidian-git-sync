@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b23dc6bbada27a70",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,7 +173,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dd2a106f965de24f",
+  "active": "b23dc6bbada27a70",
   "lastOpenFiles": [
     "Fall 2023/Theoretical Assignment 1.md",
     "Summer 2023/ECON 203/Textbook Notes/Chapter 5.md",
