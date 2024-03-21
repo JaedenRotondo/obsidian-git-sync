@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Winter 2023/COMP 346/Assignments/Programming Assignment 2.md",
+                "file": "Fall 2024/PHIL 265/Paper 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Winter 2023/COMP 346/Assignments/Programming Assignment 2.md",
+                "file": "Fall 2024/PHIL 265/Paper 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Winter 2023/COMP 346/Assignments/Programming Assignment 2.md",
+                "file": "Fall 2024/PHIL 265/Paper 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Winter 2023/COMP 346/Assignments/Programming Assignment 2.md"
+                "file": "Fall 2024/PHIL 265/Paper 2.md"
               }
             }
           },
@@ -162,10 +162,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db39910bffc6bce5",
+  "active": "ccdf5a8ecb6bdff8",
   "lastOpenFiles": [
-    "Fall 2024/PHIL 265/Readings/1. Notes on Aristotle Metaphysics.md",
     "Winter 2023/COMP 346/Assignments/Programming Assignment 2.md",
+    "Fall 2024/PHIL 265/Paper 2.md",
+    "Fall 2024/PHIL 265/Readings/1. Notes on Aristotle Metaphysics.md",
     "Fall 2024/PHIL 265/Readings/9. Lewis on Possible Worlds.md",
     "Fall 2024/PHIL 265/Readings/8. Mellor's The Unreality of Tense.md",
     "Fall 2024/PHIL 265/Readings/7. McTaggart's The Unreality of Time.md",
@@ -204,7 +205,6 @@
     "Images/Screenshot 2023-05-15 at 1.26.36 PM.png",
     "Summer 2023/ECON 203/Textbook Notes/Chapter 19.md",
     "Summer 2023/ECON 203/Textbook Notes/Chapter 16.md",
-    "Summer 2023/ECON 203/Textbook Notes/Chapter 15.md",
     "Summer 2023/ECON 203/Textbook Notes",
     "Summer 2023/ECON 201/Textbook Notes",
     "Summer 2023/ENCS 392",
