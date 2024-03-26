@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2024/PHIL 265/Readings/2. Thomas' People and Their Bodies.md",
+                "file": "Fall 2024/PHIL 265/Readings/3. Plato's Phaedo and Parmenides.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2024/PHIL 265/Readings/2. Thomas' People and Their Bodies.md",
+                "file": "Fall 2024/PHIL 265/Readings/3. Plato's Phaedo and Parmenides.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2024/PHIL 265/Readings/2. Thomas' People and Their Bodies.md",
+                "file": "Fall 2024/PHIL 265/Readings/3. Plato's Phaedo and Parmenides.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2024/PHIL 265/Readings/2. Thomas' People and Their Bodies.md"
+                "file": "Fall 2024/PHIL 265/Readings/3. Plato's Phaedo and Parmenides.md"
               }
             }
           },
@@ -164,8 +164,10 @@
   },
   "active": "ccdf5a8ecb6bdff8",
   "lastOpenFiles": [
-    "Images/Screenshot 2024-03-25 at 10.13.17 PM.png",
+    "Fall 2024/PHIL 265/Readings/2. Thomas' People and Their Bodies.md",
     "Fall 2024/PHIL 265/Readings/1. Notes on Aristotle Metaphysics.md",
+    "Fall 2024/PHIL 265/Readings/3. Plato's Phaedo and Parmenides.md",
+    "Images/Screenshot 2024-03-25 at 10.13.17 PM.png",
     "Fall 2024/PHIL 265/Paper 2.md",
     "Winter 2023/COMP 346/Assignments/Programming Assignment 2.md",
     "Fall 2024/PHIL 265/Readings/9. Lewis on Possible Worlds.md",
@@ -174,8 +176,6 @@
     "Fall 2024/PHIL 265/Readings/6. Quine on What There Is.md",
     "Fall 2024/PHIL 265/Readings/5. Boethius' Against Real Universals.md",
     "Fall 2024/PHIL 265/Readings/4. Russell's The World of Universals.md",
-    "Fall 2024/PHIL 265/Readings/3. Plato's Phaedo and Parmenides.md",
-    "Fall 2024/PHIL 265/Readings/2. Thomas' People and Their Bodies.md",
     "Fall 2024/PHIL 265/Textbook",
     "Fall 2024/PHIL 265/Readings",
     "Fall 2024/PHIL 265",
@@ -203,7 +203,6 @@
     "Images/Screenshot 2023-05-17 at 11.55.44 AM.png",
     "Internship Search.md",
     "Summer 2023/ECON 201/Textbook Notes/Chapter 1.md",
-    "Images/Screenshot 2023-05-15 at 1.26.36 PM.png",
     "Summer 2023/ECON 203/Textbook Notes/Chapter 19.md",
     "Summer 2023/ECON 203/Textbook Notes",
     "Summer 2023/ECON 201/Textbook Notes",
