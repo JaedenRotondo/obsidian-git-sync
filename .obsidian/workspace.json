@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Winter 2024/PHIL 265/Readings/3. Plato's Phaedo and Parmenides.md",
+                "file": "Winter 2024/PHIL 265/Readings/9. Lewis on Possible Worlds.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Winter 2024/PHIL 265/Readings/3. Plato's Phaedo and Parmenides.md",
+                "file": "Winter 2024/PHIL 265/Readings/9. Lewis on Possible Worlds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Winter 2024/PHIL 265/Readings/3. Plato's Phaedo and Parmenides.md",
+                "file": "Winter 2024/PHIL 265/Readings/9. Lewis on Possible Worlds.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Winter 2024/PHIL 265/Readings/3. Plato's Phaedo and Parmenides.md"
+                "file": "Winter 2024/PHIL 265/Readings/9. Lewis on Possible Worlds.md"
               }
             }
           },
@@ -162,20 +162,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db39910bffc6bce5",
+  "active": "ccdf5a8ecb6bdff8",
   "lastOpenFiles": [
+    "Winter 2024/PHIL 265/Readings/3. Plato's Phaedo and Parmenides.md",
     "Winter 2024/PHIL 265/Readings/2. Thomas' People and Their Bodies.md",
     "Winter 2024/PHIL 265/Readings/1. Notes on Aristotle Metaphysics.md",
-    "Winter 2024/PHIL 265/Readings/3. Plato's Phaedo and Parmenides.md",
-    "Images/Screenshot 2024-03-25 at 10.13.17 PM.png",
-    "Winter 2024/PHIL 265/Paper 2.md",
-    "Winter 2023/COMP 346/Assignments/Programming Assignment 2.md",
     "Winter 2024/PHIL 265/Readings/9. Lewis on Possible Worlds.md",
-    "Winter 2024/PHIL 265/Readings/8. Mellor's The Unreality of Tense.md",
     "Winter 2024/PHIL 265/Readings/7. McTaggart's The Unreality of Time.md",
     "Winter 2024/PHIL 265/Readings/6. Quine on What There Is.md",
     "Winter 2024/PHIL 265/Readings/5. Boethius' Against Real Universals.md",
     "Winter 2024/PHIL 265/Readings/4. Russell's The World of Universals.md",
+    "Winter 2024/PHIL 265/Readings/Metalinguistics Textbook Chapter.md",
+    "Images/Screenshot 2024-03-25 at 10.13.17 PM.png",
+    "Winter 2024/PHIL 265/Paper 2.md",
+    "Winter 2023/COMP 346/Assignments/Programming Assignment 2.md",
+    "Winter 2024/PHIL 265/Readings/8. Mellor's The Unreality of Tense.md",
     "Winter 2024/PHIL 265/Textbook",
     "Winter 2024/PHIL 265/Readings",
     "Winter 2024/PHIL 265",
