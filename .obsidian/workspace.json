@@ -11,11 +11,9 @@
             "id": "ccdf5a8ecb6bdff8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Winter 2024/PHIL 265/Readings/9. Lewis on Possible Worlds.md",
-                "mode": "source",
-                "source": false
+                "file": "Winter 2024/PHIL 265/Slides/Lewis.pdf"
               }
             }
           }
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Winter 2024/PHIL 265/Readings/9. Lewis on Possible Worlds.md",
+                "file": "Winter 2024/PHIL 265/Slides/Lewis.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Winter 2024/PHIL 265/Readings/9. Lewis on Possible Worlds.md",
+                "file": "Winter 2024/PHIL 265/Slides/Lewis.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Winter 2024/PHIL 265/Readings/9. Lewis on Possible Worlds.md"
+                "file": "Winter 2024/PHIL 265/Slides/Lewis.pdf"
               }
             }
           },
@@ -164,26 +162,32 @@
   },
   "active": "ccdf5a8ecb6bdff8",
   "lastOpenFiles": [
-    "Winter 2024/PHIL 265/Readings/3. Plato's Phaedo and Parmenides.md",
-    "Winter 2024/PHIL 265/Readings/2. Thomas' People and Their Bodies.md",
-    "Winter 2024/PHIL 265/Readings/1. Notes on Aristotle Metaphysics.md",
-    "Winter 2024/PHIL 265/Readings/9. Lewis on Possible Worlds.md",
-    "Winter 2024/PHIL 265/Readings/7. McTaggart's The Unreality of Time.md",
-    "Winter 2024/PHIL 265/Readings/6. Quine on What There Is.md",
-    "Winter 2024/PHIL 265/Readings/5. Boethius' Against Real Universals.md",
-    "Winter 2024/PHIL 265/Readings/4. Russell's The World of Universals.md",
-    "Winter 2024/PHIL 265/Readings/Metalinguistics Textbook Chapter.md",
+    "Winter 2024/PHIL 265/Slides/Week 3.pdf",
+    "Winter 2024/PHIL 265/Slides/Lewis.pdf",
+    "Winter 2024/PHIL 265/Slides/Mellor.pdf",
+    "Winter 2024/PHIL 265/Slides/Quine Slides.pdf",
+    "Winter 2024/PHIL 265/Slides/Slides McTaggart.pdf",
+    "Winter 2024/PHIL 265/Slides/Week 4- Russel.pdf",
+    "Winter 2024/PHIL 265/Lewis.pdf",
+    "Winter 2024/PHIL 265/Mellor.pdf",
+    "Winter 2024/PHIL 265/Slides McTaggart.pdf",
+    "Winter 2024/PHIL 265/Quine Slides.pdf",
+    "Winter 2024/PHIL 265/Week 4- Russel.pdf",
+    "Winter 2024/PHIL 265/Readings Notes/9. Lewis on Possible Worlds.md",
+    "Winter 2024/PHIL 265/Readings Notes/3. Plato's Phaedo and Parmenides.md",
+    "Winter 2024/PHIL 265/Readings Notes/2. Thomas' People and Their Bodies.md",
+    "Winter 2024/PHIL 265/Readings Notes/1. Notes on Aristotle Metaphysics.md",
+    "Winter 2024/PHIL 265/Readings Notes/7. McTaggart's The Unreality of Time.md",
+    "Winter 2024/PHIL 265/Readings Notes/6. Quine on What There Is.md",
+    "Winter 2024/PHIL 265/Readings Notes/5. Boethius' Against Real Universals.md",
+    "Winter 2024/PHIL 265/Readings Notes/4. Russell's The World of Universals.md",
+    "Winter 2024/PHIL 265/Readings Notes/Metalinguistics Textbook Chapter.md",
     "Images/Screenshot 2024-03-25 at 10.13.17 PM.png",
     "Winter 2024/PHIL 265/Paper 2.md",
     "Winter 2023/COMP 346/Assignments/Programming Assignment 2.md",
-    "Winter 2024/PHIL 265/Readings/8. Mellor's The Unreality of Tense.md",
-    "Winter 2024/PHIL 265/Textbook",
-    "Winter 2024/PHIL 265/Readings",
-    "Winter 2024/PHIL 265",
-    "Winter 2024",
+    "Winter 2024/PHIL 265/Readings Notes/8. Mellor's The Unreality of Tense.md",
     "Fall 2023/Theoretical Assignment 1.md",
     "Summer 2023/ECON 203/Textbook Notes/Chapter 5.md",
-    "Fall 2023",
     "Summer 2023/ECON 203/Textbook Notes/Chapter 4.md",
     "Summer 2023/ECON 203/Textbook Notes/Chapter 6.md",
     "Summer 2023/COMP 472/Heuristic Search.md",
@@ -203,12 +207,6 @@
     "Images/Screenshot 2023-05-17 at 12.06.12 PM.png",
     "Images/Screenshot 2023-05-17 at 11.55.44 AM.png",
     "Internship Search.md",
-    "Summer 2023/ECON 201/Textbook Notes/Chapter 1.md",
-    "Summer 2023/ECON 203/Textbook Notes/Chapter 19.md",
-    "Summer 2023/ECON 203/Textbook Notes",
-    "Summer 2023/ECON 201/Textbook Notes",
-    "Summer 2023/ENCS 392",
-    "Summer 2023/COMP 472",
-    "Summer 2023/ECON 203"
+    "Summer 2023/ECON 201/Textbook Notes/Chapter 1.md"
   ]
 }
