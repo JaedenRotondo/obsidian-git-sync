@@ -16,8 +16,19 @@
                 "file": "Winter 2024/PHIL 265/Slides/Lewis.pdf"
               }
             }
+          },
+          {
+            "id": "9ffda1557dddaf4d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -160,7 +171,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccdf5a8ecb6bdff8",
+  "active": "9ffda1557dddaf4d",
   "lastOpenFiles": [
     "Winter 2024/PHIL 265/Readings Notes/image.png",
     "Winter 2024/PHIL 265/Slides/Mellor.pdf",
