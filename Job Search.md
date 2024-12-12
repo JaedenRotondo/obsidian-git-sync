@@ -485,3 +485,39 @@ Please fill out our Full-stack Developer Application Form:
   
 
 Updata Artificial Intelligence is an equal opportunity employer and welcomes candidates from all backgrounds.
+
+---
+
+
+
+
+---
+# GoSecure - Software Developer frontend
+**summary** 
+
+We are looking for a talented Web Developer with solid experience in React and a range of modern web technologies. You will play a crucial role in building and enhancing user-focused, scalable web applications. This position is ideal for someone with a strong foundation in front-end development, a passion for clean and efficient code, and a few years of hands-on experience in delivering successful projects. 
+
+**Duties and responsibilities**
+
+- **Develop &** **Maintain** **Web Applications**: Design, build, and enhance interactive, dynamic web applications using React and other modern web technologies.
+- **Collaborate with Cross-Functional Teams**: Work closely with designers, product managers, and backend developers to ensure seamless integration and implementation of features.
+- **Code Quality & Best Practices:** Write clean, reusable, and well-documented code that adheres to industry standards and best practices.
+- **Performance Optimization**: Ensure applications are fast, responsive, and optimized for various devices and browsers.
+- **Debugging & Troubleshooting**: Identify, analyze, and resolve technical issues effectively.
+- **Continuous Improvement**: Stay current with the latest trends and advancements in web development to improve workflows and processes.
+
+**Qualifications**
+
+- Required: 
+    - React Expertise: 2-4 years of hands-on experience with React and its ecosystem (e.g., Redux, Context API, React Router).
+    - Web Development Fundamentals: Strong proficiency in JavaScript (ES6+), HTML5, and CSS3, including responsive design principles.
+    - Version Control: Proficiency in Git and familiarity with collaborative workflows.
+    - API Integration: Experience building and consuming RESTful APIs.
+    - Problem-Solving Skills: Ability to debug and troubleshoot complex issues effectively.
+- Preferred: 
+    
+    - Familiarity with additional JavaScript frameworks or libraries (e.g., Next.js, Vue.js).
+    - Experience with state management tools like Redux or Zustand.
+    - Knowledge of backend technologies (e.g., Node.js, Express) is a plus.
+    - Exposure to testing frameworks (e.g., Jest, React Testing Library).
+    - Understanding of accessibility standards (WCAG) and inclusive design principles.
